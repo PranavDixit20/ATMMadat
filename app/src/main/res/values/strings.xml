@@ -99,4 +99,36 @@
         has representative offices in Abu Dhabi United Arab Emirates Beijing, Peoples Republic of China London and
         Shanghai and branches in Hong Kong Dubai Antwerp and Sydney.
         The bank had 4500 branches in India as of 31 March 2016</string>
+    <string name="step1">Step 1 : Insert Card
+Insert Card
+
+ATM cards comes in two types — debit cards and credit cards. Debit cards are mostly used in ATMs, and it offers you to withdrawal cash which you have in your savings account. Vise versa from credit card you could credit money from your account.
+
+But in todays topic we will discourse about the process of withdrawal money from ATM through your card.
+Now first insert your ATM card in the ATM machine.(you may see a blinking green light in the machine, where you have to put your card.) please mind to insert your card as the picture shows; otherwise the machine could not be able to read your card.</string>
+    <string name="step2">Step 2 : Select your language
+ This is the most easiest task to do I think. Select the language you like</string>
+    <string name="step3">Step 3 : Enter your PIN
+Now come the most important part. Use Keypad to enter your 4 digit pin.
+Please make sure some things before you enter your pin
+1. There is no camera or any person who can see your pin number​
+2. Always make sure that the pin is entering by you is the same pin of that ATM card(otherwise the card could be locked)
+</string>
+    <string name="step4">Step 4 : Transaction Type
+You can see now many types of options like Withdraw Money, Deposit Money, Balance Enquiry, Bill Pay etc. For withdrawal cash you have to chose Withdraw Money option.</string>
+    <string name="step5">Step 5 : Account Type
+ATM screen will show various types of account. Select your account type that may be saving or current etc.
+</string>
+    <string name="step6">Step 6 : Enter Amount
+It is also a easy task. Chose the amount you want to withdrawal. But make sure that the amount you are entering is not more than your main balance.And press correct option.
+</string>
+    <string name="step7">Step 7 : Take Your Money
+Now comes the most interesting part. The money comes from the cash dispenser machine. Take your money before 30 second.Then a question would appear on the and ask you would like to take a receipt. Press yes to proof that you withdrew money and check the balance.
+</string>
+    <string name="step8">Step 8: Another Transactions
+If you want another transaction, chose that option.</string>
+    <string name="step9">Step 9: Ending Your Session
+Once you have completed your transaction press cross or cancel button before leave the machine room.Don not forget to take your card and money!
+</string>
+
 </resources>
