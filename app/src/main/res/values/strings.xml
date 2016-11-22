@@ -25,4 +25,78 @@
     <string name="sboi">State Bank Of India</string>
     <string name="pnb">Punjab National Bank</string>
     <string name="ub">Union Bank</string>
+    <string name="bominfo">Bank of Maharashtra is a major public sector bank in India. Government of India holds 81.61 percent of the total shares.
+        The bank has 15 million customers across the length and breadth of the country served through 1895 branches as of 5 April 2016.
+        It has largest network of branches by any public sector bank in the state of Maharashtra.
+</string>
+    <string name="bobinfo">Bank of Baroda is an Indian state owned banking and financial services company headquartered in Vadodara
+        (earlier known as Baroda) in Gujarat India.It is the second largest bank in India next to State Bank Of India.
+        Its headquarters is in Vadodara it has a corporate office in the Bandra Kurla Complex in Mumbai.
+         Based on 2014 data it is ranked 801 on Forbes Global 2000 list.
+        BoB has total assets in excess of
+          3.58 trillion a network of 5326 branches in India and abroad and over 8000 ATMs.
+</string>
+    <string name="boiinfo">Bank of India (BoI) is commercial bank with headquarters in Mumbai Maharashtra India.
+        Founded in 1906 it has been government-owned since nationalisation in 1969.
+        However, some branches are individually owned such as Kandia  Indonesia etc.
+        Bank of India has 4828 branches as on 31 December 2013, including 56 offices outside India
+        which includes five subsidiaries five representative offices and one joint venture.[citation needed]
+        BoI is a founder member of SWIFT (Society for Worldwide Inter Bank Financial Telecommunications)
+        which facilitates provision of cost-effective financial processing and communication services.
+</string>
+    <string name="caninfo">Canara Bank is an Indian state owned bank headquartered in Bangalore Karnataka.
+        It was established at Mangalore in 1906 making it one of the oldest banks in the country.
+        The government nationalized the bank in 1969. As of September 2016, the bank had a network of 5860 branches
+        and more than 10026 ATMs spread across India. The bank also has offices abroad in London, Hong Kong Moscow
+        Shanghai Doha Bahrain South africa Dubai Tanzania and New York.
+</string>
+    <string name="cbinfo">Central Bank of India a government owned bank, is one of the oldest and largest commercial banks in India.
+        It is based in Mumbai which is the financial capital of India and capital city of state of Maharashtra.
+        The bank has 4741 branches 5000 ATMs and 4 extension counters across 27 Indian states and three Union Territories.
+        At present Central Bank of India has overseas office at Nairobi Hong Kong and a joint venture with Bank of India
+        Bank of Baroda and the Zambian government. The Zambian government holds 40 per cent stake and each of the banks has
+        20 per cent. Recently it has also opened a representative office at Nairobi in Kenya.
+</string>
+    <string name="hdfcinfo">HDFC Bank (Housing Development Finance Corporation) is an Indian banking and financial services
+        company headquartered in Mumbai, Maharashtra. It has about 87555 employees and has a presence in Bahrain
+        Hong Kong and Dubai. HDFC Bank is the second largest private bank in India as measured by assets.
+        It is the largest bank in India by market capitalization as of February 2016.
+        It was ranked 69th in 2016 BrandZTM Top 100 Most Valuable Global Brands.
+    </string>
+    <string name="icicinfo">
+        ICICI Bank (Industrial Credit and Investment Corporation of India)
+        is an Indian multinational banking and financial services company headquartered in Mumbai
+        Maharashtra India, with its registered office in Vadodara. In 2014 it was the second largest
+        bank in India in terms of assets and third in term of market capitalisation. It offers a wide range
+        of banking products and financial services for corporate and retail customers through a variety of
+        delivery channels and specialised subsidiaries in the areas of investment banking life non life
+        insurance, venture capital and asset management.
+        The bank has a network of 4450 branches and 13995 ATMs in India and has a presence in 19 countries including India
+</string>
+    <string name="sbinfo">
+        State Bank of India (SBI) is an Indian multinational public sector banking and financial services company.
+        It is a government owned corporation with its headquarters in Mumbai, Maharashtra.
+        As of 2014 to 15 it had assets of 20.480 trillion (US$300 billion) and more than 14000 branches,
+        including 191 foreign offices spread across 36 countries making it the largest banking and financial
+        services company in India by assets. The company is ranked 232nd on the Fortune Global 500 list of the
+        worlds biggest corporations as of 2016.The bank traces its ancestry to British India through the Imperial Bank of India
+        to the founding in 1806 of the Bank of Calcutta making it the oldest commercial bank in the Indian Subcontinent.
+        Bank of Madras merged into the other two presidency banks in British India Bank of Calcutta and Bank of Bombay
+        to form the Imperial Bank of India which in turn became the State Bank of India in 1955. Government of India owned
+        the Imperial Bank of India in 1955 with Reserve Bank of India (India s Central Bank) taking a 60 percent stake and renamed
+        it the State Bank of India. In 2008 the government took over the stake held by the Reserve Bank of India.State Bank
+        of India is a banking behemoth and has 20percent market share in deposits and loans among Indian commercial banks
+</string>
+    <string name="pnbinfo">
+        Punjab National Bank is an Indian multinational banking and financial services company.
+        It is a state owned corporation based in New Delhi India. Founded in 1894 the bank has over 6968 branches
+        and over 9656 ATMs across 764 cities. It serves over 80 million customers
+    </string>
+    <string name="ubinfo">Union Bank of India (UBI) (BSE 532477) is one of the largest government-owned banks of India
+        (the government owns 63.44 of its share capital). It is listed on the Forbes 2000 and has assets of USD 13.45
+        billion. All the banks branches have been networked with its 6909 ATMs as on 30 September 2015. Its online
+        Telebanking facility are available to all its Core Banking Customers individual as well as corporate.
+        has representative offices in Abu Dhabi United Arab Emirates Beijing, Peoples Republic of China London and
+        Shanghai and branches in Hong Kong Dubai Antwerp and Sydney.
+        The bank had 4500 branches in India as of 31 March 2016</string>
 </resources>

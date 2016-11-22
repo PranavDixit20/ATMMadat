@@ -19,7 +19,8 @@
             android:name=".MainActivity"
             android:label="@string/app_name" />
         <activity android:name=".Welcome" />
-        <activity android:name=".AtmMenu"></activity>
+        <activity android:name=".AtmMenu" />
+        <activity android:name=".BankInfo"></activity>
     </application>
 
 </manifest>

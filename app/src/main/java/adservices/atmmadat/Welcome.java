@@ -10,6 +10,7 @@ public class Welcome extends AppCompatActivity implements View.OnClickListener {
 
     Button bk, one, two, three, four, five, six, seven, eight, nine, ten;
     AtmMenu am;
+    String x;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -49,35 +50,64 @@ public class Welcome extends AppCompatActivity implements View.OnClickListener {
                 startActivity(new Intent(this, MainActivity.class));
                 break;
             case R.id.one:
-                am = new AtmMenu();
-                startActivity(new Intent(this,AtmMenu.class));
+                Intent i=new Intent(this,AtmMenu.class);
+                 x="1";
+                i.putExtra("x",x);
+                startActivity(i);
                 break;
             case R.id.two:
-                startActivity(new Intent(this, AtmMenu.class));
+                Intent i2=new Intent(this,AtmMenu.class);
+                 x="2";
+                i2.putExtra("x",x);
+                startActivity(i2);
                 break;
             case R.id.three:
-                startActivity(new Intent(this, AtmMenu.class));
+                Intent i3=new Intent(this,AtmMenu.class);
+                 x="3";
+                i3.putExtra("x",x);
+                startActivity(i3);
                 break;
             case R.id.four:
-                startActivity(new Intent(this, AtmMenu.class));
+                Intent i4=new Intent(this,AtmMenu.class);
+                 x="4";
+                i4.putExtra("x",x);
+                startActivity(i4);
                 break;
             case R.id.five:
-                startActivity(new Intent(this, AtmMenu.class));
+                Intent i5=new Intent(this,AtmMenu.class);
+                 x="5";
+                i5.putExtra("x",x);
+                startActivity(i5);
                 break;
             case R.id.six:
-                startActivity(new Intent(this, AtmMenu.class));
+                Intent i6=new Intent(this,AtmMenu.class);
+                x="6";
+                i6.putExtra("x",x);
+                startActivity(i6);
                 break;
             case R.id.seven:
-                startActivity(new Intent(this, AtmMenu.class));
+                Intent i7=new Intent(this,AtmMenu.class);
+                x="7";
+                i7.putExtra("x",x);
+                startActivity(i7);
                 break;
             case R.id.eight:
-                startActivity(new Intent(this, AtmMenu.class));
+                Intent i8=new Intent(this,AtmMenu.class);
+                x="8";
+                i8.putExtra("x",x);
+                startActivity(i8);
                 break;
             case R.id.nine:
-                startActivity(new Intent(this, AtmMenu.class));
+                Intent i9=new Intent(this,AtmMenu.class);
+                x="9";
+                i9.putExtra("x",x);
+                startActivity(i9);
                 break;
             case R.id.ten:
-                startActivity(new Intent(this, AtmMenu.class));
+                Intent i10=new Intent(this,AtmMenu.class);
+                x="10";
+                i10.putExtra("x",x);
+                startActivity(i10);
                 break;
         }
     }
