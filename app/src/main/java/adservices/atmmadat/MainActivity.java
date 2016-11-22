@@ -102,6 +102,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                startActivity(new Intent(this,Welcome.class));
                 break;
             case R.id.exit:
+                moveTaskToBack(true);
                 finish();
                 break;
         }
