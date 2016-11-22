@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         loadLocale();
 
-       /* StorageReference storageReference = storage.getReferenceFromUrl("gs://atm-madat.appspot.com/sp.jpg");
+        /*StorageReference storageReference = storage.getReferenceFromUrl("gs://atm-madat.appspot.com/sp.jpg");
        // Load the image using Glide (download image from firebase)
         Glide.with(this)
                 .using(new FirebaseImageLoader())
@@ -117,5 +117,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             Locale.setDefault(myLocale);
             getBaseContext().getResources().updateConfiguration(newConfig, getBaseContext().getResources().getDisplayMetrics());
         }
+    }
+
+    @Override
+    public void onBackPressed() {
+        moveTaskToBack(true);
     }
 }

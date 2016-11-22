@@ -21,8 +21,10 @@
         <activity android:name=".Welcome" />
         <activity android:name=".AtmMenu" />
         <activity android:name=".BankInfo" />
-        <activity android:name=".WithdrawActivity" />
-        <activity android:name=".BalanceCheck"></activity>
+        <activity android:name=".AtmInfoFront"/>
+        <activity android:name=".AtmInfoBack"/>
+        <activity android:name=".WithdrawActivity"/>
+        <activity android:name=".BalanceCheck"/>
     </application>
 
 </manifest>

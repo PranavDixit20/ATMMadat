@@ -15,16 +15,93 @@
     <string name="withdrawal_information">withdrawal information</string>
     <string name="check_balance">check balance</string>
     <string name="welcome">Welcome</string>
-    <string name="bom">Bank Of Maharastra</string>
-    <string name="bob">Bank Of Baroda</string>
-    <string name="boi">Bank Of India</string>
-    <string name="cb">Canara Bank</string>
-    <string name="cboi">Central Bank Of India</string>
-    <string name="hdfc">HDFC Bank</string>
-    <string name="icici">ICICI Bank</string>
-    <string name="sboi">State Bank Of India</string>
-    <string name="pnb">Punjab National Bank</string>
-    <string name="ub">Union Bank</string>
+    ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    <string name="atmfinfo">Your debit or credit card is a powerful tool for spending.
+        That little piece of plastic has everything you need to spend money overseas, in your hometown, and online. How does it work?
+        Let"’"s look at each of the features on your card, starting with the front of your card.
+
+    \n 1. Bank branding: this tells you which card you have. Your card might simply show the bank name, or it might display a logo for
+        a specific program (such as a rewards program that your bank offers).
+
+    \n 2. Your card number is one of the most important things on the card. It is the 16 digit number that points to your account with the card issuer,
+        and those are the digits you"’"ll need to provide when making purchases online or by phone. If you use American Express, the card number is only 15 digits.
+
+    Protect your card number: be careful where you write it down, and limit who sees the number. When card numbers get stolen by fraudsters,
+        they can be used to make purchases in your account. You might not have to pay for those purchases, but cleaning up the mess can be inconvenient.
+
+    To shop online, you need more than just a card number. You"’"ll also need the card"’"s expiration date and security code
+        (often a three digit code on the back of the card, but this varies by issuer  read about the back of your card for details). Most systems also ask for your name.
+
+    If you"’"re using a debit card that"’"s linked to your checking account, your card number is different from your checking account number.
+        This might be confusing because your checking account number is shown on your checks  but your card number is different.
+
+    \n 3. Cardholders name: this is the person authorized to use the card. That person did"'"nt necessarily open the account they might simply
+        have permission to spend from the account. Only authorized card users can make purchases with a debit or credit card, and merchants are
+        encouraged to ask for ID before accepting payment with a card.
+
+    \n 4. Smart chips make cards more secure than traditional magnetic stripe only cards. They make it harder for thieves to use stolen credit card numbers.
+        While common (and sometimes a necessity) overseas, banks in the United States have been slow to adopt smart cards. After 2015, banks will have more
+        motivation to add these security features they face more risk of fraud with magnetic stripe transactions.
+
+    If your card has a chip, use it whenever possible. The chip adds a single use code to the transaction, which makes stolen data much less useful.
+        Preventing fraud can keep costs down for everybody, and it means you"’"re less likely to have to replace cards and update card numbers when your information gets stolen.
+        Read more about how chip enabled cards work.
+
+
+    \n 5. Expiration date: from time to time, youll need to replace your card. The move to smarter cards is just one reason banks issue new cards.
+        Your expiration date is important because it"’"s required for purchases you make online or over the phone  you"’"ll need to provide the correct
+        date for your transaction to be approved. Your bank will generally automatically mail you a new card when old cards expire.
+
+    \n 6. Payment network logo: this tells you what type of card you have. Common examples include MasterCard, Visa, and Discover.
+        If making purchases online, there might be a drop-down menu that requires you to select which network your card belongs to.
+        These logos are also helpful when you plan to use your card to pay for goods or services  merchants often display stickers or placards
+        that tell you which cards they accept (and you can of course ask which cards are accepted as well).
+</string>
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    <string name="atmbinfo">The back of a debit or credit card contains important features. There is more to making payments than reading off a card number.
+
+   \n 1. Magnetic stripe: this black strip contains information about you and your card, which can be read by specialized devices known as card readers.
+        Every time you swipe your card at a merchant, you are running the magnetic stripe through a card reader so that your card can be charged.
+        Magnetic stripes provide your name, card number, expiration date, and other details. If that information is stolen (whether manually or by a card skimming device),
+        it can be used to create a fake card  with a magnetic stripe that has the same information as your card.
+
+    Magnetic stripes occasionally wear down, especially if you are a heavy card user, and they can be disturbed by strong magnets.
+        If your stripe stops working, merchants may need to punch in your card number by hand (which they may be reluctant to do for several reasons),
+        but you can order replacement cards with a new stripe.
+
+   \n 2. Hologram: some cards display a hologram (or a mirror like section that shows a three dimensional image that seems to move as you change your viewing angle).
+        Holograms are security features which help merchants identify valid cards they are not easy to fake. Sometimes holograms appear on the front of your card.
+
+   \n 3. Bank contact information: if you need to get in touch with your bank, use the contact information on the back of your card.
+        This is not only convenient  when you use that contact information you know that you"’"re really talking with somebody from your bank.
+        This is especially important if you get a call or email that might be from your bank (but might also be from a fraudster).
+        Instead of using the contact information provided in the call or email, call the number on the back of your card just to be safe.
+
+    It"’"s a good idea to keep contact information from your bank stored separately from your card.
+        If you lose your card, you"’"ll want to contact your bank as soon as possible.
+
+   \n 4. Signature panel: your card must be signed before you can use it, so sign your name in this area
+        (it"’"s not easy to fit a signature there, but do your best). This is a requirement from card issuers,
+        and merchants should also verify that you"’"ve signed the card. Some people write “SEE ID” in this area
+        (hoping that merchants will demand identification from anybody who tries to use the card), but this is technically against your card issuer"’"s rules
+        plus merchants don"’"t always notice or honor the request.
+
+   \n 5. Security codes: are used to ensure that you have a legitimate, original card.
+        If you use your card number to make a purchase online or by phone, you’ll need to provide more than just the card number and expiration date from the front of your card.
+        The security code on the back is an additional hurdle for hackers that may have stolen your card number from merchant systems or with the help of a skimmer.
+
+    Security codes might be referred to as CVV, CVV2, CVC, CSC, CID, or similar. Most websites just ask for a “security code” and provide a small box for you to type the code into.
+        On Visa, MasterCard, and Discover cards, the code is a three digit code on the back of your card.
+        The preceding four digits (“3456” in the image above) are the last four digits of your card number.
+        On American Express cards, the four digit code is on the front of the card  look above your card number on the right side of the card.
+
+    Your security code, like all the other numbers on your card, is an important piece of information. Don"’"t share that code unless necessary.
+
+   \n 6. Network logos: your card might have additional network logos on the back, often in the lower right corner.
+        These logos can help you figure out which ATMs you can use for free. You can of course use other ATMs, but you"'"ll
+        most likely pay fees to the ATM operator, and you might pay additional fees to your bank or lender.
+</string>
+    --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
     <string name="bominfo">Bank of Maharashtra is a major public sector bank in India. Government of India holds 81.61 percent of the total shares.
         The bank has 15 million customers across the length and breadth of the country served through 1895 branches as of 5 April 2016.
         It has largest network of branches by any public sector bank in the state of Maharashtra.
@@ -131,4 +208,5 @@ If you want another transaction, chose that option.</string>
 Once you have completed your transaction press cross or cancel button before leave the machine room.Don not forget to take your card and money!
 </string>
 
+    <string name="about_your_atm_card">About Your ATM Card</string>
 </resources>
