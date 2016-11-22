@@ -40,6 +40,7 @@ public class AtmMenu extends AppCompatActivity implements View.OnClickListener {
             case R.id.aci :
                 break;
             case R.id.wi :
+                startActivity(new Intent(this,WithdrawActivity.class));
                 break;
             case R.id.bc :
                 break;
