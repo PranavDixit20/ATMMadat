@@ -1,13 +1,14 @@
 package adservices.atmmadat;
 
-import android.support.v7.app.AppCompatActivity;
+import android.content.Intent;
 import android.os.Bundle;
-import android.widget.ImageView;
+import android.support.v7.app.AppCompatActivity;
 import android.widget.TextView;
 
 public class WithdrawActivity extends AppCompatActivity {
 
     TextView t1,t2,t3,t4,t5,t6,t7,t8,t9;
+    String x;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,7 +35,14 @@ public class WithdrawActivity extends AppCompatActivity {
         t8.setText(R.string.step8);
         t9.setText(R.string.step9);
 
+        x=getIntent().getStringExtra("y");
 
+    }
 
+    @Override
+    public void onBackPressed() {
+        Intent ii=new Intent(this,AtmMenu.class);
+        ii.putExtra("x",x);
+        startActivity(ii);
     }
 }

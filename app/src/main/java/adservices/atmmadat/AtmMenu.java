@@ -5,10 +5,12 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 
 public class AtmMenu extends AppCompatActivity implements View.OnClickListener {
 
     Button bi,aci,wi,bc,b;
+    TextView tv;
     String y;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,13 +22,48 @@ public class AtmMenu extends AppCompatActivity implements View.OnClickListener {
         wi = (Button)findViewById(R.id.wi);
         bc = (Button)findViewById(R.id.bc);
         b = (Button)findViewById(R.id.backk);
+        tv = (TextView)findViewById(R.id.na);
 
         bi.setOnClickListener(this);
         aci.setOnClickListener(this);
         wi.setOnClickListener(this);
         bc.setOnClickListener(this);
         b.setOnClickListener(this);
-    y=getIntent().getStringExtra("x");
+
+        y=getIntent().getStringExtra("x");
+
+        switch (y){
+            case "1":
+                tv.setBackgroundResource(R.mipmap.a);
+                break;
+            case "2":
+                tv.setBackgroundResource(R.mipmap.b);
+                break;
+            case "3":
+                tv.setBackgroundResource(R.mipmap.c);
+                break;
+            case "4":
+                tv.setBackgroundResource(R.mipmap.d);
+                break;
+            case "5":
+                tv.setBackgroundResource(R.mipmap.e);
+                break;
+            case "6":
+                tv.setBackgroundResource(R.mipmap.f);
+                break;
+            case "7":
+                tv.setBackgroundResource(R.mipmap.g);
+                break;
+            case "8":
+                tv.setBackgroundResource(R.mipmap.h);
+                break;
+            case "9":
+                tv.setBackgroundResource(R.mipmap.i);
+                break;
+            case "10":
+                tv.setBackgroundResource(R.mipmap.j);
+                break;
+        }
     }
 
     @Override
@@ -38,9 +75,14 @@ public class AtmMenu extends AppCompatActivity implements View.OnClickListener {
                 startActivity(in);
                 break;
             case R.id.aci :
+                Intent i=new Intent(this,AtmInfoFront.class);
+                i.putExtra("y",y);
+                startActivity(i);
                 break;
             case R.id.wi :
-                startActivity(new Intent(this,WithdrawActivity.class));
+                Intent ii=new Intent(this,WithdrawActivity.class);
+                ii.putExtra("y",y);
+                startActivity(ii);
                 break;
             case R.id.bc :
                 break;
@@ -49,5 +91,11 @@ public class AtmMenu extends AppCompatActivity implements View.OnClickListener {
                 break;
         }
 
+    }
+
+    @Override
+    public void onBackPressed() {
+        finish();
+        startActivity(new Intent(this, Welcome.class));
     }
 }

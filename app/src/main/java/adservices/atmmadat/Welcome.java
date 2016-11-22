@@ -9,7 +9,6 @@ import android.widget.Button;
 public class Welcome extends AppCompatActivity implements View.OnClickListener {
 
     Button bk, one, two, three, four, five, six, seven, eight, nine, ten;
-    AtmMenu am;
     String x;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -112,4 +111,8 @@ public class Welcome extends AppCompatActivity implements View.OnClickListener {
         }
     }
 
+    @Override
+    public void onBackPressed() {
+        startActivity(new Intent(this, MainActivity.class));
+    }
 }
