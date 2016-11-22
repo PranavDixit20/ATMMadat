@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">एटीएम मदत</string>
+    <string name="lang_selection">आपली भाषा निवडा</string>
+    <string name="Marathi">मराठी</string>
+    <string name="english">इंग्रजी</string>
+    <string name="msg">सर्व आपले स्वागत आहे</string>
+    <string name="nxt">पुढे</string>
+    <string name="exit">बाहेर पडा</string>
+    <string name="choose_your_bank">आपली बँक निवडा</string>
+    <string name="back">मागे</string>
+    <string name="option_selc">आपले पर्याय निवडा</string>
+    <string name="bank_information">बँक माहिती</string>
+    <string name="atm_card_information">एटीएम कार्ड माहिती</string>
+    <string name="withdrawal_information">पैसे काढणे माहिती</string>
+    <string name="check_balance">शिल्लक तपासा</string>
+    <string name="welcome">आपले स्वागत आहे</string>
+</resources>
+

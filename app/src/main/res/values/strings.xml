@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ATM Madat</string>
+    <string name="lang_selection">Choose your language</string>
+    <string name="english">English</string>
+    <string name="Marathi">मराठी</string>
+    <string name="msg">Welcome All</string>
+    <string name="nxt">Next</string>
+    <string name="exit">Exit</string>
+    <string name="choose_your_bank">Choose Your Bank</string>
+    <string name="back">previous</string>
+    <string name="option_selc">Choose Your Option</string>
+    <string name="bank_information">Bank information</string>
+    <string name="atm_card_information">Atm card information</string>
+    <string name="withdrawal_information">withdrawal information</string>
+    <string name="check_balance">check balance</string>
+    <string name="welcome">Welcome</string>
+    <string name="bom">Bank Of Maharastra</string>
+    <string name="bob">Bank Of Baroda</string>
+    <string name="boi">Bank Of India</string>
+    <string name="cb">Canara Bank</string>
+    <string name="cboi">Central Bank Of India</string>
+    <string name="hdfc">HDFC Bank</string>
+    <string name="icici">ICICI Bank</string>
+    <string name="sboi">State Bank Of India</string>
+    <string name="pnb">Punjab National Bank</string>
+    <string name="ub">Union Bank</string>
+</resources>

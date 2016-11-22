@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/atm_menu"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#AAA">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="#000"
+        android:text="@string/app_name"
+        android:textColor="#FFDF00"
+        android:textStyle="bold"
+        android:textSize="35sp"
+        android:gravity="center"
+        android:id="@+id/tt"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/welcome"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/option_selc"
+            android:layout_marginTop="5dp"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:id="@+id/cyo"/>
+
+        <Button
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="@string/bank_information"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:id="@+id/bi"/>
+
+        <Button
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="@string/atm_card_information"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:id="@+id/aci"/>
+
+        <Button
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="@string/withdrawal_information"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:id="@+id/wi"/>
+
+        <Button
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="@string/check_balance"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:id="@+id/bc"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="30dp"
+                android:text="@string/back"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:id="@+id/backk"/>
+
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>
