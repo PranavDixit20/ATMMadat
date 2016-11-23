@@ -85,6 +85,9 @@ public class AtmMenu extends AppCompatActivity implements View.OnClickListener {
                 startActivity(ii);
                 break;
             case R.id.bc :
+                Intent iii=new Intent(this,BalanceCheck.class);
+                iii.putExtra("y",y);
+                startActivity(iii);
                 break;
             case R.id.backk :
                 startActivity(new Intent(this,Welcome.class));
