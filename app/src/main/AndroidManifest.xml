@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="adservices.atmmadat">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -21,10 +24,12 @@
         <activity android:name=".Welcome" />
         <activity android:name=".AtmMenu" />
         <activity android:name=".BankInfo" />
-        <activity android:name=".AtmInfoFront"/>
-        <activity android:name=".AtmInfoBack"/>
-        <activity android:name=".WithdrawActivity"/>
-        <activity android:name=".BalanceCheck"/>
+        <activity android:name=".AtmInfoFront" />
+        <activity android:name=".AtmInfoBack" />
+        <activity android:name=".WithdrawActivity" />
+        <activity android:name=".BalanceCheck" />
+        <activity android:name=".AboutAtmMec" />
+        <activity android:name=".TypeOfCard"></activity>
     </application>
 
 </manifest>

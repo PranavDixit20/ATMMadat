@@ -7,14 +7,28 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.MobileAds;
+
 public class BankInfo extends AppCompatActivity implements View.OnClickListener {
     String z;
     TextView tv,tv1;
     Button prv;
+    String uid = "ca-app-pub-3715652664770345/9286598713";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.bank_info);
+
+        MobileAds.initialize(getApplicationContext(),uid);
+
+        AdView adView = new AdView(this);
+        adView = (AdView)findViewById(R.id.ad);
+        AdRequest ar=new AdRequest.Builder()
+                .addTestDevice(AdRequest.DEVICE_ID_EMULATOR)
+                .build();
+        adView.loadAd(ar);
 
         z=getIntent().getStringExtra("y");
 

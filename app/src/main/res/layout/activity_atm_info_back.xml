@@ -2,6 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:background="#AAA">
 
@@ -15,6 +16,19 @@
         android:textSize="35sp"
         android:gravity="center"
         android:id="@+id/tt"/>
+
+    <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.google.android.gms.ads.AdView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ad"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id">
+    </com.google.android.gms.ads.AdView>
+    </RelativeLayout>
+
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -40,7 +54,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_height="200dp"
                 android:src="@mipmap/atminfoback"
-                android:scaleType="fitXY"/>
+                android:scaleType="fitXY" />
 
             <TextView
                 android:layout_width="match_parent"
@@ -49,28 +63,20 @@
                 android:gravity="center"
                 android:layout_marginTop="5dp"
                 android:textColor="#000"
-                android:textSize="20sp"/>
+                android:textSize="20sp" />
 
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginTop="50dp">
-
-                <Button
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentLeft="true"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginTop="50dp"
-                    android:text="@string/back"
-                    android:textStyle="bold"
-                    android:textSize="20sp"
-                    android:id="@+id/pro"/>
-
-            </RelativeLayout>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="50dp"
+                android:text="@string/back"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:id="@+id/pro"/>
 
         </LinearLayout>
 
     </ScrollView>
-
 </LinearLayout>

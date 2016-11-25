@@ -41,7 +41,7 @@
     If you"’"re using a debit card that"’"s linked to your checking account, your card number is different from your checking account number.
         This might be confusing because your checking account number is shown on your checks  but your card number is different.
 
-    \n 3. Cardholders name: this is the person authorized to use the card. That person did"'"nt necessarily open the account they might simply
+    \n 3. Cardholders name: this is the person authorized to use the card. That person did"\\\'"nt necessarily open the account they might simply
         have permission to spend from the account. Only authorized card users can make purchases with a debit or credit card, and merchants are
         encouraged to ask for ID before accepting payment with a card.
 
@@ -63,7 +63,7 @@
         These logos are also helpful when you plan to use your card to pay for goods or services  merchants often display stickers or placards
         that tell you which cards they accept (and you can of course ask which cards are accepted as well).
 </string>
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
     <string name="atmbinfo">The back of a debit or credit card contains important features. There is more to making payments than reading off a card number.
 
    \n 1. Magnetic stripe: this black strip contains information about you and your card, which can be read by specialized devices known as card readers.
@@ -104,7 +104,7 @@
     Your security code, like all the other numbers on your card, is an important piece of information. Don"’"t share that code unless necessary.
 
    \n 6. Network logos: your card might have additional network logos on the back, often in the lower right corner.
-        These logos can help you figure out which ATMs you can use for free. You can of course use other ATMs, but you"'"ll
+        These logos can help you figure out which ATMs you can use for free. You can of course use other ATMs, but you"\'"ll
         most likely pay fees to the ATM operator, and you might pay additional fees to your bank or lender.
 </string>
     --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -240,4 +240,39 @@ Once you have completed your transaction press cross or cancel button before lea
     Ask for a receipt. Your checking balance will be printed onto your receipt for your records.
 </string>
 
+    <string name="banner_ad_unit_id">ca-app-pub-3715652664770345/9286598713</string>
+    <string name="Haw">How ATMs Work</string>
+    <string name="hawinfo">A cash machine, also known as an automated teller machine (ATM, American, British, Australian, Malaysian, South African, Singaporean, Indian, Maldivian, Hiberno, Philippine and Sri Lankan English), automated banking machine (ABM, Canadian English[4]), cashpoint, cashline, minibank, bankomat or colloquially hole in the wall (British English) is an electronic telecommunications device that enables the customers of a financial institution to perform financial transactions, particularly cash withdrawal, without the need for a human cashier, clerk or bank teller.
+According to the ATM Industry Association (ATMIA), there are now close to 3 million cash machines installed worldwide.
+On most modern cash machines, the customer is identified by inserting a plastic ATM card with a magnetic stripe or a plastic smart card with a chip that contains a unique card number and some security information such as an expiration date or CVVC (CVV). Authentication is provided by the customer entering a personal identification number (PIN).
+A cash machine is typically made up of the following devices:
+1]  CPU (to control the user interface and transaction devices) Function key buttons (usually close to the display) or a touchscreen (used to select the various aspects of the transaction). Display (used by the customer for performing the transaction)
+2]  PIN pad EEP4 (similar in layout to a touch tone or calculator keypad), manufactured as part of a secure enclosure
+3]  Vault (to store the parts of the machinery requiring restricted access)Housing (for aesthetics and to attach signage to)Sensors and indicators.Secure cryptoprocessor, generally within a secure enclosure
+4] Record printer (to provide the customer with a record of the transaction)
+5] Magnetic or chip card reader (to identify the customer)
+
+</string>
+    <string name="toc">Type Of Card</string>
+    <string name="vcard">International merchants (including US) Online, Over the Phone and by Mail
+Visa Debit is accepted by US and International online, telephone, and mail order retailers that accept Visa.
+
+Canadian merchants Online, Over the Phone, and by Mail
+Visa Debit is accepted online, over the phone, and by mail at participating merchants in Canada. To date, more than 42,000 online merchants accept Visa Debit in Canada and the number keeps growing.
+
+In Stores Outside Canada
+When shopping in stores outside of Canada, Visa Debit (excluding Virtual Visa Debit) is accepted wherever Visa is accepted.
+        Look for the Visa acceptance mark.
+    </string>
+    <string name="rcard">Recent developments saw Government passing on instructions to state owned banks to issue RuPay debit cards to their customers.
+        This looks like a clear indication to promote these cards. But, what exactly is this RuPay card and how does it function? Let’s look into it now.
+
+What is it?
+
+RuPay is a combination of two words – Rupee and Payment. RuPay Card is an Indian version of credit/debit card.
+        It is very similar to international cards such as Visa/Master.
+    </string>
+    <string name="mcard">A MasterCard Cirrus® Card or MasterCard Maestro® Card both give you convenient, secure access to funds in your account. Enjoy the convenience of one card for shopping and ATMs. Access your own funds directly from your current account. Feel secure by reducing the amount of cash you need to carry. Keep track of your spending with a monthly detailed listing of your purchases. Get access to your funds at over 900,000 MasterCard/Maestro/Cirrus ATMs around the world.
+
+Look for the Cirrus or Maestro logo on your card or contact your local bank representative today for more details.</string>
 </resources>

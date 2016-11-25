@@ -5,15 +5,29 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.TextView;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.MobileAds;
+
 public class WithdrawActivity extends AppCompatActivity {
 
     TextView t1,t2,t3,t4,t5,t6,t7,t8,t9;
     String x;
+    String uid = "ca-app-pub-3715652664770345/9286598713";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.withdraw);
+
+        MobileAds.initialize(getApplicationContext(),uid);
+
+        AdView adView = new AdView(this);
+        adView = (AdView)findViewById(R.id.ad);
+        AdRequest ar=new AdRequest.Builder()
+                .addTestDevice(AdRequest.DEVICE_ID_EMULATOR)
+                .build();
+        adView.loadAd(ar);
 
         t1=(TextView)findViewById(R.id.info1);
         t2=(TextView)findViewById(R.id.info2);
