@@ -32,6 +32,13 @@
             android:textSize="25sp"
             android:gravity="center"
             android:id="@+id/cyl"/>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
 
         <Button
             android:layout_width="wrap_content"
@@ -52,6 +59,61 @@
             android:textStyle="bold"
             android:textSize="20sp"
             android:id="@+id/mr"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="@string/hindi"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:id="@+id/hnd"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="@string/punjabi"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:id="@+id/pnb"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="@string/gujarati"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:id="@+id/gj"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="@string/malayalam"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:id="@+id/mlm"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="@string/Telugu"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:id="@+id/tl"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="@string/Kannada"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:id="@+id/kn"/>
+
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -81,6 +143,8 @@
             android:id="@+id/exit"/>
 
         </RelativeLayout>
+        </LinearLayout>
+        </ScrollView>
 
     </LinearLayout>
 
