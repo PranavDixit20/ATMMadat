@@ -14,7 +14,7 @@ import java.util.Locale;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
-    Button eng, mr, nxt,ext;
+    Button eng, mr,punjabi,hindi,malayalam,guj,tel,kan, nxt,ext;
     TextView cyl,tt;
     Locale myLocale;
     Bundle b;
@@ -28,6 +28,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         eng = (Button)findViewById(R.id.eng);
         mr = (Button)findViewById(R.id.mr);
+        punjabi=(Button) findViewById(R.id.pnb);
+        hindi=(Button) findViewById(R.id.hnd);
+        malayalam=(Button)findViewById(R.id.mlm);
+        guj=(Button)findViewById(R.id.gj);
+        tel=(Button)findViewById(R.id.tl);
+        kan=(Button)findViewById(R.id.kn);
         nxt = (Button)findViewById(R.id.nxt);
         cyl = (TextView)findViewById(R.id.cyl);
         tt = (TextView)findViewById(R.id.tt);
@@ -35,6 +41,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         eng.setOnClickListener(this);
         mr.setOnClickListener(this);
+        hindi.setOnClickListener(this);
+        punjabi.setOnClickListener(this);
+        malayalam.setOnClickListener(this);
+        guj.setOnClickListener(this);
+        tel.setOnClickListener(this);
+        kan.setOnClickListener(this);
         nxt.setOnClickListener(this);
         ext.setOnClickListener(this);
 
@@ -97,6 +109,23 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.mr:
                 lang = "mr";
+                break;
+            case R.id.hnd:
+                lang = "hi";
+                break;
+            case R.id.pnb:
+                lang = "pa";
+                break;
+            case R.id.gj:
+                lang = "gu";
+                break;
+            case R.id.mlm:
+                lang = "ml";
+            case R.id.tl:
+                lang = "te";
+                break;
+            case R.id.kn:
+                lang = "kn";
                 break;
             case R.id.nxt:
                startActivity(new Intent(this,Welcome.class));
