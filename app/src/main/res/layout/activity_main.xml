@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="horizontal"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
     android:background="#AAA">
 
     <LinearLayout
@@ -22,10 +22,21 @@
             android:gravity="center"
             android:id="@+id/tt"/>
 
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <com.google.android.gms.ads.AdView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ad"
+                ads:adSize="BANNER"
+                ads:adUnitId="@string/banner_ad_unit_id">
+            </com.google.android.gms.ads.AdView>
+        </RelativeLayout>
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="55dp"
-            android:layout_marginTop="20dp"
             android:text="@string/lang_selection"
             android:textColor="#000"
             android:textStyle="bold"
@@ -40,66 +51,84 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="10dp"
-            android:text="@string/english"
-            android:textStyle="bold"
-            android:textSize="20sp"
-            android:id="@+id/eng"/>
+        <RelativeLayout
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content">
 
+             <Button
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="@string/english"
+                 android:textStyle="bold"
+                 android:textSize="20sp"
+                 android:id="@+id/eng"
+                 android:layout_marginLeft="20dp"/>
+
+             <Button
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:text="@string/Marathi"
+                 android:textStyle="bold"
+                 android:textSize="20sp"
+                 android:layout_marginRight="20dp"
+                 android:id="@+id/mr"
+                 android:layout_alignParentRight="true"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="@string/hindi"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:id="@+id/hnd"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="20dp"
+                android:text="@string/punjabi"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:id="@+id/pnb"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="@string/gujarati"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:id="@+id/gj"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="20dp"
+                android:text="@string/malayalam"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:id="@+id/mlm"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content">
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="10dp"
-            android:text="@string/Marathi"
-            android:textStyle="bold"
-            android:textSize="20sp"
-            android:id="@+id/mr"/>
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="10dp"
-            android:text="@string/hindi"
-            android:textStyle="bold"
-            android:textSize="20sp"
-            android:id="@+id/hnd"/>
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="10dp"
-            android:text="@string/punjabi"
-            android:textStyle="bold"
-            android:textSize="20sp"
-            android:id="@+id/pnb"/>
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="10dp"
-            android:text="@string/gujarati"
-            android:textStyle="bold"
-            android:textSize="20sp"
-            android:id="@+id/gj"/>
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="10dp"
-            android:text="@string/malayalam"
-            android:textStyle="bold"
-            android:textSize="20sp"
-            android:id="@+id/mlm"/>
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
             android:text="@string/Telugu"
             android:textStyle="bold"
             android:textSize="20sp"
@@ -107,13 +136,14 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginTop="10dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20dp"
             android:text="@string/Kannada"
             android:textStyle="bold"
             android:textSize="20sp"
             android:id="@+id/kn"/>
 
+        </RelativeLayout>
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -147,5 +177,7 @@
         </ScrollView>
 
     </LinearLayout>
+
+
 
 </LinearLayout>
