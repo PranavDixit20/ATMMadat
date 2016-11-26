@@ -38,14 +38,14 @@ public class AboutAtmMec extends AppCompatActivity implements View.OnClickListen
     public void onClick(View view) {
         switch (view.getId()){
             case R.id.hawnxt:
-                startActivity(new Intent(this,TypeOfCard.class));
+                startActivity(new Intent(this,BasicInfo.class));
                 break;
         }
     }
 
     @Override
     public void onBackPressed() {
-        startActivity(new Intent(this,MainActivity.class));
+        startActivity(new Intent(this,BasicInfo.class));
         finish();
     }
 }

@@ -33,14 +33,14 @@ public class TypeOfCard extends AppCompatActivity implements View.OnClickListene
     public void onClick(View view) {
         switch (view.getId()){
             case R.id.tocnxt:
-                startActivity(new Intent(this,Welcome.class));
+                startActivity(new Intent(this,BasicInfo.class));
                 break;
         }
     }
 
     @Override
     public void onBackPressed() {
-        startActivity(new Intent(this,AboutAtmMec.class));
+        startActivity(new Intent(this,BasicInfo.class));
         finish();
     }
 }

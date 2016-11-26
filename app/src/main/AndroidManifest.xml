@@ -29,7 +29,8 @@
         <activity android:name=".WithdrawActivity" />
         <activity android:name=".BalanceCheck" />
         <activity android:name=".AboutAtmMec" />
-        <activity android:name=".TypeOfCard"></activity>
+        <activity android:name=".TypeOfCard" />
+        <activity android:name=".BasicInfo"/>
     </application>
 
 </manifest>

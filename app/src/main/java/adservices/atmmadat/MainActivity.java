@@ -140,7 +140,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 lang = "kn";
                 break;
             case R.id.nxt:
-               startActivity(new Intent(this,AboutAtmMec.class));
+               startActivity(new Intent(this,BasicInfo.class));
                 break;
             case R.id.exit:
                 moveTaskToBack(true);

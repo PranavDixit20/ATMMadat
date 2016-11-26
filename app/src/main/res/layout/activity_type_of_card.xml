@@ -96,7 +96,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/tocnxt"
-            android:text="@string/nxt"
+            android:text="@string/back"
             android:layout_gravity="center"/>
         </LinearLayout>
     </ScrollView>
