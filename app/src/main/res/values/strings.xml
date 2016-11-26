@@ -275,4 +275,8 @@ RuPay is a combination of two words – Rupee and Payment. RuPay Card is an Indi
     <string name="mcard">A MasterCard Cirrus® Card or MasterCard Maestro® Card both give you convenient, secure access to funds in your account. Enjoy the convenience of one card for shopping and ATMs. Access your own funds directly from your current account. Feel secure by reducing the amount of cash you need to carry. Keep track of your spending with a monthly detailed listing of your purchases. Get access to your funds at over 900,000 MasterCard/Maestro/Cirrus ATMs around the world.
 
 Look for the Cirrus or Maestro logo on your card or contact your local bank representative today for more details.</string>
+    <string name="credit_card">Credit Card</string>
+    <string name="debit_or_atm_card">Debit Or Atm Card</string>
+    <string name="atm_card_only">Atm Card Only</string>
+    <string name="card_payment_getway">Card Payment Getway</string>
 </resources>

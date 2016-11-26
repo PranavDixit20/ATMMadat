@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:ads="http://schemas.android.com/apk/res-auto"
     android:id="@+id/activity_about_atm_mec"
@@ -40,7 +40,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="55dp"
-        android:text="@string/toc"
+        android:text="@string/debit_or_atm_card"
         android:textColor="#000"
         android:textStyle="bold"
         android:textSize="30sp"
@@ -57,48 +57,14 @@
             android:orientation="vertical">
 
 
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/vcard"
-            android:textSize="25sp"
-            android:textColor="#000"
-            android:text="Credit Card"/>
-
-
-
-        <Button
+            <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/mcard"
+                android:id="@+id/vcard"
                 android:textSize="25sp"
                 android:textColor="#000"
-                android:text="ATM &amp; Debit card"/>
+                android:text="@string/welcome"/>
 
-
-        <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/rcard"
-                android:textSize="25sp"
-                android:textColor="#000"
-                android:text="Only ATM card"/>
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/pcard"
-            android:textSize="25sp"
-            android:textColor="#000"
-            android:text="About Card Payment Gateway"/>
-
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:id="@+id/tocnxt"
-            android:textSize="22sp"
-            android:layout_marginTop="20dp"
-            android:text="@string/back"
-            android:layout_gravity="center"/>
         </LinearLayout>
     </ScrollView>
 </LinearLayout>

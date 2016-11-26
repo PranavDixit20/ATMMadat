@@ -17,6 +17,22 @@
         android:gravity="center"
         android:id="@+id/tt"/>
 
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.google.android.gms.ads.AdView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ad"
+            ads:adSize="BANNER"
+            ads:adUnitId="@string/banner_ad_unit_id">
+        </com.google.android.gms.ads.AdView>
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -43,7 +59,7 @@
             android:id="@+id/cyo"/>
 
         <Button
-            android:layout_width="350dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="10dp"
@@ -53,7 +69,7 @@
             android:id="@+id/bitoc"/>
 
         <Button
-            android:layout_width="350dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="10dp"
@@ -61,11 +77,52 @@
             android:textStyle="bold"
             android:textSize="20sp"
             android:id="@+id/biaci"/>
-
-
-        <RelativeLayout
+        <Button
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="Bank related Word Definations"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:id="@+id/wod"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="Few standard Error message of ATM machine"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:id="@+id/emes"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select Your Bank"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:id="@+id/syb"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="How To shop with your debit card physicaly"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:id="@+id/swc"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="How To shop online"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:id="@+id/so"/>
 
             <Button
                 android:layout_width="wrap_content"
@@ -76,33 +133,11 @@
                 android:text="@string/back"
                 android:textStyle="bold"
                 android:textSize="20sp"
-                android:id="@+id/biback"/>
+                android:id="@+id/biback"
+                android:layout_gravity="center"/>
 
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentRight="true"
-                android:layout_marginRight="10dp"
-                android:layout_marginTop="30dp"
-                android:text="@string/nxt"
-                android:textStyle="bold"
-                android:textSize="20sp"
-                android:id="@+id/binxt"/>
 
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
-                <com.google.android.gms.ads.AdView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentBottom="true"
-                    android:id="@+id/ad"
-                    ads:adSize="BANNER"
-                    ads:adUnitId="@string/banner_ad_unit_id">
-                </com.google.android.gms.ads.AdView>
-            </RelativeLayout>
-
-        </RelativeLayout>
 
     </LinearLayout>
+    </ScrollView>
 </LinearLayout>
