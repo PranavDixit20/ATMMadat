@@ -51,7 +51,7 @@ public class BalanceCheck extends AppCompatActivity implements View.OnClickListe
     @Override
     public void onBackPressed() {
         Intent in=new Intent(this,AtmMenu.class);
-        in.putExtra("y",x);
+        in.putExtra("x",x);
         startActivity(in);
         finish();
     }
@@ -61,7 +61,7 @@ public class BalanceCheck extends AppCompatActivity implements View.OnClickListe
         switch (v.getId()){
             case R.id.bcb:
                 Intent in=new Intent(this,AtmMenu.class);
-                in.putExtra("y",x);
+                in.putExtra("x",x);
                 startActivity(in);
                 finish();
                 break;
