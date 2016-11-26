@@ -30,7 +30,15 @@
         <activity android:name=".BalanceCheck" />
         <activity android:name=".AboutAtmMec" />
         <activity android:name=".TypeOfCard" />
-        <activity android:name=".BasicInfo"/>
+        <activity android:name=".BasicInfo" />
+        <activity android:name=".CreditCard" />
+        <activity android:name=".DebitATMCard" />
+        <activity android:name=".AtmCard" />
+        <activity android:name=".PaymentGetway" />
+        <activity android:name=".WordDefination" />
+        <activity android:name=".ErrorMessage" />
+        <activity android:name=".ShopWithYourCard" />
+        <activity android:name=".ShopOnline"></activity>
     </application>
 
 </manifest>

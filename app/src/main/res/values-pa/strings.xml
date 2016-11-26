@@ -282,5 +282,9 @@
     <string name="mcard">ਇੱਕ MasterCard Cirrus® ਕਾਰਡ ਜ MasterCard Maestro® ਕਾਰਡ ਦੋਨੋ ਤੁਹਾਨੂੰ ਆਪਣੇ ਖਾਤੇ ਵਿੱਚ ਫੰਡ ਵਿਖੇ, ਸੁਵਿਧਾਜਨਕ ਸੁਰੱਖਿਅਤ ਪਹੁੰਚ ਦੇਣ. ਖਰੀਦਦਾਰੀ ਅਤੇ ATMs ਲਈ ਇੱਕ ਕਾਰਡ ਦੀ ਸਹੂਲਤ ਦਾ ਆਨੰਦ ਮਾਣੋ. ਆਪਣੇ ਮੌਜੂਦਾ ਖਾਤੇ ਤੱਕ ਸਿੱਧਾ ਹੀ ਆਪਣੇ ਹੀ ਫੰਡ ਪਹੁੰਚ. ਨਕਦ ਦੀ ਰਕਮ ਤੁਹਾਡੇ ਨੂੰ ਪੂਰਾ ਕਰਨ ਲਈ ਲੋੜ ਹੈ ਨੂੰ ਘਟਾ ਕੇ ਸੁਰੱਖਿਅਤ ਮਹਿਸੂਸ. ਆਪਣੇ ਖਰੀਦਦਾਰੀ ਦੀ ਇੱਕ ਮਹੀਨਾਵਾਰ ਵੇਰਵੇ ਸੂਚੀ ਦੇ ਨਾਲ ਆਪਣੇ ਖਰਚ ਦੇ ਟਰੈਕ ਰੱਖੋ. ਦੁਨੀਆ ਭਰ ਵਿੱਚ 900,000 ਵੱਧ MasterCard / Maestro / Cirrus ATMs ਤੇ ਆਪਣੇ ਫੰਡ ਤੱਕ ਪਹੁੰਚ ਪ੍ਰਾਪਤ ਕਰੋ.
 
 ਆਪਣੇ ਕਾਰਡ ਤੇ Cirrus ਜ Maestro ਲੋਗੋ ਲਈ ਵੇਖੋ ਜ ਆਪਣੇ ਸਥਾਨਕ ਬਕ ਪ੍ਰਤੀਨਿਧ ਨਾਲ ਹੋਰ ਵੇਰਵੇ ਲਈ ਅੱਜ ਹੀ ਸੰਪਰਕ ਕਰੋ.</string>
+    <string name="credit_card">Credit Card</string>
+    <string name="debit_or_atm_card">Debit Or Atm Card</string>
+    <string name="atm_card_only">Atm Card Only</string>
+    <string name="card_payment_getway">Card Payment Getway</string>
 
 </resources>
