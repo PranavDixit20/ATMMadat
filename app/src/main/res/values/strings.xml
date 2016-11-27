@@ -303,7 +303,7 @@ Now first insert your ATM card in the ATM machine.(you may see a blinking green 
 Now come the most important part. Use Keypad to enter your 4 digit pin.
 Please make sure some things before you enter your pin
 1. There is no camera or any person who can see your pin number​
-2. Always make sure that the pin is entering by you is the same pin of that ATM card(otherwise the card could be locked)
+\n2. Always make sure that the pin is entering by you is the same pin of that ATM card(otherwise the card could be locked)
 </string>
     <string name="step4">Step 4 : Transaction Type
 You can see now many types of options like Withdraw Money, Deposit Money, Balance Enquiry, Bill Pay etc. For withdrawal cash you have to chose Withdraw Money option.</string>
