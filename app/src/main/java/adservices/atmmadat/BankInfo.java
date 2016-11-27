@@ -80,6 +80,59 @@ public class BankInfo extends AppCompatActivity implements View.OnClickListener 
                tv.setText(R.string.ubinfo);
                tv1.setBackgroundResource(R.mipmap.j);
                break;
+           case "11":
+               tv.setText(R.string.sbinfo);
+               tv1.setBackgroundResource(R.mipmap.sbbj);
+               break;
+           case "12":
+               tv.setText(R.string.sbinfo);
+               tv1.setBackgroundResource(R.mipmap.sbt);
+               break;
+           case "13":
+               tv.setText(R.string.sbinfo);
+               tv1.setBackgroundResource(R.mipmap.sbp);
+               break;
+           case "14":
+               tv.setText(R.string.sbinfo);
+               tv1.setBackgroundResource(R.mipmap.sbm);
+               break;
+           case "15":
+               tv.setText(R.string.sbinfo);
+               tv1.setBackgroundResource(R.mipmap.sbh);
+               break;
+           case "16":
+               tv.setText(R.string.ucoinfo);
+               tv1.setBackgroundResource(R.mipmap.ucologo);
+               break;
+           case "17":
+               tv.setText(R.string.orbinfo);
+               tv1.setBackgroundResource(R.mipmap.orientallogo);
+               break;
+           case "18":
+               tv.setText(R.string.dbinfo);
+               tv1.setBackgroundResource(R.mipmap.dblogo);
+               break;
+           case "19":
+               tv.setText(R.string.ubiinfo);
+               tv1.setBackgroundResource(R.mipmap.ublogo);
+               break;
+           case "20":
+               tv.setText(R.string.syninfo);
+               tv1.setBackgroundResource(R.mipmap.synlogo);
+               break;
+           case "21":
+               tv.setText(R.string.pnsinfo);
+               tv1.setBackgroundResource(R.mipmap.pns);
+               break;
+           case "22":
+               tv.setText(R.string.vijinfo);
+               tv1.setBackgroundResource(R.mipmap.vblogo);
+               break;
+           case "23":
+               tv.setText(R.string.andinfo);
+               tv1.setBackgroundResource(R.mipmap.andlogo);
+               break;
+
        }
     }
 

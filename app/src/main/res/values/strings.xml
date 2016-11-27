@@ -41,7 +41,7 @@
     If you"’"re using a debit card that"’"s linked to your checking account, your card number is different from your checking account number.
         This might be confusing because your checking account number is shown on your checks  but your card number is different.
 
-    \n 3. Cardholders name: this is the person authorized to use the card. That person did"\\\'"nt necessarily open the account they might simply
+    \n 3. Cardholders name: this is the person authorized to use the card. That person did"\\\\'"nt necessarily open the account they might simply
         have permission to spend from the account. Only authorized card users can make purchases with a debit or credit card, and merchants are
         encouraged to ask for ID before accepting payment with a card.
 
@@ -104,7 +104,7 @@
     Your security code, like all the other numbers on your card, is an important piece of information. Don"’"t share that code unless necessary.
 
    \n 6. Network logos: your card might have additional network logos on the back, often in the lower right corner.
-        These logos can help you figure out which ATMs you can use for free. You can of course use other ATMs, but you"\'"ll
+        These logos can help you figure out which ATMs you can use for free. You can of course use other ATMs, but you"\\'"ll
         most likely pay fees to the ATM operator, and you might pay additional fees to your bank or lender.
 </string>
     --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -181,16 +181,124 @@
         Telebanking facility are available to all its Core Banking Customers individual as well as corporate.
         has representative offices in Abu Dhabi United Arab Emirates Beijing, Peoples Republic of China London and
         Shanghai and branches in Hong Kong Dubai Antwerp and Sydney.
-        The bank had 4500 branches in India as of 31 March 2016</string>
-    <string name="step1">Step 1 : Insert Card
-Insert Card
+        The bank had 4500 branches in India as of 31 March 2016
+    </string>
+    <string name="ucoinfo">
+    UCO Bank, formerly United Commercial Bank, established in 1943 in Kolkata,
+    is a major government-owned commercial bank of India. During FY 2013-14, its total business
+    was ₹ 4.55 lakh crore. Based on 2014 data, it is ranked 1860 on Forbes Global 2000 List.
+    UCO Bank was ranked 294th among India\'s most trusted brands according to the Brand Trust Report 2014,
+    a study conducted by Trust Research Advisory. It was a rise of 796 ranks considering it was listed
+    at the 1090th position among India\'s most trusted brands in the Brand trust Report 2013.
+    As of 6 January 2013 the bank had 4,000 plus service units 49 zonal offices spread all over India.
+    It also has two overseas branches, on each in Singapore and Hong Kong. UCO Bank\'s headquarters is on BTM Sarani, Kolkata.
+    </string>
+    
+    <string name="alinfo">
+    Allahabad Bank is a nationalised bank with its headquarters in Kolkata, India. 
+    It is the oldest joint stock bank in India. On 24 April 2014, the bank entered 
+    into its 150th year of establishment. It was founded in Allahabad in 1865.
 
-ATM cards comes in two types — debit cards and credit cards. Debit cards are mostly used in ATMs, and it offers you to withdrawal cash which you have in your savings account. Vise versa from credit card you could credit money from your account.
+As of 31 March 2012, Allahabad Bank had over 2,500 branches across India.
+The bank did a total business of INR 3.1 trillion during the FY 2012-13.
+ The bank has a branch in Hong Kong and a representative office in Shenzen.
+
+The bank\'s market capitalisation in May 2013 was US$1.28 billion and it ranked #1466 on the Forbes Global 2000 list.
+    </string>
+    <string name="andinfo" formatted="false">
+        Andhra Bank (BSE: 532418) is a medium-sized public sector bank (PSB) of India, with a network of 2803 branches, 
+        4 extension counters, 38 satellite offices and 3636 automated teller machines (ATMs) as of 31 Mar 2016.
+        During 2011–12, the bank entered the states of Tripura and Himachal Pradesh. The bank now operates in 25 states
+        and three Union Territories. Andhra Bank has its headquarters in Hyderabad, India.
+
+The Government of India owns 63.97% of its share capital as on 31 Dec 2015. The state owned Life Insurance Corporation of
+ India holds 7.66% of the shares. The bank has done a total business of ₹3,106 billion (US$46 billion) and has earned a net
+ profit of ₹5.40 billion (US$80 million) for the Financial Year 2015-16.
+
+Andhra Bank is a pioneer in introducing Credit Cards in the country in 1981.
+    </string>
+ <string name="copinfo">
+     Corporation Bank is a public sector banking company headquartered in Mangalore, India.
+     The bank has pan-India presence with 8,000 functional units comprising 2200 branches,
+     1800+ ATMs and 3,000 branchless banking units as of 30 January 2015.
+
+The total business of the bank during the financial year 2014-15 has been ₹3,44,412 crore 
+  (equivalent to ₹3.6 trillion or US$54 billion in 2016), as of 31 March 2015. The total deposits
+     have grown to ₹1,99,346 crore (equivalent to ₹2.1 trillion or US$31 billion in 2016). 
+     Total income of the bank reached ₹21,038.02 crore (equivalent to ₹220 billion or US$3.3 billion in 2016) during this period. 
+     Operating profit of the bank reached ₹965.37 crore (equivalent to ₹10 billion or US$150 million in 2016) and net profit ₹584.26
+     crore (equivalent to ₹617 crore or US$92 million in 2016).
+ </string>
+    <string name="dbinfo">
+        Dena Bank, headquartered in Mumbai, is owned by the Government of India,
+        and as per latest data the total branch network stands at 1,773 and plans 
+        to open 404 new branches in FY 2015-16 The bank was founded in 1938 and the Indian government nationalized it in 1969.
+    </string>
+    <string name="ininfo">
+        ndian Bank is an Indian state-owned financial services company established in 1907 and headquartered in Chennai, India.
+        It has 20,661 employees, 2594 branches and is one of the top performing public sector banks in India.
+        It has overseas branches in Colombo and Jaffna in Sri Lanka, and in Singapore, and 223 correspondent banks in 71 countries. 
+        Since 1969 the Government of India has owned the bank.
+    </string>
+    <string name="iobinfo" formatted="false">
+        Indian Overseas Bank (IOB) is a major public sector bank based in Chennai (Madras),
+        with about 3700 domestic branches, including 1150 branches in Tamil Nadu, 3 extension counters,
+        and eight branches and offices overseas as of 30 September 2014. Indian Overseas Bank has an ISO
+        certified in-house Information Technology department, which has developed the software that its 
+        branches use to provide online banking to customers; the bank has achieved 100% networking status
+        as well as 100% CBS status for its branches. IOB also has a network of about 3300 ATMs all over India.
+    </string>
+    <string name="orbinfo">
+        Oriental Bank of Commerce is an India-based bank established in Lahore
+        (then the city of British India, and currently in Pakistan), is one of the public sector banks in India.
+    </string>
+    <string name="pnsinfo" formatted="false">
+        Punjab &amp; Sind Bank  is a government-owned bank (79.62%), with headquarters in New Delhi.
+        Of its 1466 branches spread throughout India, 623 branches are in Punjab state.
+        Its net profit is Rs. 121.35 crores and net NPA is 3.55% for the year ending 2014-15.
+        The bank\'s operating profit for the year ending 2014-15 is Rs. 775.45 crores.
+        Total business of the bank was Rs. 1,51,511 crores for the year ending 2014-15 and Business per employee is Rs. 15.95 crore. 
+        The net worth of the bank as on 31.03.15 is Rs. 4812 crore.
+    </string>
+    <string name="syninfo">
+        Syndicate Bank is one of the oldest and major commercial banks of India.
+        It was founded by T M A Pai, Upendra Pai and Vaman Kudva. At the time of its establishment,
+        the bank was known as Canara Industrial and Banking Syndicate Limited. The bank, along with
+        13 major commercial banks of India, was nationalised on 19 July 1969, by the Government of India.
+        The Bank is headquartered in Manipal, Karnataka, India
+    </string>
+    <string name="ubiinfo">
+United Bank of India (UBI) is an Indian government-owned financial services company headquartered in Kolkata, West Bengal, India.
+Presently the bank has a three-tier organisational setup consisting of its Head office in Kolkata, 35 Regional offices and 2005
+branches spread all over India. However, its major presence is in eastern India. The bank has three full-fledged overseas branches,
+one each at Kolkata, New Delhi and Mumbai. United Bank of India now aims to expand its international activities.
+
+On 30 March 2009, the Indian government approved the restructuring of United Bank of India.
+The government proposed to invest 2.5 billion rupees in shares by 31 March and another 5.50 billion
+in the next fiscal year in Tier-I capital instruments. The move is part of the Indian government\'s program
+to improve the capital base of the state-owned banks.
+    </string>
+    <string name="vijinfo">
+        Vijaya Bank is a fastest growing Public Sector Bank with its Corporate Office in Bangalore, Karnataka, India.
+        It is one of the nationalised banks in India. The Bank offers a wide range of financial products and services
+        to the customers through its various delivery channels. The Bank has a network of 1900 branches (August 2016)
+        throughout the country and over 3500 customer touch points including 1651 ATMs.
+    </string>
+    <string name="step1">
+Step 1 : Insert Card
+
+ATM cards comes in two types — debit cards and credit cards. Debit cards are mostly used in ATMs,
+and it offers you to withdrawal cash which you have in your savings account. Vise versa from credit
+card you could credit money from your account.
 
 But in todays topic we will discourse about the process of withdrawal money from ATM through your card.
-Now first insert your ATM card in the ATM machine.(you may see a blinking green light in the machine, where you have to put your card.) please mind to insert your card as the picture shows; otherwise the machine could not be able to read your card.</string>
+Now first insert your ATM card in the ATM machine.(you may see a blinking green light in the machine,
+ where you have to put your card.) please mind to insert your card as the picture shows; otherwise the
+ machine could not be able to read your card.
+    </string>
     <string name="step2">Step 2 : Select your language
- This is the most easiest task to do I think. Select the language you like</string>
+ This is the most easiest task to do I think. Select the language you like
+    </string>
     <string name="step3">Step 3 : Enter your PIN
 Now come the most important part. Use Keypad to enter your 4 digit pin.
 Please make sure some things before you enter your pin
