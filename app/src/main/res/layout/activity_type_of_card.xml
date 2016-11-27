@@ -61,7 +61,9 @@
             android:layout_height="wrap_content"
             android:id="@+id/ci"
             android:textSize="20dp"
-            android:textColor="#000"/>
+            android:textColor="#000"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"/>
 
         <Button
             android:layout_width="match_parent"

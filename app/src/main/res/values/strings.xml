@@ -354,11 +354,11 @@ Once you have completed your transaction press cross or cancel button before lea
 According to the ATM Industry Association (ATMIA), there are now close to 3 million cash machines installed worldwide.
 On most modern cash machines, the customer is identified by inserting a plastic ATM card with a magnetic stripe or a plastic smart card with a chip that contains a unique card number and some security information such as an expiration date or CVVC (CVV). Authentication is provided by the customer entering a personal identification number (PIN).
 A cash machine is typically made up of the following devices:
-\n1]  CPU (to control the user interface and transaction devices) Function key buttons (usually close to the display) or a touchscreen (used to select the various aspects of the transaction). Display (used by the customer for performing the transaction)
-\n2]  PIN pad EEP4 (similar in layout to a touch tone or calculator keypad), manufactured as part of a secure enclosure
-\n3]  Vault (to store the parts of the machinery requiring restricted access)Housing (for aesthetics and to attach signage to)Sensors and indicators.Secure cryptoprocessor, generally within a secure enclosure
-\n4] Record printer (to provide the customer with a record of the transaction)
-\n5] Magnetic or chip card reader (to identify the customer)
+\n\n1]  CPU (to control the user interface and transaction devices) Function key buttons (usually close to the display) or a touchscreen (used to select the various aspects of the transaction). Display (used by the customer for performing the transaction)
+\n\n2]  PIN pad EEP4 (similar in layout to a touch tone or calculator keypad), manufactured as part of a secure enclosure
+\n\n3]  Vault (to store the parts of the machinery requiring restricted access)Housing (for aesthetics and to attach signage to)Sensors and indicators.Secure cryptoprocessor, generally within a secure enclosure
+\n\n4] Record printer (to provide the customer with a record of the transaction)
+\n\n5] Magnetic or chip card reader (to identify the customer)
 
 </string>
     <string name="toc">Type Of Card</string>
@@ -366,12 +366,12 @@ A cash machine is typically made up of the following devices:
     <string name="debit_or_atm_card">Debit Or Atm Card</string>
     <string name="atm_card_only">Atm Card Only</string>
     <string name="card_payment_getway">Card Payment Getway</string>
-    <string name="ci">When dealing with a bank you generally have 2 types of transactions.
+    <string name="ci">When dealing with a bank you generally have \n two types of transactions.
 
-  \n 1]  Deposit your money and then use it eventually when you need it. In this case the maximum you can spend = the balance in your account. In this case you are not charged back interest on the amount you spend as it is your own money.
+  \n\n 1]  <b>Deposit</b> your money and then use it eventually when you need it. In this case the maximum you can spend = the balance in your account. In this case you are not charged back interest on the amount you spend as it is your own money.
         In this case you spend exactly as much as you need and nothing more
 
-  \n 2] Second type is borrow money from the bank for your use and then pay it back in the either all at once or in agreed installments.
+ \n \n 2] Second type is borrow money from the bank for your use and then pay it back in the either all at once or in agreed installments.
         In this case you are charged interest by the bank for the money that you use. So you end up spending more than you need.
     </string>
     <string name="cci" formatted="false">What is a credit card?
@@ -511,4 +511,44 @@ Things Youll Need
     <string name="os9">Print the confirmation screen or proof of purchase you receive upon completing the transaction,
         and keep this in a safe place until the item you paid for arrives.
     </string>
+    <string name="bob1">Dip your ATM card into the slot</string>
+    <string name="bob2">Select your preferred language</string>
+    <string name="bob3">Enter your four digit pin and press ENTER</string>
+    <string name="bob4">You can avail services like Fast cash, cash withdrawal, Fund transfer, Mini statement etc</string>
+    <string name="bob5">To withdraw money, choose cash withdrawal option</string>
+    <string name="bob6">Select account type from which the cash is to be withdrawn</string>
+    <string name="bob7">Enter the amount</string>
+    <string name="bob8">Press ‘Correct’ to confirm.</string>
+    <string name="bob9">If the amount entered is incorrect, press the ‘Incorrect’ icon</string>
+    <string name="bob10">Press ‘Yes’ if you want the ATM receipt of this transaction or ‘No’ to proceed.</string>
+    <string name="bob11">If you press ‘Yes’ a printed receipt will come out of the slot and please collect your cash.</string>
+    <string name="sbi2">Please Choose Banking For Cash Withdrawal</string>
+    <string name="sbi3">This is a check at the SBI machine to ensure the Keypad is working properly.On Scree you are requested to type
+    any two digit number between ten to ninety nine and press yes</string>
+    <string name="sbi4">Select Current or Savings Account, normally most have savings account</string>
+    <string name="mc">Not all the ATM machines are same. In fact there a lot of difference between ATM machine due to changes in the technology over time. We will try and cover most of the common differences you may see around.</string>
+    <string name="mc1">	 <b>Types Screen</b> - Touch and Non touch – This is a difference similar to old basic Nokia phones and now the android smart phones.
+\n\n2)	<b>how Selection options from the screen</b></string>
+        <string name="mc2">
+<b>a) By Buttons</b>- Older machines have buttons next to the screen border and you can select the desired option by pressing the button next to it on the border either to the left or the right
+</string>
+    <string name="mc3">
+        <b>b) By Screen</b> The Newer machine have touch screen and you select the option you want by pressing it on the screen
+</string>
+    <string name="mc4">
+<b>3) What is Keypad and its use</b> – as the image shows the keypad has zero to nine digits similar to a phone keypad and is used to enter ATM pin number and when withdrawing money it can be used to enter amount you want to withdraw. To make a correction in the amount you entered use the yellow correction key to erase the amount you had entered and put it in again. You can use red key any time to cancel everything that you are doing
+        (and remove the card if the machine has a card intake slot which I will explain below)\n\n <b>4) Card Slots and types</b>
+</string>
+    <string name="mc5">
+	<b>a) Card Intake slot</b> – this is generally seen in older type of machine. Here you insert the card in the machine and then the machine will take the card inside the machine till you complete your transaction or cancel it and request the machine to exit. The card should be inserted in as should in the figure with the image face up with the numbers to the left side of the card’s center and the magnetic strip below to the right.
+</string>
+    <string name="mc6">
+        <b> b) Card DIP slot</b> - Dipping card in the ATM machine slot is the act of sliding card in and pulling it out quickly through in that slot reader. The card should be inserted in as should in the figure with the image face up with the numbers to the left side of the card’s center and the magnetic strip below to the right. If you dip the card too slowly or too fast you will get an error and will be requested to do try again.
+</string>
+    <string name="mc7">
+        	<b>5) Money dispense slot</b>- As shown in the image. This is where the notes are shared with you
+        </string>
+    <string name="mc8">
+	<b>6) Printed slip slot</b> – as shown in the image form this slot you get a printed receipt of your transaction
+</string>
 </resources>

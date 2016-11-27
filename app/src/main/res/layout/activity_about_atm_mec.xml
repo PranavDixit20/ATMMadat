@@ -67,7 +67,9 @@
                 android:textSize="20sp"
                 android:layout_marginTop="10dp"
                 android:gravity="center"
-                android:id="@+id/hawinfo"/>
+                android:id="@+id/hawinfo"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"/>
 
             <Button
                 android:layout_width="wrap_content"

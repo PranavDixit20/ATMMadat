@@ -66,7 +66,7 @@ public class BasicInfo extends AppCompatActivity implements View.OnClickListener
                 startActivity(new Intent(this,TypeOfCard.class));
                 break;
             case R.id.biaci:
-                startActivity(new Intent(this,AboutAtmMec.class));
+                startActivity(new Intent(this,MechineInformtion.class));
                 break;
             case R.id.biback:
                 startActivity(new Intent(this,MainActivity.class));

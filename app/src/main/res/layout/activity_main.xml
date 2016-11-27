@@ -62,7 +62,7 @@
                  android:textStyle="bold"
                  android:textSize="20sp"
                  android:id="@+id/eng"
-                 android:layout_marginLeft="20dp"/>
+                 android:layout_marginLeft="40dp"/>
 
              <Button
                  android:layout_width="130dp"
@@ -70,7 +70,7 @@
                  android:text="@string/Marathi"
                  android:textStyle="bold"
                  android:textSize="20sp"
-                 android:layout_marginRight="20dp"
+                 android:layout_marginRight="40dp"
                  android:id="@+id/mr"
                  android:layout_alignParentRight="true"/>
         </RelativeLayout>
@@ -81,7 +81,7 @@
             <Button
                 android:layout_width="130dp"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="20dp"
+                android:layout_marginLeft="40dp"
                 android:text="@string/hindi"
                 android:textStyle="bold"
                 android:textSize="20sp"
@@ -91,7 +91,7 @@
                 android:layout_width="130dp"
                 android:layout_height="wrap_content"
                 android:layout_alignParentRight="true"
-                android:layout_marginRight="20dp"
+                android:layout_marginRight="40dp"
                 android:text="@string/punjabi"
                 android:textStyle="bold"
                 android:textSize="20sp"
@@ -105,7 +105,7 @@
             <Button
                 android:layout_width="130dp"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="20dp"
+                android:layout_marginLeft="40dp"
                 android:text="@string/gujarati"
                 android:textStyle="bold"
                 android:textSize="20sp"
@@ -114,7 +114,7 @@
                 android:layout_width="130dp"
                 android:layout_height="wrap_content"
                 android:layout_alignParentRight="true"
-                android:layout_marginRight="20dp"
+                android:layout_marginRight="40dp"
                 android:text="@string/malayalam"
                 android:textStyle="bold"
                 android:textSize="20sp"
@@ -128,7 +128,7 @@
         <Button
             android:layout_width="130dp"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="20dp"
+            android:layout_marginLeft="40dp"
             android:text="@string/Telugu"
             android:textStyle="bold"
             android:textSize="20sp"
@@ -137,7 +137,7 @@
             android:layout_width="130dp"
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
-            android:layout_marginRight="20dp"
+            android:layout_marginRight="40dp"
             android:text="@string/Kannada"
             android:textStyle="bold"
             android:textSize="20sp"
