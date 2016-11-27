@@ -61,9 +61,162 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/vcard"
+                android:layout_marginTop="10dp"
                 android:textSize="25sp"
                 android:textColor="#000"
-                android:text="@string/welcome"/>
+                android:layout_gravity="center"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:layout_marginTop="10dp"
+                android:src="@mipmap/osone"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/one"
+                android:textSize="25sp"
+                android:textColor="#000"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:layout_marginTop="10dp"
+                android:src="@mipmap/ostwo"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/two"
+                android:textSize="25sp"
+                android:textColor="#000"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:layout_marginTop="10dp"
+                android:src="@mipmap/osthree"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/three"
+                android:textSize="25sp"
+                android:textColor="#000"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:layout_marginTop="10dp"
+                android:src="@mipmap/osfour"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/four"
+                android:textSize="25sp"
+                android:textColor="#000"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:layout_marginTop="10dp"
+                android:src="@mipmap/osfive"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/five"
+                android:textSize="25sp"
+                android:textColor="#000"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:layout_marginTop="10dp"
+                android:src="@mipmap/ossix"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/six"
+                android:textSize="25sp"
+                android:textColor="#000"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:layout_marginTop="10dp"
+                android:src="@mipmap/osseven"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/seven"
+                android:textSize="25sp"
+                android:textColor="#000"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:layout_marginTop="10dp"
+                android:src="@mipmap/oseight"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/eight"
+                android:textSize="25sp"
+                android:textColor="#000"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"/>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:layout_marginTop="10dp"
+                android:src="@mipmap/osnine"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/nine"
+                android:textSize="25sp"
+                android:textColor="#000"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/osb"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"
+                android:text="@string/back"/>
 
         </LinearLayout>
     </ScrollView>

@@ -40,7 +40,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="How To shop with your debit card physicaly"
+        android:text="@string/how_to_shop_with_your_debit_card_physicaly"
         android:textColor="#000"
         android:textStyle="bold"
         android:textSize="30sp"
@@ -57,14 +57,29 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:src="@mipmap/cm"
+                android:scaleType="fitXY"/>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/vcard"
-                android:textSize="25sp"
-                android:textColor="#000"
-                android:text="@string/welcome"/>
+                android:layout_marginTop="10dp"
+                android:id="@+id/swdc"
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:textColor="#000"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:text="@string/back"
+                android:id="@+id/swdcb"/>
 
         </LinearLayout>
     </ScrollView>

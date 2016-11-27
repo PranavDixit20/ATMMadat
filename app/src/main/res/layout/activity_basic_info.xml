@@ -82,7 +82,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="10dp"
-            android:text="Bank related Word Definations"
+            android:text="@string/bank_related_word_definations"
             android:textStyle="bold"
             android:textSize="20sp"
             android:id="@+id/wod"/>
@@ -92,7 +92,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="10dp"
-            android:text="Few standard Error message of ATM machine"
+            android:text="@string/few_standard_error_message_of_atm_machine"
             android:textStyle="bold"
             android:textSize="20sp"
             android:id="@+id/emes"/>
@@ -100,7 +100,7 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Select Your Bank"
+            android:text="@string/select_your_bank"
             android:textSize="20sp"
             android:textStyle="bold"
             android:layout_marginTop="10dp"
@@ -109,7 +109,7 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="How To shop with your debit card physicaly"
+            android:text="@string/how_to_shop_with_your_debit_card_physicaly"
             android:textSize="20sp"
             android:textStyle="bold"
             android:layout_marginTop="10dp"
@@ -118,7 +118,7 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="How To shop online"
+            android:text="@string/how_to_shop_online"
             android:textSize="20sp"
             android:textStyle="bold"
             android:layout_marginTop="10dp"
@@ -135,8 +135,6 @@
                 android:textSize="20sp"
                 android:id="@+id/biback"
                 android:layout_gravity="center"/>
-
-
 
     </LinearLayout>
     </ScrollView>
