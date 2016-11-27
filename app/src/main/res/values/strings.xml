@@ -41,7 +41,7 @@
     If you"’"re using a debit card that"’"s linked to your checking account, your card number is different from your checking account number.
         This might be confusing because your checking account number is shown on your checks  but your card number is different.
 
-    \n 3. Cardholders name: this is the person authorized to use the card. That person did"\\\\'"nt necessarily open the account they might simply
+    \n 3. Cardholders name: this is the person authorized to use the card. That person did"\\\\"nt necessarily open the account they might simply
         have permission to spend from the account. Only authorized card users can make purchases with a debit or credit card, and merchants are
         encouraged to ask for ID before accepting payment with a card.
 
@@ -104,7 +104,7 @@
     Your security code, like all the other numbers on your card, is an important piece of information. Don"’"t share that code unless necessary.
 
    \n 6. Network logos: your card might have additional network logos on the back, often in the lower right corner.
-        These logos can help you figure out which ATMs you can use for free. You can of course use other ATMs, but you"\\'"ll
+        These logos can help you figure out which ATMs you can use for free. You can of course use other ATMs, but you"\\"ll
         most likely pay fees to the ATM operator, and you might pay additional fees to your bank or lender.
 </string>
     --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -187,11 +187,11 @@
     UCO Bank, formerly United Commercial Bank, established in 1943 in Kolkata,
     is a major government-owned commercial bank of India. During FY 2013-14, its total business
     was ₹ 4.55 lakh crore. Based on 2014 data, it is ranked 1860 on Forbes Global 2000 List.
-    UCO Bank was ranked 294th among India\'s most trusted brands according to the Brand Trust Report 2014,
+    UCO Bank was ranked 294th among India\s most trusted brands according to the Brand Trust Report 2014,
     a study conducted by Trust Research Advisory. It was a rise of 796 ranks considering it was listed
-    at the 1090th position among India\'s most trusted brands in the Brand trust Report 2013.
+    at the 1090th position among India\s most trusted brands in the Brand trust Report 2013.
     As of 6 January 2013 the bank had 4,000 plus service units 49 zonal offices spread all over India.
-    It also has two overseas branches, on each in Singapore and Hong Kong. UCO Bank\'s headquarters is on BTM Sarani, Kolkata.
+    It also has two overseas branches, on each in Singapore and Hong Kong. UCO Bank\s headquarters is on BTM Sarani, Kolkata.
     </string>
     
     <string name="alinfo">
@@ -203,7 +203,7 @@ As of 31 March 2012, Allahabad Bank had over 2,500 branches across India.
 The bank did a total business of INR 3.1 trillion during the FY 2012-13.
  The bank has a branch in Hong Kong and a representative office in Shenzen.
 
-The bank\'s market capitalisation in May 2013 was US$1.28 billion and it ranked #1466 on the Forbes Global 2000 list.
+The bank\s market capitalisation in May 2013 was US$1.28 billion and it ranked #1466 on the Forbes Global 2000 list.
     </string>
     <string name="andinfo" formatted="false">
         Andhra Bank (BSE: 532418) is a medium-sized public sector bank (PSB) of India, with a network of 2803 branches, 
@@ -256,7 +256,7 @@ The total business of the bank during the financial year 2014-15 has been ₹3,4
         Punjab &amp; Sind Bank  is a government-owned bank (79.62%), with headquarters in New Delhi.
         Of its 1466 branches spread throughout India, 623 branches are in Punjab state.
         Its net profit is Rs. 121.35 crores and net NPA is 3.55% for the year ending 2014-15.
-        The bank\'s operating profit for the year ending 2014-15 is Rs. 775.45 crores.
+        The bank\s operating profit for the year ending 2014-15 is Rs. 775.45 crores.
         Total business of the bank was Rs. 1,51,511 crores for the year ending 2014-15 and Business per employee is Rs. 15.95 crore. 
         The net worth of the bank as on 31.03.15 is Rs. 4812 crore.
     </string>
@@ -275,7 +275,7 @@ one each at Kolkata, New Delhi and Mumbai. United Bank of India now aims to expa
 
 On 30 March 2009, the Indian government approved the restructuring of United Bank of India.
 The government proposed to invest 2.5 billion rupees in shares by 31 March and another 5.50 billion
-in the next fiscal year in Tier-I capital instruments. The move is part of the Indian government\'s program
+in the next fiscal year in Tier-I capital instruments. The move is part of the Indian government\s program
 to improve the capital base of the state-owned banks.
     </string>
     <string name="vijinfo">
@@ -354,37 +354,161 @@ Once you have completed your transaction press cross or cancel button before lea
 According to the ATM Industry Association (ATMIA), there are now close to 3 million cash machines installed worldwide.
 On most modern cash machines, the customer is identified by inserting a plastic ATM card with a magnetic stripe or a plastic smart card with a chip that contains a unique card number and some security information such as an expiration date or CVVC (CVV). Authentication is provided by the customer entering a personal identification number (PIN).
 A cash machine is typically made up of the following devices:
-1]  CPU (to control the user interface and transaction devices) Function key buttons (usually close to the display) or a touchscreen (used to select the various aspects of the transaction). Display (used by the customer for performing the transaction)
-2]  PIN pad EEP4 (similar in layout to a touch tone or calculator keypad), manufactured as part of a secure enclosure
-3]  Vault (to store the parts of the machinery requiring restricted access)Housing (for aesthetics and to attach signage to)Sensors and indicators.Secure cryptoprocessor, generally within a secure enclosure
-4] Record printer (to provide the customer with a record of the transaction)
-5] Magnetic or chip card reader (to identify the customer)
+\n1]  CPU (to control the user interface and transaction devices) Function key buttons (usually close to the display) or a touchscreen (used to select the various aspects of the transaction). Display (used by the customer for performing the transaction)
+\n2]  PIN pad EEP4 (similar in layout to a touch tone or calculator keypad), manufactured as part of a secure enclosure
+\n3]  Vault (to store the parts of the machinery requiring restricted access)Housing (for aesthetics and to attach signage to)Sensors and indicators.Secure cryptoprocessor, generally within a secure enclosure
+\n4] Record printer (to provide the customer with a record of the transaction)
+\n5] Magnetic or chip card reader (to identify the customer)
 
 </string>
     <string name="toc">Type Of Card</string>
-    <string name="vcard">International merchants (including US) Online, Over the Phone and by Mail
-Visa Debit is accepted by US and International online, telephone, and mail order retailers that accept Visa.
-
-Canadian merchants Online, Over the Phone, and by Mail
-Visa Debit is accepted online, over the phone, and by mail at participating merchants in Canada. To date, more than 42,000 online merchants accept Visa Debit in Canada and the number keeps growing.
-
-In Stores Outside Canada
-When shopping in stores outside of Canada, Visa Debit (excluding Virtual Visa Debit) is accepted wherever Visa is accepted.
-        Look for the Visa acceptance mark.
-    </string>
-    <string name="rcard">Recent developments saw Government passing on instructions to state owned banks to issue RuPay debit cards to their customers.
-        This looks like a clear indication to promote these cards. But, what exactly is this RuPay card and how does it function? Let’s look into it now.
-
-What is it?
-
-RuPay is a combination of two words – Rupee and Payment. RuPay Card is an Indian version of credit/debit card.
-        It is very similar to international cards such as Visa/Master.
-    </string>
-    <string name="mcard">A MasterCard Cirrus® Card or MasterCard Maestro® Card both give you convenient, secure access to funds in your account. Enjoy the convenience of one card for shopping and ATMs. Access your own funds directly from your current account. Feel secure by reducing the amount of cash you need to carry. Keep track of your spending with a monthly detailed listing of your purchases. Get access to your funds at over 900,000 MasterCard/Maestro/Cirrus ATMs around the world.
-
-Look for the Cirrus or Maestro logo on your card or contact your local bank representative today for more details.</string>
     <string name="credit_card">Credit Card</string>
     <string name="debit_or_atm_card">Debit Or Atm Card</string>
     <string name="atm_card_only">Atm Card Only</string>
     <string name="card_payment_getway">Card Payment Getway</string>
+    <string name="ci">When dealing with a bank you generally have 2 types of transactions.
+
+  \n 1]  Deposit your money and then use it eventually when you need it. In this case the maximum you can spend = the balance in your account. In this case you are not charged back interest on the amount you spend as it is your own money.
+        In this case you spend exactly as much as you need and nothing more
+
+  \n 2] Second type is borrow money from the bank for your use and then pay it back in the either all at once or in agreed installments.
+        In this case you are charged interest by the bank for the money that you use. So you end up spending more than you need.
+    </string>
+    <string name="cci" formatted="false">What is a credit card?
+        \n A credit card allows you to borrow money from your bank to make your purchases.
+        As long as you pay back the money you borrowed within the “grace period” of 25-30 days, you don’t have to pay extra.
+        If you don’t pay it back in that time period, you’ll have to pay interest — a percentage of the money you owe the bank — on top of what you borrowed. Credit cards generally have the highest interest compared to any other method of borrowing money from bank.
+        On an average the interest annually is 24%
+    </string>
+    <string name="ac">ATM card
+
+\nAn ATM card is a bank issued card that enables a customer to access an automated teller machine (ATM or ABM) in order to perform transactions such
+        as deposits, cash withdrawals, obtaining account information, etc. ATM cards are known by a variety of names such as bank card, MAC (money access card), client card and cash card, among others.
+        Most payment cards, such as debit and credit cards can also function as ATM cards, although ATM-only cards are also available.
+
+ n\Interbank networks allow the use of ATM cards at ATMs of banks and financial institutions other than those of
+        the institution that issued the cards. There is a limit of number of free cash withdrawal transaction per month
+        from other bank ATM which is usually 3 per month. After 3 withdrawal in a month from other bank the 4th withdrawal onwards
+        in that month you will be charged.
+    </string>
+    <string name="dc">What is a debit card?
+
+\nA debit card when making purchases. You can use this cars to buy groceries, pay hotel bill, pay electricity and telephone bill,
+        pay for petrol and diesel. The money you spend with the card comes directly from the users bank account when performing
+        a transaction. This means that you are not borrowing any money form the bank and hence they will not charge you any interest
+        for that money. You are withdrawing and essentially spending money from your bank account using
+
+\nDebit cards usually also allow for instant withdrawal of cash, acting as the ATM card for withdrawing cash.
+    </string>
+    <string name="pg">What is card Payment Gateway?
+        \nWhen you have to go from one city to another you have to use various roads and highway to reach your destination.
+        From example Mumbai to Goa. If you are starting from Mumbai then it will be your source and Goa will be your destination.
+        \nSimilarly when you make a payment for anything at a shop the money needs to go from your bank to the shop.
+        This will need a digital road or network of digital roads. The Payment gateway make and provide this network of roads.
+        \nHence when you are buying things at any shop with your card it is better to confirm at the shop that
+        they take you type of cards payment gateway since not all shops accept all the cards.
+        \nVarious companies that provide this payment gateway for cards (digital network of roads) are-
+        \n Visa card
+        \n Master card
+        \n American express
+        \n Mestero
+        \nMaster and Visa cards are the most popular type of payment card methods covering 90% of the banks and shops.
+    </string>
+    <string name="wd">Borrow – get a loan from the bank
+
+\nTransfer money – send money from a bank account to another bank account. It can be within the same bank or different banks
+
+\nDeposit – put some or part of you money into your account at the bank.
+
+\n1] You can either deposit money by cash
+
+\n2] cheque can you use to transfer money into your account
+
+\nWithdraw – get part or all of your money from your account in the bank
+
+\n1] this can be done at the bank with a passbook and slip
+
+\n2] Or by a cheque at the bank
+
+\n3] Or with a card at the ATM machine
+
+
+
+Interbank networks – Network between banks over which all the banks can talk to each other for transactions
+    </string>
+    <string name="bank_related_word_definations">Bank related Word Definations</string>
+    <string name="few_standard_error_message_of_atm_machine">Few standard Error message of ATM machine</string>
+    <string name="select_your_bank">Select Your Bank</string>
+    <string name="how_to_shop_with_your_debit_card_physicaly">How To shop with your debit card physicaly</string>
+    <string name="how_to_shop_online">How To shop online</string>
+
+    <string name="swc">While each brand of credit card machine is slightly different, most operate in the same way. If you need to use a credit card machine to process payments, dont be intimidated by the machine, they are designed to be easy to use . Heres how to use credit card machines.
+Things Youll Need
+
+    \nCredit card machine
+    \nCredit card or credit card number
+
+\nStep 1
+
+\nInput the credit card numbers . If you have the credit card in hand, swipe it through the card reader. Most readers have a small icon or picture on them that shows which way the magnetic strip on the back of the card should be facing. If not, try running it through the reader with the strip facing the machine first, since that is the most common direction. If you have a phone order, or do not have the credit card in hand, select the button marked "sale." On many machines this is also the "1" key, but it varies depending on the brand of the machine. Then follow the on-screen prompts to enter the card number and expiration date. Always double-check the numbers before pushing enter.
+\nStep 2
+
+\nInput the sale information . Typically , the machine will first ask for the sales amount in dollars and cents. Input the amount using the number keypad. Double-check the amount to make sure it appears correctly on the screen and if it does, then push enter. If you accidentally input the wrong amount, look for the "clear" or "delete" key and start over. In some cases, the machine will prompt you for additional information after youve entered the sale amount. Follow the prompts to enter information, such as the customers zip code or an order number.
+\nStep 3
+
+\nWait for the sale to process. Depending on the machines connection the sale may process within seconds or it may take a few minutes. If the machine seems to become "stuck" while processing a sale, do not re-enter the sale, but instead call the processing companys phone number for further instructions. In many cases this number will appear on a sticker on the machine.
+\nStep 4
+
+\nProcess the receipt . If the customer is present, have them sign the credit card receipt. Give them the copy and retain the original for your records. If the customer is not present, write "phone-in" or another appropriate phrase on the signature line of the receipt. Keep one receipt for your records and include the other in the shipment of the goods to the customer.
+\nStep 5
+
+\nClose the batch . Double-check with your processing company, but most require you to run a "batch report" or close a batch of
+        credit card receipts each day. This is the process that tells the company to finalize the credit card charges and deposit
+        the balance to your account. Many machines will have a key that is marked "batch." You can press this key and then follow
+        the prompts to close the batch at the end of the day. If the machine does not have a "batch" key, consult the users manual
+        for instructions or call your credit card processing company for instructions.
+    </string>
+    <string name="osinfo">Because of their low overhead, online retailers often offer lower prices than brick-and-mortar stores.
+        Snag a deal on free shipping and youre almost guaranteed to save money by purchasing online. But before you get the
+        goods youve got to pay for them, and one of the easiest, simplest, safest ways of doing so is paying with a credit card.
+    </string>
+    <string name="os1">Connect to a secure, encrypted network.
+
+   \n1] Some browsers use the symbol of a closed padlock to denote a secure network connection. You can also look for "[https" https"] in front of the Internet address, instead of the normal "[http," http ,"] to indicate a secure network.
+   \n2] Avoid sending credit card information by e-mail over an unsecured network. Although e-mail might seem private, its all too easy for another user on the same network to monitor your transmission.
+   \n3] In a similar vein, dont use an unfamiliar wireless network to send credit card information or make online purchases. Ad-hoc networks masquerading as free wi-fi are a common tool for scamming your credit card information.
+   \n4] Ideally, you should avoid making online purchases over a public wireless network whenever possible.
+</string>
+    <string name="os2">Input the address of the website you intend to purchase from in your browsers address window.
+      \n  Do your best to go directly to the site instead of searching for it or following a link; this minimizes your risk
+        of ending up at a phishing site that mimics the original in order to gather your credit card information. Above all,
+        do not follow links from e-mails to purchase items unless youre absolutely certain the e-mail did come from the legitimate
+        merchant. These phishing, or mimic, e-mails are a very common scam.
+    </string>
+    <string name="os3">Assemble the goods you intend to buy. Depending on which site youre buying
+        from this might involve bidding on an item until you win the right to purchase it, or clicking
+        "Add to Cart" on the item page.
+    </string>
+    <string name="os4">Click the appropriate button to purchase the items youve selected. Usually this entails looks for the icon
+        of a shopping cart (or the word "Cart") and clicking the icon/word. Then click "Check Out" or "Check Out Now."
+    </string>
+    <string name="os5">Input your shipping information. You might not see your final price until youve done this,
+        as the website needs your zip or postal code to calculate shipping charges.
+    </string>
+    <string name="os6">Input your billing information too. This should match the billing information for your credit card.
+        \n Many websites give you an option to copy your shipping address into the billing address
+        fields with the click of a single button.
+    </string>
+    <string name="os7">Input your credit card information. This includes:
+        \n Your name as it appears on the credit card.
+    \n The credit card number.
+    \n The credit card expiration date.
+    \n The 3- or 4- digit security code on the back of the credit card.
+    \n You might also need to provide the billing zip code for the credit card again, or the telephone
+        number listed on your credit card statement.
+    </string>
+    <string name="os8">Click the appropriate button to complete the credit card sale. </string>
+    <string name="os9">Print the confirmation screen or proof of purchase you receive upon completing the transaction,
+        and keep this in a safe place until the item you paid for arrives.
+    </string>
 </resources>

@@ -93,7 +93,7 @@ public class Welcome extends AppCompatActivity implements View.OnClickListener {
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.back:
-                startActivity(new Intent(this, MainActivity.class));
+                startActivity(new Intent(this, BasicInfo.class));
                 break;
             case R.id.one:
                 Intent i=new Intent(this,AtmMenu.class);
@@ -243,6 +243,6 @@ public class Welcome extends AppCompatActivity implements View.OnClickListener {
 
     @Override
     public void onBackPressed() {
-        startActivity(new Intent(this, MainActivity.class));
+        startActivity(new Intent(this, BasicInfo.class));
     }
 }
