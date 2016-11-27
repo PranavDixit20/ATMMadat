@@ -62,7 +62,9 @@
                 android:gravity="center"
                 android:layout_marginTop="5dp"
                 android:textColor="#000"
-                android:textSize="20sp"/>
+                android:textSize="20sp"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"/>
 
             <RelativeLayout
                 android:layout_width="match_parent"

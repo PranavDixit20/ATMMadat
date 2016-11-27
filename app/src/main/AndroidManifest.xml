@@ -38,7 +38,9 @@
         <activity android:name=".WordDefination" />
         <activity android:name=".ErrorMessage" />
         <activity android:name=".ShopWithYourCard" />
-        <activity android:name=".ShopOnline"></activity>
+        <activity android:name=".ShopOnline" />
+        <activity android:name=".MechineInformtion" />
+        <activity android:name=".MachineControl"></activity>
     </application>
 
 </manifest>

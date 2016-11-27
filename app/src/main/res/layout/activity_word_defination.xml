@@ -64,7 +64,9 @@
                 android:id="@+id/vcard"
                 android:textSize="20sp"
                 android:textColor="#000"
-                android:layout_marginTop="10dp"/>
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"/>
 
             <Button
                 android:layout_width="wrap_content"
