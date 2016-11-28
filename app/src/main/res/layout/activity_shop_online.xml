@@ -64,8 +64,8 @@
                 android:layout_marginTop="10dp"
                 android:textSize="25sp"
                 android:textColor="#000"
-                android:layout_gravity="center"
-                android:layout_marginLeft="3dp"
+                android:gravity="left"
+                android:layout_marginLeft="5dp"
                 android:layout_marginRight="3dp"/>
 
             <ImageView
@@ -81,9 +81,9 @@
                 android:id="@+id/one"
                 android:textSize="25sp"
                 android:textColor="#000"
-                android:layout_gravity="center"
+                android:gravity="left"
                 android:layout_marginTop="10dp"
-                android:layout_marginLeft="3dp"
+                android:layout_marginLeft="5dp"
                 android:layout_marginRight="3dp"/>
 
             <ImageView
@@ -99,9 +99,9 @@
                 android:id="@+id/two"
                 android:textSize="25sp"
                 android:textColor="#000"
-                android:layout_gravity="center"
+                android:gravity="left"
                 android:layout_marginTop="10dp"
-                android:layout_marginLeft="3dp"
+                android:layout_marginLeft="5dp"
                 android:layout_marginRight="3dp"/>
 
             <ImageView
@@ -117,9 +117,9 @@
                 android:id="@+id/three"
                 android:textSize="25sp"
                 android:textColor="#000"
-                android:layout_gravity="center"
+                android:gravity="left"
                 android:layout_marginTop="10dp"
-                android:layout_marginLeft="3dp"
+                android:layout_marginLeft="5dp"
                 android:layout_marginRight="3dp"/>
 
             <ImageView
@@ -135,9 +135,9 @@
                 android:id="@+id/four"
                 android:textSize="25sp"
                 android:textColor="#000"
-                android:layout_gravity="center"
+                android:gravity="left"
                 android:layout_marginTop="10dp"
-                android:layout_marginLeft="3dp"
+                android:layout_marginLeft="5dp"
                 android:layout_marginRight="3dp"/>
 
             <ImageView
@@ -153,9 +153,9 @@
                 android:id="@+id/five"
                 android:textSize="25sp"
                 android:textColor="#000"
-                android:layout_gravity="center"
+                android:gravity="left"
                 android:layout_marginTop="10dp"
-                android:layout_marginLeft="3dp"
+                android:layout_marginLeft="5dp"
                 android:layout_marginRight="3dp"/>
 
             <ImageView
@@ -171,9 +171,9 @@
                 android:id="@+id/six"
                 android:textSize="25sp"
                 android:textColor="#000"
-                android:layout_gravity="center"
+                android:gravity="left"
                 android:layout_marginTop="10dp"
-                android:layout_marginLeft="3dp"
+                android:layout_marginLeft="5dp"
                 android:layout_marginRight="3dp"/>
 
             <ImageView
@@ -189,9 +189,9 @@
                 android:id="@+id/seven"
                 android:textSize="25sp"
                 android:textColor="#000"
-                android:layout_gravity="center"
+                android:gravity="left"
                 android:layout_marginTop="10dp"
-                android:layout_marginLeft="3dp"
+                android:layout_marginLeft="5dp"
                 android:layout_marginRight="3dp"/>
 
             <ImageView
@@ -207,9 +207,9 @@
                 android:id="@+id/eight"
                 android:textSize="25sp"
                 android:textColor="#000"
-                android:layout_gravity="center"
+                android:gravity="left"
                 android:layout_marginTop="10dp"
-                android:layout_marginLeft="3dp"
+                android:layout_marginLeft="5dp"
                 android:layout_marginRight="3dp"/>
 
             <ImageView
@@ -225,9 +225,9 @@
                 android:id="@+id/nine"
                 android:textSize="25sp"
                 android:textColor="#000"
-                android:layout_gravity="center"
+                android:gravity="left"
                 android:layout_marginTop="10dp"
-                android:layout_marginLeft="3dp"
+                android:layout_marginLeft="5dp"
                 android:layout_marginRight="3dp"/>
 
             <Button
@@ -236,7 +236,9 @@
                 android:id="@+id/osb"
                 android:layout_marginTop="20dp"
                 android:layout_gravity="center"
-                android:text="@string/back"/>
+                android:text="@string/back"
+                android:textStyle="bold"
+                android:textSize="20sp"/>
 
         </LinearLayout>
     </ScrollView>

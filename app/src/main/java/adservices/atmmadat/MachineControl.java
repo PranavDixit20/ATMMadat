@@ -18,6 +18,7 @@ public class MachineControl extends AppCompatActivity implements View.OnClickLis
     String uid="ca-app-pub-3715652664770345/9286598713";
     TextView t,t1,t2,t3,t4,t5,t6,t7,t8;
     ImageView i,i1,i2,i3,i4,i5,i6;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -69,6 +70,9 @@ public class MachineControl extends AppCompatActivity implements View.OnClickLis
         i4.setImageResource(R.mipmap.gcarddipslot);
         i5.setImageResource(R.mipmap.gmoney);
         i6.setImageResource(R.mipmap.greceiptslot);
+
+
+
     }
 
     @Override

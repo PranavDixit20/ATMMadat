@@ -48,8 +48,9 @@
                 android:layout_height="match_parent"
                 android:id="@+id/info"
                 android:textSize="25sp"
-                android:gravity="center"
-                android:layout_marginLeft="3dp"
+                android:gravity="left"
+                android:textColor="#000"
+                android:layout_marginLeft="5dp"
                 android:layout_marginRight="3dp"/>
 
             <Button

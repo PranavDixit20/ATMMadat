@@ -40,7 +40,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="55dp"
-                android:text="@string/bank_information"
+                android:text="@string/check_balance"
                 android:textColor="#000"
                 android:textStyle="bold"
                 android:textSize="35sp"
@@ -50,6 +50,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/b1"
+                android:layout_marginTop="10dp"
                 android:src="@mipmap/bstep2"
                 android:scaleType="fitXY"/>
 
@@ -58,14 +59,16 @@
                 android:layout_height="match_parent"
                 android:id="@+id/bcheck1"
                 android:textSize="25sp"
-                android:gravity="center"
-                android:layout_marginLeft="3dp"
+                android:gravity="left"
+                android:textColor="#000"
+                android:layout_marginLeft="5dp"
                 android:layout_marginRight="3dp"/>
 
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/b2"
+                android:layout_marginTop="10dp"
                 android:src="@mipmap/bstep3"
                 android:scaleType="fitXY"/>
 
@@ -74,13 +77,16 @@
                 android:layout_height="match_parent"
                 android:id="@+id/bcheck2"
                 android:textSize="25sp"
-                android:gravity="center"
-                android:layout_marginLeft="3dp"
+                android:gravity="left"
+                android:textColor="#000"
+                android:layout_marginLeft="5dp"
                 android:layout_marginRight="3dp"/>
+
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/b3"
+                android:layout_marginTop="10dp"
                 android:src="@mipmap/bstep4"
                 android:scaleType="fitXY"/>
 
@@ -89,8 +95,9 @@
                 android:layout_height="match_parent"
                 android:id="@+id/bcheck3"
                 android:textSize="25sp"
-                android:gravity="center"
-                android:layout_marginLeft="3dp"
+                android:gravity="left"
+                android:textColor="#000"
+                android:layout_marginLeft="5dp"
                 android:layout_marginRight="3dp"/>
 
             <TextView
@@ -98,22 +105,29 @@
                 android:layout_height="match_parent"
                 android:id="@+id/bcheck4"
                 android:textSize="25sp"
-                android:gravity="center"
-                android:layout_marginLeft="3dp"
+                android:gravity="left"
+                android:textColor="#000"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
                 android:layout_marginRight="3dp"/>
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:id="@+id/bcheck5"
                 android:textSize="25sp"
-                android:gravity="center"
-                android:layout_marginLeft="3dp"
+                android:gravity="left"
+                android:textColor="#000"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="5dp"
                 android:layout_marginRight="3dp"/>
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/back"
+                android:textSize="20sp"
+                android:textStyle="bold"
                 android:id="@+id/bcb"/>
 </LinearLayout>
  </ScrollView>
