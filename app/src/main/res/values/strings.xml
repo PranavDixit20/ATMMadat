@@ -26,19 +26,18 @@
         That little piece of plastic has everything you need to spend money overseas, in your hometown, and online. How does it work?
         Let"’"s look at each of the features on your card, starting with the front of your card.
 
-    \n 1. Bank branding: this tells you which card you have. Your card might simply show the bank name, or it might display a logo for
-        a specific program (such as a rewards program that your bank offers).
+    \n 1. Bank branding: this tells you which card you have. Your card might simply show the bank name, or it might display a logo.
 
-    \n 2. Your card number is one of the most important things on the card. It is the 16 digit number that points to your account with the card issuer,
-        and those are the digits you"’"ll need to provide when making purchases online or by phone. If you use American Express, the card number is only 15 digits.
+    \n 2. Your card number is one of the most important things on the card. It is the 16 digit number that points to your account with the card issuer Bank
+        and those are the digits you will need to provide when making purchases online or by phone.
 
-    Protect your card number: be careful where you write it down, and limit who sees the number. When card numbers get stolen by fraudsters,
+    <b>Protect your card number:</b> be careful where you write it down, and limit who sees the number. When card numbers get stolen by fraudsters,
         they can be used to make purchases in your account. You might not have to pay for those purchases, but cleaning up the mess can be inconvenient.
 
-    To shop online, you need more than just a card number. You"’"ll also need the card"’"s expiration date and security code
+    To shop online, you need more than just a card number. You willll also need the card"’"s expiration date and security code
         (often a three digit code on the back of the card, but this varies by issuer  read about the back of your card for details). Most systems also ask for your name.
 
-    If you"’"re using a debit card that"’"s linked to your checking account, your card number is different from your checking account number.
+    If you are using a debit card that"’"s linked to your checking account, your card number is different from your checking account number.
         This might be confusing because your checking account number is shown on your checks  but your card number is different.
 
     \n 3. Cardholders name: this is the person authorized to use the card. That person did"\\\\"nt necessarily open the account they might simply
@@ -108,18 +107,18 @@
         most likely pay fees to the ATM operator, and you might pay additional fees to your bank or lender.
 </string>
     --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-    <string name="bominfo">Bank of Maharashtra is a major public sector bank in India. Government of India holds 81.61 percent of the total shares.
+    <string name="bominfo"><b>Bank of Maharashtra</b> is a major public sector bank in India. Government of India holds 81.61 percent of the total shares.
         The bank has 15 million customers across the length and breadth of the country served through 1895 branches as of 5 April 2016.
         It has largest network of branches by any public sector bank in the state of Maharashtra.
 </string>
-    <string name="bobinfo">Bank of Baroda is an Indian state owned banking and financial services company headquartered in Vadodara
+    <string name="bobinfo"><b>Bank of Baroda</b> is an Indian state owned banking and financial services company headquartered in Vadodara
         (earlier known as Baroda) in Gujarat India.It is the second largest bank in India next to State Bank Of India.
         Its headquarters is in Vadodara it has a corporate office in the Bandra Kurla Complex in Mumbai.
          Based on 2014 data it is ranked 801 on Forbes Global 2000 list.
         BoB has total assets in excess of
           3.58 trillion a network of 5326 branches in India and abroad and over 8000 ATMs.
 </string>
-    <string name="boiinfo">Bank of India (BoI) is commercial bank with headquarters in Mumbai Maharashtra India.
+    <string name="boiinfo"><b>Bank of India</b> (BoI) is commercial bank with headquarters in Mumbai Maharashtra India.
         Founded in 1906 it has been government-owned since nationalisation in 1969.
         However, some branches are individually owned such as Kandia  Indonesia etc.
         Bank of India has 4828 branches as on 31 December 2013, including 56 offices outside India
@@ -127,27 +126,27 @@
         BoI is a founder member of SWIFT (Society for Worldwide Inter Bank Financial Telecommunications)
         which facilitates provision of cost-effective financial processing and communication services.
 </string>
-    <string name="caninfo">Canara Bank is an Indian state owned bank headquartered in Bangalore Karnataka.
+    <string name="caninfo"><b>Canara Bank</b> is an Indian state owned bank headquartered in Bangalore Karnataka.
         It was established at Mangalore in 1906 making it one of the oldest banks in the country.
         The government nationalized the bank in 1969. As of September 2016, the bank had a network of 5860 branches
         and more than 10026 ATMs spread across India. The bank also has offices abroad in London, Hong Kong Moscow
         Shanghai Doha Bahrain South africa Dubai Tanzania and New York.
 </string>
-    <string name="cbinfo">Central Bank of India a government owned bank, is one of the oldest and largest commercial banks in India.
+    <string name="cbinfo"><b>Central Bank of India</b> a government owned bank, is one of the oldest and largest commercial banks in India.
         It is based in Mumbai which is the financial capital of India and capital city of state of Maharashtra.
         The bank has 4741 branches 5000 ATMs and 4 extension counters across 27 Indian states and three Union Territories.
         At present Central Bank of India has overseas office at Nairobi Hong Kong and a joint venture with Bank of India
         Bank of Baroda and the Zambian government. The Zambian government holds 40 per cent stake and each of the banks has
         20 per cent. Recently it has also opened a representative office at Nairobi in Kenya.
 </string>
-    <string name="hdfcinfo">HDFC Bank (Housing Development Finance Corporation) is an Indian banking and financial services
+    <string name="hdfcinfo"><b>HDFC Bank</b> (Housing Development Finance Corporation) is an Indian banking and financial services
         company headquartered in Mumbai, Maharashtra. It has about 87555 employees and has a presence in Bahrain
         Hong Kong and Dubai. HDFC Bank is the second largest private bank in India as measured by assets.
         It is the largest bank in India by market capitalization as of February 2016.
         It was ranked 69th in 2016 BrandZTM Top 100 Most Valuable Global Brands.
     </string>
     <string name="icicinfo">
-        ICICI Bank (Industrial Credit and Investment Corporation of India)
+        <b>ICICI Bank</b> (Industrial Credit and Investment Corporation of India)
         is an Indian multinational banking and financial services company headquartered in Mumbai
         Maharashtra India, with its registered office in Vadodara. In 2014 it was the second largest
         bank in India in terms of assets and third in term of market capitalisation. It offers a wide range
@@ -157,7 +156,7 @@
         The bank has a network of 4450 branches and 13995 ATMs in India and has a presence in 19 countries including India
 </string>
     <string name="sbinfo">
-        State Bank of India (SBI) is an Indian multinational public sector banking and financial services company.
+        <b>State Bank of India</b> (SBI) is an Indian multinational public sector banking and financial services company.
         It is a government owned corporation with its headquarters in Mumbai, Maharashtra.
         As of 2014 to 15 it had assets of 20.480 trillion (US$300 billion) and more than 14000 branches,
         including 191 foreign offices spread across 36 countries making it the largest banking and financial
@@ -171,11 +170,11 @@
         of India is a banking behemoth and has 20percent market share in deposits and loans among Indian commercial banks
 </string>
     <string name="pnbinfo">
-        Punjab National Bank is an Indian multinational banking and financial services company.
+        <b>Punjab National Bank</b> is an Indian multinational banking and financial services company.
         It is a state owned corporation based in New Delhi India. Founded in 1894 the bank has over 6968 branches
         and over 9656 ATMs across 764 cities. It serves over 80 million customers
     </string>
-    <string name="ubinfo">Union Bank of India (UBI) (BSE 532477) is one of the largest government-owned banks of India
+    <string name="ubinfo"><b>Union Bank of India</b> (UBI) (BSE 532477) is one of the largest government-owned banks of India
         (the government owns 63.44 of its share capital). It is listed on the Forbes 2000 and has assets of USD 13.45
         billion. All the banks branches have been networked with its 6909 ATMs as on 30 September 2015. Its online
         Telebanking facility are available to all its Core Banking Customers individual as well as corporate.
@@ -184,7 +183,7 @@
         The bank had 4500 branches in India as of 31 March 2016
     </string>
     <string name="ucoinfo">
-    UCO Bank, formerly United Commercial Bank, established in 1943 in Kolkata,
+    <b>UCO Bank</b>, formerly United Commercial Bank, established in 1943 in Kolkata,
     is a major government-owned commercial bank of India. During FY 2013-14, its total business
     was ₹ 4.55 lakh crore. Based on 2014 data, it is ranked 1860 on Forbes Global 2000 List.
     UCO Bank was ranked 294th among India\s most trusted brands according to the Brand Trust Report 2014,
@@ -195,7 +194,7 @@
     </string>
     
     <string name="alinfo">
-    Allahabad Bank is a nationalised bank with its headquarters in Kolkata, India. 
+    <b>Allahabad Bank</b> is a nationalised bank with its headquarters in Kolkata, India.
     It is the oldest joint stock bank in India. On 24 April 2014, the bank entered 
     into its 150th year of establishment. It was founded in Allahabad in 1865.
 
@@ -206,7 +205,7 @@ The bank did a total business of INR 3.1 trillion during the FY 2012-13.
 The bank\s market capitalisation in May 2013 was US$1.28 billion and it ranked #1466 on the Forbes Global 2000 list.
     </string>
     <string name="andinfo" formatted="false">
-        Andhra Bank (BSE: 532418) is a medium-sized public sector bank (PSB) of India, with a network of 2803 branches, 
+        <b>Andhra Bank</b> (BSE: 532418) is a medium-sized public sector bank (PSB) of India, with a network of 2803 branches,
         4 extension counters, 38 satellite offices and 3636 automated teller machines (ATMs) as of 31 Mar 2016.
         During 2011–12, the bank entered the states of Tripura and Himachal Pradesh. The bank now operates in 25 states
         and three Union Territories. Andhra Bank has its headquarters in Hyderabad, India.
@@ -218,7 +217,7 @@ The Government of India owns 63.97% of its share capital as on 31 Dec 2015. The 
 Andhra Bank is a pioneer in introducing Credit Cards in the country in 1981.
     </string>
  <string name="copinfo">
-     Corporation Bank is a public sector banking company headquartered in Mangalore, India.
+     <b>Corporation Bank</b> is a public sector banking company headquartered in Mangalore, India.
      The bank has pan-India presence with 8,000 functional units comprising 2200 branches,
      1800+ ATMs and 3,000 branchless banking units as of 30 January 2015.
 
@@ -230,18 +229,18 @@ The total business of the bank during the financial year 2014-15 has been ₹3,4
      crore (equivalent to ₹617 crore or US$92 million in 2016).
  </string>
     <string name="dbinfo">
-        Dena Bank, headquartered in Mumbai, is owned by the Government of India,
+        <b>Dena Bank</b>, headquartered in Mumbai, is owned by the Government of India,
         and as per latest data the total branch network stands at 1,773 and plans 
         to open 404 new branches in FY 2015-16 The bank was founded in 1938 and the Indian government nationalized it in 1969.
     </string>
     <string name="ininfo">
-        ndian Bank is an Indian state-owned financial services company established in 1907 and headquartered in Chennai, India.
+        <b>Indian Bank</b> is an Indian state-owned financial services company established in 1907 and headquartered in Chennai, India.
         It has 20,661 employees, 2594 branches and is one of the top performing public sector banks in India.
         It has overseas branches in Colombo and Jaffna in Sri Lanka, and in Singapore, and 223 correspondent banks in 71 countries. 
         Since 1969 the Government of India has owned the bank.
     </string>
     <string name="iobinfo" formatted="false">
-        Indian Overseas Bank (IOB) is a major public sector bank based in Chennai (Madras),
+        <b>Indian Overseas Bank</b> (IOB) is a major public sector bank based in Chennai (Madras),
         with about 3700 domestic branches, including 1150 branches in Tamil Nadu, 3 extension counters,
         and eight branches and offices overseas as of 30 September 2014. Indian Overseas Bank has an ISO
         certified in-house Information Technology department, which has developed the software that its 
@@ -249,11 +248,11 @@ The total business of the bank during the financial year 2014-15 has been ₹3,4
         as well as 100% CBS status for its branches. IOB also has a network of about 3300 ATMs all over India.
     </string>
     <string name="orbinfo">
-        Oriental Bank of Commerce is an India-based bank established in Lahore
+        <b>Oriental Bank of Commerce</b> is an India-based bank established in Lahore
         (then the city of British India, and currently in Pakistan), is one of the public sector banks in India.
     </string>
     <string name="pnsinfo" formatted="false">
-        Punjab &amp; Sind Bank  is a government-owned bank (79.62%), with headquarters in New Delhi.
+        <b>Punjab &amp; Sind Bank</b>  is a government-owned bank (79.62%), with headquarters in New Delhi.
         Of its 1466 branches spread throughout India, 623 branches are in Punjab state.
         Its net profit is Rs. 121.35 crores and net NPA is 3.55% for the year ending 2014-15.
         The bank\s operating profit for the year ending 2014-15 is Rs. 775.45 crores.
@@ -261,14 +260,14 @@ The total business of the bank during the financial year 2014-15 has been ₹3,4
         The net worth of the bank as on 31.03.15 is Rs. 4812 crore.
     </string>
     <string name="syninfo">
-        Syndicate Bank is one of the oldest and major commercial banks of India.
+        <b>Syndicate Bank</b> is one of the oldest and major commercial banks of India.
         It was founded by T M A Pai, Upendra Pai and Vaman Kudva. At the time of its establishment,
         the bank was known as Canara Industrial and Banking Syndicate Limited. The bank, along with
         13 major commercial banks of India, was nationalised on 19 July 1969, by the Government of India.
         The Bank is headquartered in Manipal, Karnataka, India
     </string>
     <string name="ubiinfo">
-United Bank of India (UBI) is an Indian government-owned financial services company headquartered in Kolkata, West Bengal, India.
+<b>United Bank of India</b> (UBI) is an Indian government-owned financial services company headquartered in Kolkata, West Bengal, India.
 Presently the bank has a three-tier organisational setup consisting of its Head office in Kolkata, 35 Regional offices and 2005
 branches spread all over India. However, its major presence is in eastern India. The bank has three full-fledged overseas branches,
 one each at Kolkata, New Delhi and Mumbai. United Bank of India now aims to expand its international activities.
@@ -279,7 +278,7 @@ in the next fiscal year in Tier-I capital instruments. The move is part of the I
 to improve the capital base of the state-owned banks.
     </string>
     <string name="vijinfo">
-        Vijaya Bank is a fastest growing Public Sector Bank with its Corporate Office in Bangalore, Karnataka, India.
+        <b>Vijaya Bank</b> is a fastest growing Public Sector Bank with its Corporate Office in Bangalore, Karnataka, India.
         It is one of the nationalised banks in India. The Bank offers a wide range of financial products and services
         to the customers through its various delivery channels. The Bank has a network of 1900 branches (August 2016)
         throughout the country and over 3500 customer touch points including 1651 ATMs.
@@ -287,13 +286,13 @@ to improve the capital base of the state-owned banks.
     <string name="step1">
 Step 1 : Insert Card
 
-ATM cards comes in two types — debit cards and credit cards. Debit cards are mostly used in ATMs,
-and it offers you to withdrawal cash which you have in your savings account. Vise versa from credit
-card you could credit money from your account.
+<b>ATM cards comes in two types</b> — debit cards and credit cards. Debit cards are mostly used in ATMs,
+and it offers you to withdrawal cash which you have in your savings account. Credit
+card are generally used for shopping only but as a short term loan from the bank.
 
-But in todays topic we will discourse about the process of withdrawal money from ATM through your card.
+But in todays topic we will learn about the process of withdrawal money from ATM through your card.
 Now first insert your ATM card in the ATM machine.(you may see a blinking green light in the machine,
- where you have to put your card.) please mind to insert your card as the picture shows; otherwise the
+ where you have to put your card.) please keep in mind to insert your card as the picture shows; otherwise the
  machine could not be able to read your card.
     </string>
     <string name="step2">Step 2 : Select your language
@@ -303,7 +302,7 @@ Now first insert your ATM card in the ATM machine.(you may see a blinking green 
 Now come the most important part. Use Keypad to enter your 4 digit pin.
 Please make sure some things before you enter your pin
 1. There is no camera or any person who can see your pin number​
-\n2. Always make sure that the pin is entering by you is the same pin of that ATM card(otherwise the card could be locked)
+\n2. Always make sure that the pin is entering by you is the same pin of that ATM card(otherwise the card could be locked after 3 wrong attempts)
 </string>
     <string name="step4">Step 4 : Transaction Type
 You can see now many types of options like Withdraw Money, Deposit Money, Balance Enquiry, Bill Pay etc. For withdrawal cash you have to chose Withdraw Money option.</string>
@@ -311,15 +310,15 @@ You can see now many types of options like Withdraw Money, Deposit Money, Balanc
 ATM screen will show various types of account. Select your account type that may be saving or current etc.
 </string>
     <string name="step6">Step 6 : Enter Amount
-It is also a easy task. Chose the amount you want to withdrawal. But make sure that the amount you are entering is not more than your main balance.And press correct option.
+It is also a easy task. Chose the amount you want to withdrawal. But make sure that the amount you are entering is not more than your account balance.And press correct option.
 </string>
     <string name="step7">Step 7 : Take Your Money
-Now comes the most interesting part. The money comes from the cash dispenser machine. Take your money before 30 second.Then a question would appear on the and ask you would like to take a receipt. Press yes to proof that you withdrew money and check the balance.
+Now comes the most interesting part. The money comes from the cash dispenser slot in the machine. Take your money before 30 second.Then a question would appear on the and ask you would like to take a receipt. Press yes to proof that you withdrew money and check the balance.
 </string>
     <string name="step8">Step 8: Another Transactions
 If you want another transaction, chose that option.</string>
     <string name="step9">Step 9: Ending Your Session
-Once you have completed your transaction press cross or cancel button before leave the machine room.Don not forget to take your card and money!
+Once you have completed your transaction press cross or cancel button before leave the machine room.Do not forget to take your card and money and all your belongings!
 </string>
 
     <string name="about_your_atm_card">About Your ATM Card</string>
@@ -350,15 +349,15 @@ Once you have completed your transaction press cross or cancel button before lea
 
     <string name="banner_ad_unit_id">ca-app-pub-3715652664770345/9286598713</string>
     <string name="Haw">How ATMs Work</string>
-    <string name="hawinfo">A cash machine, also known as an automated teller machine (ATM, American, British, Australian, Malaysian, South African, Singaporean, Indian, Maldivian, Hiberno, Philippine and Sri Lankan English), automated banking machine (ABM, Canadian English[4]), cashpoint, cashline, minibank, bankomat or colloquially hole in the wall (British English) is an electronic telecommunications device that enables the customers of a financial institution to perform financial transactions, particularly cash withdrawal, without the need for a human cashier, clerk or bank teller.
-According to the ATM Industry Association (ATMIA), there are now close to 3 million cash machines installed worldwide.
-On most modern cash machines, the customer is identified by inserting a plastic ATM card with a magnetic stripe or a plastic smart card with a chip that contains a unique card number and some security information such as an expiration date or CVVC (CVV). Authentication is provided by the customer entering a personal identification number (PIN).
-A cash machine is typically made up of the following devices:
-\n\n1]  CPU (to control the user interface and transaction devices) Function key buttons (usually close to the display) or a touchscreen (used to select the various aspects of the transaction). Display (used by the customer for performing the transaction)
-\n\n2]  PIN pad EEP4 (similar in layout to a touch tone or calculator keypad), manufactured as part of a secure enclosure
-\n\n3]  Vault (to store the parts of the machinery requiring restricted access)Housing (for aesthetics and to attach signage to)Sensors and indicators.Secure cryptoprocessor, generally within a secure enclosure
-\n\n4] Record printer (to provide the customer with a record of the transaction)
-\n\n5] Magnetic or chip card reader (to identify the customer)
+    <string name="hawinfo">Automated teller machine is an electronic telecommunications device that enables the customers cash withdrawal, without the need for a human cashier, clerk or bank teller.
+On most modern cash machines, the customer is identified by inserting a plastic ATM card with a magnetic stripe or a plastic smart card with a chip that contains a unique card number.
+        Authentication is provided by the customer entering a personal identification number (PIN).
+A cash machine is typically has following control for the customers:
+\n\n1]  Display screen
+\n\n2]  Eight buttons around the screen,
+\n\n3]  PIN pad similar in layout to a button phone or calculator keypad),
+\n\n4] Card slot for the inserting the card
+\n\n5] Record printer (to provide the customer with a record of the transaction
 
 </string>
     <string name="toc">Type Of Card</string>
@@ -368,73 +367,80 @@ A cash machine is typically made up of the following devices:
     <string name="card_payment_getway">Card Payment Getway</string>
     <string name="ci">When dealing with a bank you generally have \n two types of transactions.
 
-  \n\n 1]  <b>Deposit</b> your money and then use it eventually when you need it. In this case the maximum you can spend = the balance in your account. In this case you are not charged back interest on the amount you spend as it is your own money.
+  \n\n 1]  <b>Deposit</b> your money and then use it eventually when you need it. In this case the maximum amount you can spend is equal the balance in your account.
+        In this case you are not charged back interest on the amount you spend as it is your own money.
         In this case you spend exactly as much as you need and nothing more
 
- \n \n 2] Second type is borrow money from the bank for your use and then pay it back in the either all at once or in agreed installments.
+ \n \n 2] Second type is <b>borrow money</b>b> from the bank for your use and then pay it back in the either all at once or in agreed installments.
         In this case you are charged interest by the bank for the money that you use. So you end up spending more than you need.
+    \n \n
+        Important information
+    \n \n
+        ATM / Debit card Pin number - this is a four digit security number that is required to be used with the card for all the transactions. It is generally posted to the registered address of the customer in a secure post by the bank.
+        Never share your Pin number with anyone or even with any bank person (employee). try and remember the Pin. <b>Do not</b> write the pin on the back of the card or any where
+        because if the card is lost and has the pin with it any one can steal money from your bank account.
     </string>
-    <string name="cci" formatted="false">What is a credit card?
+    <string name="cci" formatted="false"><b>What is a credit card?</b>
         \n A credit card allows you to borrow money from your bank to make your purchases.
         As long as you pay back the money you borrowed within the “grace period” of 25-30 days, you don’t have to pay extra.
         If you don’t pay it back in that time period, you’ll have to pay interest — a percentage of the money you owe the bank — on top of what you borrowed. Credit cards generally have the highest interest compared to any other method of borrowing money from bank.
         On an average the interest annually is 24%
     </string>
-    <string name="ac">ATM card
+    <string name="ac">\n \n <b>ATM card</b>
 
 \nAn ATM card is a bank issued card that enables a customer to access an automated teller machine (ATM or ABM) in order to perform transactions such
         as deposits, cash withdrawals, obtaining account information, etc. ATM cards are known by a variety of names such as bank card, MAC (money access card), client card and cash card, among others.
         Most payment cards, such as debit and credit cards can also function as ATM cards, although ATM-only cards are also available.
 
- n\Interbank networks allow the use of ATM cards at ATMs of banks and financial institutions other than those of
+ n\ \n <b>Interbank networks</b> allow the use of ATM cards at ATMs of banks and financial institutions other than those of
         the institution that issued the cards. There is a limit of number of free cash withdrawal transaction per month
         from other bank ATM which is usually 3 per month. After 3 withdrawal in a month from other bank the 4th withdrawal onwards
         in that month you will be charged.
     </string>
-    <string name="dc">What is a debit card?
+    <string name="dc">\n  \n  <b>What is a debit card?</b>
 
-\nA debit card when making purchases. You can use this cars to buy groceries, pay hotel bill, pay electricity and telephone bill,
+\n \n A debit card when making purchases. You can use this cars to buy groceries, pay hotel bill, pay electricity and telephone bill,
         pay for petrol and diesel. The money you spend with the card comes directly from the users bank account when performing
         a transaction. This means that you are not borrowing any money form the bank and hence they will not charge you any interest
         for that money. You are withdrawing and essentially spending money from your bank account using
 
 \nDebit cards usually also allow for instant withdrawal of cash, acting as the ATM card for withdrawing cash.
     </string>
-    <string name="pg">What is card Payment Gateway?
-        \nWhen you have to go from one city to another you have to use various roads and highway to reach your destination.
+    <string name="pg">\n  \n  <b>What is card Payment Gateway?</b>
+        \n \n When you have to go from one city to another you have to use various roads and highway to reach your destination.
         From example Mumbai to Goa. If you are starting from Mumbai then it will be your source and Goa will be your destination.
         \nSimilarly when you make a payment for anything at a shop the money needs to go from your bank to the shop.
         This will need a digital road or network of digital roads. The Payment gateway make and provide this network of roads.
         \nHence when you are buying things at any shop with your card it is better to confirm at the shop that
         they take you type of cards payment gateway since not all shops accept all the cards.
         \nVarious companies that provide this payment gateway for cards (digital network of roads) are-
-        \n Visa card
-        \n Master card
-        \n American express
-        \n Mestero
-        \nMaster and Visa cards are the most popular type of payment card methods covering 90% of the banks and shops.
+        \n \n &#8226;Visa card
+        \n &#8226;Master card
+        \n &#8226;American express
+        \n &#8226;Mestero
+        \n \n Master and Visa cards are the most popular type of payment card methods covering 90% of the banks and shops.
     </string>
-    <string name="wd">Borrow – get a loan from the bank
+    <string name="wd">\n  \n <b>Borrow </b>– get a loan from the bank
 
-\nTransfer money – send money from a bank account to another bank account. It can be within the same bank or different banks
+\n \n <b>Transfer money</b> – send money from a bank account to another bank account. It can be within the same bank or different banks
 
-\nDeposit – put some or part of you money into your account at the bank.
+\n \n <b>Deposit </b> – put some or part of you money into your account at the bank.
 
 \n1] You can either deposit money by cash
 
-\n2] cheque can you use to transfer money into your account
+\n2] You can use cheque to transfer money into your account
 
-\nWithdraw – get part or all of your money from your account in the bank
+\n \n <b>Withdraw </b> – get part or all of your money from your account in the bank
 
-\n1] this can be done at the bank with a passbook and slip
+\n1] This can be done at the bank with a passbook and slip over the counter
 
-\n2] Or by a cheque at the bank
+\n2] Or by a cheque at the bank over the counter
 
 \n3] Or with a card at the ATM machine
 
 
 
-Interbank networks – Network between banks over which all the banks can talk to each other for transactions
+\n  \n  <b>Interbank networks </b> – Network between banks over which all the banks can talk to each other for transactions
     </string>
     <string name="bank_related_word_definations">Bank related Word Definations</string>
     <string name="few_standard_error_message_of_atm_machine">Few standard Error message of ATM machine</string>
@@ -442,42 +448,40 @@ Interbank networks – Network between banks over which all the banks can talk t
     <string name="how_to_shop_with_your_debit_card_physicaly">How To shop with your debit card physicaly</string>
     <string name="how_to_shop_online">How To shop online</string>
 
-    <string name="swc">While each brand of credit card machine is slightly different, most operate in the same way. If you need to use a credit card machine to process payments, dont be intimidated by the machine, they are designed to be easy to use . Heres how to use credit card machines.
-Things Youll Need
+    <string name="swc">While each brand of credit card machine is slightly different, most operate in the same way.
 
-    \nCredit card machine
-    \nCredit card or credit card number
 
 \nStep 1
 
-\nInput the credit card numbers . If you have the credit card in hand, swipe it through the card reader. Most readers have a small icon or picture on them that shows which way the magnetic strip on the back of the card should be facing. If not, try running it through the reader with the strip facing the machine first, since that is the most common direction. If you have a phone order, or do not have the credit card in hand, select the button marked "sale." On many machines this is also the "1" key, but it varies depending on the brand of the machine. Then follow the on-screen prompts to enter the card number and expiration date. Always double-check the numbers before pushing enter.
+\n A shop attendant will request for your card. give it to them but make sure they only use it to either swipe it in the sales machine or if your card has a chip they will
+        insert it the bottom of the card reader.
 \nStep 2
 
-\nInput the sale information . Typically , the machine will first ask for the sales amount in dollars and cents. Input the amount using the number keypad. Double-check the amount to make sure it appears correctly on the screen and if it does, then push enter. If you accidentally input the wrong amount, look for the "clear" or "delete" key and start over. In some cases, the machine will prompt you for additional information after youve entered the sale amount. Follow the prompts to enter information, such as the customers zip code or an order number.
+\n Typically , the operator will input the maount and then hand the machine to you to input the pin.
+        Enter your pin with the keypad and observe that with every digit you press the screen shows a &#42; so after you enter the pin the screen should show &#42; &#42; &#42; &#42;.
+        If you accidentally input the wrong amount, look for the "clear" or "delete" key and start over.
 \nStep 3
-
-\nWait for the sale to process. Depending on the machines connection the sale may process within seconds or it may take a few minutes. If the machine seems to become "stuck" while processing a sale, do not re-enter the sale, but instead call the processing companys phone number for further instructions. In many cases this number will appear on a sticker on the machine.
+Hand over the machine to the operator.
+\nWait for the sale to process to complete.
 \nStep 4
 
-\nProcess the receipt . If the customer is present, have them sign the credit card receipt. Give them the copy and retain the original for your records. If the customer is not present, write "phone-in" or another appropriate phrase on the signature line of the receipt. Keep one receipt for your records and include the other in the shipment of the goods to the customer.
+\n After the sale is complete and payment transferred the machine will print a receipt .
+        The operator will request you to sign the receipt copy for the shop.
 \nStep 5
 
-\nClose the batch . Double-check with your processing company, but most require you to run a "batch report" or close a batch of
-        credit card receipts each day. This is the process that tells the company to finalize the credit card charges and deposit
-        the balance to your account. Many machines will have a key that is marked "batch." You can press this key and then follow
-        the prompts to close the batch at the end of the day. If the machine does not have a "batch" key, consult the users manual
-        for instructions or call your credit card processing company for instructions.
+\nTake your card and the receipt from the operator.
     </string>
     <string name="osinfo">Because of their low overhead, online retailers often offer lower prices than brick-and-mortar stores.
-        Snag a deal on free shipping and youre almost guaranteed to save money by purchasing online. But before you get the
-        goods youve got to pay for them, and one of the easiest, simplest, safest ways of doing so is paying with a credit card.
+        Snag a deal on free shipping and your are almost guaranteed to save money by purchasing online. But before you get the
+        goods you have got to pay for them, and one of the easiest, simplest, safest ways of doing so is paying with a credit card or debit card.
     </string>
-    <string name="os1">Connect to a secure, encrypted network.
+    <string name="os1"><b>https&#58;&#47;&#47;</b> at the start of the web page address generally means the site is secure and encrypted.
 
-   \n1] Some browsers use the symbol of a closed padlock to denote a secure network connection. You can also look for "[https" https"] in front of the Internet address, instead of the normal "[http," http ,"] to indicate a secure network.
-   \n2] Avoid sending credit card information by e-mail over an unsecured network. Although e-mail might seem private, its all too easy for another user on the same network to monitor your transmission.
-   \n3] In a similar vein, dont use an unfamiliar wireless network to send credit card information or make online purchases. Ad-hoc networks masquerading as free wi-fi are a common tool for scamming your credit card information.
-   \n4] Ideally, you should avoid making online purchases over a public wireless network whenever possible.
+   \n1] Some browsers use the symbol of a closed padlock to denote a secure network connection. You can also look for "[https" https"] in front of the Internet address,
+        instead of the normal "[http," http ,"] to indicate a secure network.
+   \n2] <b>Note Precautions you need to take</b>  Avoid using public wifi network for internet shopping and sending credit card information by e-mail over an unsecured network.
+        Although e-mail might seem private, its all too easy for another user on the same network and to monitor your transmission.
+
 </string>
     <string name="os2">Input the address of the website you intend to purchase from in your browsers address window.
       \n  Do your best to go directly to the site instead of searching for it or following a link; this minimizes your risk
@@ -485,12 +489,11 @@ Things Youll Need
         do not follow links from e-mails to purchase items unless youre absolutely certain the e-mail did come from the legitimate
         merchant. These phishing, or mimic, e-mails are a very common scam.
     </string>
-    <string name="os3">Assemble the goods you intend to buy. Depending on which site youre buying
-        from this might involve bidding on an item until you win the right to purchase it, or clicking
-        "Add to Cart" on the item page.
+    <string name="os3">On a shopping site it works similar to a store or shop. You can choose multiple things and add them to your cart.
+                "Add to Cart" on the item page next to the item.
     </string>
-    <string name="os4">Click the appropriate button to purchase the items youve selected. Usually this entails looks for the icon
-        of a shopping cart (or the word "Cart") and clicking the icon/word. Then click "Check Out" or "Check Out Now."
+    <string name="os4">After you have added all the items youve selected to the cart it is them time to <b>check out</b>. To do a check out
+        Usually this entails looks for the icon of a shopping cart (or the word "Cart") and clicking the icon/word. Then click "Check Out" or "Check Out Now."
     </string>
     <string name="os5">Input your shipping information. You might not see your final price until youve done this,
         as the website needs your zip or postal code to calculate shipping charges.
@@ -530,25 +533,46 @@ Things Youll Need
     <string name="mc1">	 <b>Types Screen</b> - Touch and Non touch – This is a difference similar to old basic Nokia phones and now the android smart phones.
 \n\n2)	<b>how Selection options from the screen</b></string>
         <string name="mc2">
-<b>a) By Buttons</b>- Older machines have buttons next to the screen border and you can select the desired option by pressing the button next to it on the border either to the left or the right
+<b>a) By Buttons</b>- Older machines have buttons next to the screen border and you can select the desired option by pressing the button next to it
+            on the border either to the left or the right
 </string>
     <string name="mc3">
-        <b>b) By Screen</b> The Newer machine have touch screen and you select the option you want by pressing it on the screen
+        <b>b) By Screen</b> The newer machine have touch screen and you select the option you want by pressing it on the screen
 </string>
     <string name="mc4">
-<b>3) What is Keypad and its use</b> – as the image shows the keypad has zero to nine digits similar to a phone keypad and is used to enter ATM pin number and when withdrawing money it can be used to enter amount you want to withdraw. To make a correction in the amount you entered use the yellow correction key to erase the amount you had entered and put it in again. You can use red key any time to cancel everything that you are doing
-        (and remove the card if the machine has a card intake slot which I will explain below)\n\n <b>4) Card Slots and types</b>
+<b>3) What is Keypad and its use</b> – as the image shows the keypad has zero to nine digits similar to a phone keypad and is used to enter ATM pin number
+        and when withdrawing money it can be used to enter amount you want to withdraw.
+        To make a correction in the amount you entered use the yellow correction key to erase the amount you had entered and put it in again.
+        You can use red key any time to cancel everything that you are doing
+        (and remove the card if the machine has a card intake slot which I will explain below)
+        \n\n <b>4) Card Slots and types</b>
 </string>
     <string name="mc5">
-	<b>a) Card Intake slot</b> – this is generally seen in older type of machine. Here you insert the card in the machine and then the machine will take the card inside the machine till you complete your transaction or cancel it and request the machine to exit. The card should be inserted in as should in the figure with the image face up with the numbers to the left side of the card’s center and the magnetic strip below to the right.
+	<b>a) Card Intake slot</b> – this is generally seen in older type of machine. Here when you insert the card in the machine,
+        the machine will take the card inside the machine till you complete your transaction or cancel it and request the machine to exit.
+        The card should be inserted as shown in the figure. generally with the image facing up, the numbers to the left side of the card’s center and the magnetic strip
+        below to the right.
 </string>
     <string name="mc6">
-        <b> b) Card DIP slot</b> - Dipping card in the ATM machine slot is the act of sliding card in and pulling it out quickly through in that slot reader. The card should be inserted in as should in the figure with the image face up with the numbers to the left side of the card’s center and the magnetic strip below to the right. If you dip the card too slowly or too fast you will get an error and will be requested to do try again.
+        <b> b) Card DIP slot</b> - Dipping card in the ATM machine slot is the act of sliding card in and pulling it out quickly through in that slot reader.
+        The card should be inserted as shown in the figure. generally with the image facing up, the numbers to the left side of the card’s center and the magnetic strip
+        below to the right. \nIf you dip the card too slowly or too fast you will get an error and will be requested to do try again.
 </string>
     <string name="mc7">
-        	<b>5) Money dispense slot</b>- As shown in the image. This is where the notes are shared with you
+        	<b>5) Money dispense slot</b>- As shown in the image. This is where the notes (money) are shared with you
         </string>
     <string name="mc8">
 	<b>6) Printed slip slot</b> – as shown in the image form this slot you get a printed receipt of your transaction
 </string>
+    <string name="err"><b>Title:-no Cash</b></string>
+    <string name="err1">When the ATM machine is out of money or very low with cash it automatically stops the process of allowing any new withdrawal.
+        \n In that case the ATM screen will show Out of service or No Cash error </string>
+    <string name="err2"><b>Title:- Out Of Service</b></string>
+    <string name="err3">The ATM machine shuts down to avoud any further transaction issue and there could be multiple reasons for it.</string>
+    <string name="err4"><b>Title:- Input smaller number</b></string>
+    <string name="err5">The ATM machine may be low in cash or it is set to only dispense smaller amount. Generally each bank has a limit of how much you can
+    withdraw from an ATM in a day \n \n Daily limit Generally = Rs 20000</string>
+    <string name="err6"><b>Title:- Insufficient Fund error</b></string>
+    <string name="err7">Your Bank account has less funds than the amount you are trying to withdraw. Please check your balance and try to
+    withdraw the correct amount.</string>
 </resources>
