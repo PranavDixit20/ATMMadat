@@ -63,7 +63,8 @@
                 android:id="@+id/vcard"
                 android:textSize="20sp"
                 android:textColor="#000"
-                android:layout_marginLeft="3dp"
+                android:gravity="left"
+                android:layout_marginLeft="5dp"
                 android:layout_marginRight="3dp"/>
 
             <Button
@@ -72,6 +73,8 @@
                 android:layout_gravity="center"
                 android:id="@+id/cb"
                 android:text="@string/back"
+                android:textSize="20sp"
+                android:textStyle="bold"
                 android:layout_marginTop="20dp"/>
 
         </LinearLayout>

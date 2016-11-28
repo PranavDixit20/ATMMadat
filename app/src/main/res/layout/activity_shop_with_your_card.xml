@@ -69,10 +69,10 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:id="@+id/swdc"
-                android:layout_gravity="center"
+                android:gravity="left"
                 android:textSize="20sp"
                 android:textColor="#000"
-                android:layout_marginLeft="3dp"
+                android:layout_marginLeft="5dp"
                 android:layout_marginRight="3dp"/>
 
             <Button
@@ -81,6 +81,8 @@
                 android:layout_gravity="center"
                 android:layout_marginTop="20dp"
                 android:text="@string/back"
+                android:textSize="20sp"
+                android:textStyle="bold"
                 android:id="@+id/swdcb"/>
 
         </LinearLayout>

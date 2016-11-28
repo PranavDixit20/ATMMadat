@@ -39,17 +39,18 @@
 
         <TextView
             android:layout_width="match_parent"
-            android:layout_height="55dp"
-            android:text="@string/bank_information"
+            android:layout_height="wrap_content"
+            android:text="@string/withdrawal_information"
             android:textColor="#000"
             android:textStyle="bold"
-            android:textSize="35sp"
+            android:textSize="30sp"
             android:gravity="center"/>
 
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="350dp"
             android:id="@+id/w1"
+            android:layout_marginTop="10dp"
             android:scaleType="fitXY"/>
 
         <TextView
@@ -57,13 +58,14 @@
             android:layout_height="match_parent"
             android:id="@+id/info1"
             android:textSize="25sp"
-            android:gravity="center"
+            android:gravity="left"
             android:layout_marginLeft="3dp"
             android:layout_marginRight="3dp"/>
 
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="350dp"
+            android:layout_marginTop="10dp"
             android:id="@+id/w2"
             android:scaleType="fitXY"/>
 
@@ -72,7 +74,7 @@
             android:layout_height="match_parent"
             android:id="@+id/info2"
             android:textSize="25sp"
-            android:gravity="center"
+            android:gravity="left"
             android:layout_marginLeft="3dp"
             android:layout_marginRight="3dp"/>
 
@@ -80,6 +82,7 @@
             android:layout_width="match_parent"
             android:layout_height="350dp"
             android:id="@+id/w3"
+            android:layout_marginTop="10dp"
             android:scaleType="fitXY"/>
 
         <TextView
@@ -87,7 +90,7 @@
             android:layout_height="match_parent"
             android:id="@+id/info3"
             android:textSize="25sp"
-            android:gravity="center"
+            android:gravity="left"
             android:layout_marginLeft="3dp"
             android:layout_marginRight="3dp"/>
 
@@ -95,6 +98,7 @@
             android:layout_width="match_parent"
             android:layout_height="350dp"
             android:id="@+id/w4"
+            android:layout_marginTop="10dp"
             android:scaleType="fitXY"/>
 
         <TextView
@@ -102,7 +106,7 @@
             android:layout_height="match_parent"
             android:id="@+id/info4"
             android:textSize="25sp"
-            android:gravity="center"
+            android:gravity="left"
             android:layout_marginLeft="3dp"
             android:layout_marginRight="3dp"/>
 
@@ -110,6 +114,7 @@
             android:layout_width="match_parent"
             android:layout_height="350dp"
             android:id="@+id/w5"
+            android:layout_marginTop="10dp"
             android:scaleType="fitXY"/>
 
         <TextView
@@ -117,7 +122,7 @@
             android:layout_height="match_parent"
             android:id="@+id/info5"
             android:textSize="25sp"
-            android:gravity="center"
+            android:gravity="left"
             android:layout_marginLeft="3dp"
             android:layout_marginRight="3dp"/>
 
@@ -125,6 +130,7 @@
             android:layout_width="match_parent"
             android:layout_height="350dp"
             android:id="@+id/w6"
+            android:layout_marginTop="10dp"
             android:scaleType="fitXY"/>
 
         <TextView
@@ -132,7 +138,7 @@
             android:layout_height="match_parent"
             android:id="@+id/info6"
             android:textSize="25sp"
-            android:gravity="center"
+            android:gravity="left"
             android:layout_marginLeft="3dp"
             android:layout_marginRight="3dp"/>
 
@@ -140,6 +146,7 @@
             android:layout_width="match_parent"
             android:layout_height="350dp"
             android:id="@+id/w7"
+            android:layout_marginTop="10dp"
             android:scaleType="fitXY"/>
 
         <TextView
@@ -147,7 +154,7 @@
             android:layout_height="match_parent"
             android:id="@+id/info7"
             android:textSize="25sp"
-            android:gravity="center"
+            android:gravity="left"
             android:layout_marginLeft="3dp"
             android:layout_marginRight="3dp"/>
 
@@ -155,6 +162,7 @@
             android:layout_width="match_parent"
             android:layout_height="350dp"
             android:id="@+id/w8"
+            android:layout_marginTop="10dp"
             android:scaleType="fitXY"/>
 
         <TextView
@@ -162,7 +170,7 @@
             android:layout_height="match_parent"
             android:id="@+id/info8"
             android:textSize="25sp"
-            android:gravity="center"
+            android:gravity="left"
             android:layout_marginLeft="3dp"
             android:layout_marginRight="3dp"/>
 
@@ -170,6 +178,7 @@
             android:layout_width="match_parent"
             android:layout_height="350dp"
             android:id="@+id/w9"
+            android:layout_marginTop="10dp"
             android:scaleType="fitXY"/>
 
         <TextView
@@ -177,7 +186,7 @@
             android:layout_height="match_parent"
             android:id="@+id/info9"
             android:textSize="25sp"
-            android:gravity="center"
+            android:gravity="left"
             android:layout_marginLeft="3dp"
             android:layout_marginRight="3dp"/>
 
@@ -185,6 +194,7 @@
             android:layout_width="match_parent"
             android:layout_height="300dp"
             android:id="@+id/w10"
+            android:layout_marginTop="10dp"
             android:scaleType="fitXY"/>
 
         <TextView
@@ -192,7 +202,7 @@
             android:layout_height="match_parent"
             android:id="@+id/info10"
             android:textSize="25sp"
-            android:gravity="center"
+            android:gravity="left"
             android:layout_marginLeft="3dp"
             android:layout_marginRight="3dp"/>
 
@@ -200,6 +210,7 @@
             android:layout_width="match_parent"
             android:layout_height="350dp"
             android:id="@+id/w11"
+            android:layout_marginTop="10dp"
             android:scaleType="fitXY"/>
 
         <TextView
@@ -207,7 +218,7 @@
             android:layout_height="match_parent"
             android:id="@+id/info11"
             android:textSize="25sp"
-            android:gravity="center"
+            android:gravity="left"
             android:layout_marginLeft="3dp"
             android:layout_marginRight="3dp"/>
 
@@ -215,6 +226,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/back"
+            android:textSize="20sp"
+            android:textStyle="bold"
             android:layout_gravity="center"
             android:id="@+id/wb"/>
 

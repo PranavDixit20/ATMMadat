@@ -64,8 +64,9 @@
                 android:id="@+id/vcard"
                 android:textSize="20sp"
                 android:textColor="#000"
+                android:gravity="left"
                 android:layout_marginTop="10dp"
-                android:layout_marginLeft="3dp"
+                android:layout_marginLeft="5dp"
                 android:layout_marginRight="3dp"/>
 
             <Button
@@ -74,6 +75,8 @@
                 android:id="@+id/wdb"
                 android:layout_gravity="center"
                 android:text="@string/back"
+                android:textSize="20sp"
+                android:textStyle="bold"
                 android:layout_marginTop="20dp"/>
 
         </LinearLayout>

@@ -517,9 +517,15 @@ Hand over the machine to the operator.
         and keep this in a safe place until the item you paid for arrives.
     </string>
 
-    <string name="bob1">Dip your ATM card into the slot</string>
+    <string name="bob1">Dip your ATM card into the ATM machine.(you may see a blinking green light in the machine,
+ where you have to put your card.) please keep in mind to insert your card as the picture shows; otherwise the
+ machine could not be able to read your card.</string>
     <string name="bob2">Select your preferred language</string>
-    <string name="bob3">Enter your four digit pin and press ENTER</string>
+    <string name="bob3">Enter your four digit pin. Now come the most important part. Use Keypad to enter your 4 digit pin.
+Please make sure some things before you enter your pin
+1. There is no camera or any person who can see your pin number​
+\n2. Always make sure that the pin is entering by you is the same pin of that ATM card(otherwise the card could be locked after 3 wrong attempts)
+ </string>
     <string name="bob4">You can avail services like Fast cash, cash withdrawal, Fund transfer, Mini statement etc</string>
     <string name="bob5">To withdraw money, choose cash withdrawal option</string>
     <string name="bob6">Select account type from which the cash is to be withdrawn</string>

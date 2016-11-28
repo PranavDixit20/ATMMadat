@@ -59,6 +59,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:gravity="fill_horizontal"
             android:id="@+id/ci"
             android:textSize="20dp"
             android:textColor="#000"
@@ -101,9 +102,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/tocnxt"
-            android:textSize="22sp"
+            android:textSize="20sp"
             android:layout_marginTop="20dp"
             android:text="@string/back"
+            android:textStyle="bold"
             android:layout_gravity="center"/>
         </LinearLayout>
     </ScrollView>
