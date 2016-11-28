@@ -350,9 +350,9 @@ Once you have completed your transaction press cross or cancel button before lea
     <string name="banner_ad_unit_id">ca-app-pub-3715652664770345/9286598713</string>
     <string name="Haw">How ATMs Work</string>
     <string name="hawinfo">Automated teller machine is an electronic telecommunications device that enables the customers cash withdrawal, without the need for a human cashier, clerk or bank teller.
-On most modern cash machines, the customer is identified by inserting a plastic ATM card with a magnetic stripe or a plastic smart card with a chip that contains a unique card number.
+In most modern cash machines, the customer is identified by inserting a plastic ATM card with a magnetic stripe or a plastic smart card with a chip that contains a unique card number.
         Authentication is provided by the customer entering a personal identification number (PIN).
-A cash machine is typically has following control for the customers:
+A cash machine typically has following control for the customers:
 \n\n1]  Display screen
 \n\n2]  Eight buttons around the screen,
 \n\n3]  PIN pad similar in layout to a button phone or calculator keypad),
@@ -367,7 +367,8 @@ A cash machine is typically has following control for the customers:
     <string name="card_payment_getway">Card Payment Getway</string>
     <string name="ci">When dealing with a bank you generally have \n two types of transactions.
 
-  \n\n 1]  <b>Deposit</b> your money and then use it eventually when you need it. In this case the maximum amount you can spend is equal the balance in your account.
+  \n\n 1]  <b>Deposit</b> your money and then use it eventually when you need it.
+        In this case the maximum amount you can spend is equal the balance in your account.
         In this case you are not charged back interest on the amount you spend as it is your own money.
         In this case you spend exactly as much as you need and nothing more
 
@@ -399,25 +400,26 @@ A cash machine is typically has following control for the customers:
     </string>
     <string name="dc">\n  \n  <b>What is a debit card?</b>
 
-\n \n A debit card when making purchases. You can use this cars to buy groceries, pay hotel bill, pay electricity and telephone bill,
+\n \n A debit card is a plastic payment card that can be used instead of cash when making purchases.
+        You can use this card to buy groceries, pay hotel bill, pay electricity and telephone bill,
         pay for petrol and diesel. The money you spend with the card comes directly from the users bank account when performing
-        a transaction. This means that you are not borrowing any money form the bank and hence they will not charge you any interest
-        for that money. You are withdrawing and essentially spending money from your bank account using
+        a transaction. This means that you are not borrowing any money from the bank and hence they will not charge you any interest
+        for that money. You are withdrawing and essentially spending money from your bank account using debit card.
 
-\nDebit cards usually also allow for instant withdrawal of cash, acting as the ATM card for withdrawing cash.
+\nDebit cards usually also allow for instant withdrawal of cash, acting as the  ATM card for withdrawing cash.
     </string>
     <string name="pg">\n  \n  <b>What is card Payment Gateway?</b>
         \n \n When you have to go from one city to another you have to use various roads and highway to reach your destination.
-        From example Mumbai to Goa. If you are starting from Mumbai then it will be your source and Goa will be your destination.
+        For example Mumbai to Goa. If you are starting from Mumbai then it will be your source and Goa will be your destination.
         \nSimilarly when you make a payment for anything at a shop the money needs to go from your bank to the shop.
-        This will need a digital road or network of digital roads. The Payment gateway make and provide this network of roads.
+        This will need a digital road or network of digital roads. The Payment gateway makes and provides this network of roads.
         \nHence when you are buying things at any shop with your card it is better to confirm at the shop that
-        they take you type of cards payment gateway since not all shops accept all the cards.
+        they take you type of card\'s payment gateway since not all shops accept all the cards.
         \nVarious companies that provide this payment gateway for cards (digital network of roads) are-
         \n \n &#8226;Visa card
         \n &#8226;Master card
         \n &#8226;American express
-        \n &#8226;Mestero
+        \n &#8226;Maestro
         \n \n Master and Visa cards are the most popular type of payment card methods covering 90% of the banks and shops.
     </string>
     <string name="wd">\n  \n <b>Borrow </b>– get a loan from the bank
@@ -445,29 +447,29 @@ A cash machine is typically has following control for the customers:
     <string name="bank_related_word_definations">Bank related Word Definations</string>
     <string name="few_standard_error_message_of_atm_machine">Few standard Error message of ATM machine</string>
     <string name="select_your_bank">Select Your Bank</string>
-    <string name="how_to_shop_with_your_debit_card_physicaly">How To shop with your debit card physicaly</string>
+    <string name="how_to_shop_with_your_debit_card_physicaly">How To shop with your debit card physically</string>
     <string name="how_to_shop_online">How To shop online</string>
 
     <string name="swc">While each brand of credit card machine is slightly different, most operate in the same way.
 
 
-\nStep 1
+\n<b>Step 1</b>
 
 \n A shop attendant will request for your card. give it to them but make sure they only use it to either swipe it in the sales machine or if your card has a chip they will
         insert it the bottom of the card reader.
-\nStep 2
+\n<b>Step 2</b>
 
-\n Typically , the operator will input the maount and then hand the machine to you to input the pin.
+\n Typically , the operator will input the amount and then hand the machine to you to input the pin.
         Enter your pin with the keypad and observe that with every digit you press the screen shows a &#42; so after you enter the pin the screen should show &#42; &#42; &#42; &#42;.
         If you accidentally input the wrong amount, look for the "clear" or "delete" key and start over.
-\nStep 3
+\n<b>Step 3</b>
 Hand over the machine to the operator.
-\nWait for the sale to process to complete.
-\nStep 4
+\nWait for the sale process to complete.
+\n<b>Step 4</b>
 
-\n After the sale is complete and payment transferred the machine will print a receipt .
+\n After the sale is completed successfully the machine will print a receipt .
         The operator will request you to sign the receipt copy for the shop.
-\nStep 5
+\n<b>Step 5</b>
 
 \nTake your card and the receipt from the operator.
     </string>
@@ -486,13 +488,13 @@ Hand over the machine to the operator.
     <string name="os2">Input the address of the website you intend to purchase from in your browsers address window.
       \n  Do your best to go directly to the site instead of searching for it or following a link; this minimizes your risk
         of ending up at a phishing site that mimics the original in order to gather your credit card information. Above all,
-        do not follow links from e-mails to purchase items unless youre absolutely certain the e-mail did come from the legitimate
+        do not follow links from e-mails to purchase items unless you are absolutely certain the e-mail did come from the legitimate
         merchant. These phishing, or mimic, e-mails are a very common scam.
     </string>
     <string name="os3">On a shopping site it works similar to a store or shop. You can choose multiple things and add them to your cart.
                 "Add to Cart" on the item page next to the item.
     </string>
-    <string name="os4">After you have added all the items youve selected to the cart it is them time to <b>check out</b>. To do a check out
+    <string name="os4">After adding all the desired items to the cart it is then time to <b>check out</b>. To do a check out
         Usually this entails looks for the icon of a shopping cart (or the word "Cart") and clicking the icon/word. Then click "Check Out" or "Check Out Now."
     </string>
     <string name="os5">Input your shipping information. You might not see your final price until youve done this,
@@ -514,6 +516,7 @@ Hand over the machine to the operator.
     <string name="os9">Print the confirmation screen or proof of purchase you receive upon completing the transaction,
         and keep this in a safe place until the item you paid for arrives.
     </string>
+
     <string name="bob1">Dip your ATM card into the slot</string>
     <string name="bob2">Select your preferred language</string>
     <string name="bob3">Enter your four digit pin and press ENTER</string>
@@ -529,7 +532,7 @@ Hand over the machine to the operator.
     <string name="sbi3">This is a check at the SBI machine to ensure the Keypad is working properly.On Scree you are requested to type
     any two digit number between ten to ninety nine and press yes</string>
     <string name="sbi4">Select Current or Savings Account, normally most have savings account</string>
-    <string name="mc">Not all the ATM machines are same. In fact there a lot of difference between ATM machine due to changes in the technology over time. We will try and cover most of the common differences you may see around.</string>
+    <string name="mc">Not all the ATM machines are same. In fact there is a lot of difference between ATM machine due to changes in the technology over time. We will try and cover most of the common differences you may see around.</string>
     <string name="mc1">	 <b>Types Screen</b> - Touch and Non touch – This is a difference similar to old basic Nokia phones and now the android smart phones.
 \n\n2)	<b>how Selection options from the screen</b></string>
         <string name="mc2">
@@ -540,11 +543,11 @@ Hand over the machine to the operator.
         <b>b) By Screen</b> The newer machine have touch screen and you select the option you want by pressing it on the screen
 </string>
     <string name="mc4">
-<b>3) What is Keypad and its use</b> – as the image shows the keypad has zero to nine digits similar to a phone keypad and is used to enter ATM pin number
+<b>3) What is Keypad and its use</b> – As the image shows the keypad has zero to nine digits similar to a phone keypad and is used to enter ATM pin number
         and when withdrawing money it can be used to enter amount you want to withdraw.
         To make a correction in the amount you entered use the yellow correction key to erase the amount you had entered and put it in again.
         You can use red key any time to cancel everything that you are doing
-        (and remove the card if the machine has a card intake slot which I will explain below)
+        (and remove the card if the machine has a card intake slot which is explained below)
         \n\n <b>4) Card Slots and types</b>
 </string>
     <string name="mc5">
@@ -562,13 +565,13 @@ Hand over the machine to the operator.
         	<b>5) Money dispense slot</b>- As shown in the image. This is where the notes (money) are shared with you
         </string>
     <string name="mc8">
-	<b>6) Printed slip slot</b> – as shown in the image form this slot you get a printed receipt of your transaction
+	<b>6) Printed slip slot</b> –you get a printed receipt of your transaction from this slot as shown in the image
 </string>
     <string name="err"><b>Title:-no Cash</b></string>
     <string name="err1">When the ATM machine is out of money or very low with cash it automatically stops the process of allowing any new withdrawal.
         \n In that case the ATM screen will show Out of service or No Cash error </string>
     <string name="err2"><b>Title:- Out Of Service</b></string>
-    <string name="err3">The ATM machine shuts down to avoud any further transaction issue and there could be multiple reasons for it.</string>
+    <string name="err3">The ATM machine shuts down to avoid any further transaction issue and there could be multiple reasons for it.</string>
     <string name="err4"><b>Title:- Input smaller number</b></string>
     <string name="err5">The ATM machine may be low in cash or it is set to only dispense smaller amount. Generally each bank has a limit of how much you can
     withdraw from an ATM in a day \n \n Daily limit Generally = Rs 20000</string>
