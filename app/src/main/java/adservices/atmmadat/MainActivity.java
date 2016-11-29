@@ -64,12 +64,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         loadLocale();
 
-        /*StorageReference storageReference = storage.getReferenceFromUrl("gs://atm-madat.appspot.com/sp.jpg");
-       // Load the image using Glide (download image from firebase)
-        Glide.with(this)
-                .using(new FirebaseImageLoader())
-                .load(storageReference)
-                .into(iv);*/
     }
 
     public void loadLocale()

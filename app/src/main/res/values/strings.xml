@@ -40,7 +40,7 @@
     If you are using a debit card that"’"s linked to your checking account, your card number is different from your checking account number.
         This might be confusing because your checking account number is shown on your checks  but your card number is different.
 
-    \n 3. Cardholders name: this is the person authorized to use the card. That person did"\\\\"nt necessarily open the account they might simply
+    \n 3. Cardholders name: this is the person authorized to use the card. That person did\'nt necessarily open the account they might simply
         have permission to spend from the account. Only authorized card users can make purchases with a debit or credit card, and merchants are
         encouraged to ask for ID before accepting payment with a card.
 
@@ -283,43 +283,6 @@ to improve the capital base of the state-owned banks.
         to the customers through its various delivery channels. The Bank has a network of 1900 branches (August 2016)
         throughout the country and over 3500 customer touch points including 1651 ATMs.
     </string>
-    <string name="step1">
-Step 1 : Insert Card
-
-<b>ATM cards comes in two types</b> — debit cards and credit cards. Debit cards are mostly used in ATMs,
-and it offers you to withdrawal cash which you have in your savings account. Credit
-card are generally used for shopping only but as a short term loan from the bank.
-
-But in todays topic we will learn about the process of withdrawal money from ATM through your card.
-Now first insert your ATM card in the ATM machine.(you may see a blinking green light in the machine,
- where you have to put your card.) please keep in mind to insert your card as the picture shows; otherwise the
- machine could not be able to read your card.
-    </string>
-    <string name="step2">Step 2 : Select your language
- This is the most easiest task to do I think. Select the language you like
-    </string>
-    <string name="step3">Step 3 : Enter your PIN
-Now come the most important part. Use Keypad to enter your 4 digit pin.
-Please make sure some things before you enter your pin
-1. There is no camera or any person who can see your pin number​
-\n2. Always make sure that the pin is entering by you is the same pin of that ATM card(otherwise the card could be locked after 3 wrong attempts)
-</string>
-    <string name="step4">Step 4 : Transaction Type
-You can see now many types of options like Withdraw Money, Deposit Money, Balance Enquiry, Bill Pay etc. For withdrawal cash you have to chose Withdraw Money option.</string>
-    <string name="step5">Step 5 : Account Type
-ATM screen will show various types of account. Select your account type that may be saving or current etc.
-</string>
-    <string name="step6">Step 6 : Enter Amount
-It is also a easy task. Chose the amount you want to withdrawal. But make sure that the amount you are entering is not more than your account balance.And press correct option.
-</string>
-    <string name="step7">Step 7 : Take Your Money
-Now comes the most interesting part. The money comes from the cash dispenser slot in the machine. Take your money before 30 second.Then a question would appear on the and ask you would like to take a receipt. Press yes to proof that you withdrew money and check the balance.
-</string>
-    <string name="step8">Step 8: Another Transactions
-If you want another transaction, chose that option.</string>
-    <string name="step9">Step 9: Ending Your Session
-Once you have completed your transaction press cross or cancel button before leave the machine room.Do not forget to take your card and money and all your belongings!
-</string>
 
     <string name="about_your_atm_card">About Your ATM Card</string>
 
@@ -375,11 +338,9 @@ A cash machine typically has following control for the customers:
  \n \n 2] Second type is <b>borrow money</b> from the bank for your use and then pay it back in the either all at once or in agreed installments.
         In this case you are charged interest by the bank for the money that you use. So you end up spending more than you need.
     \n \n
-       <b> Important information</b>
         <b>Important information</b>
     \n \n
         <b>ATM / Debit card Pin number</b> - this is a four digit security number that is required to be used with the card for all the transactions. It is generally posted to the registered address of the customer in a secure post by the bank.
-       <b> ATM / Debit card Pin number </b>- this is a fou
         Never share your Pin number with anyone or even with any bank person (employee). try and remember the Pin. <b>Do not</b> write the pin on the back of the card or any where
         because if the card is lost and has the pin with it any one can steal money from your bank account.
     </string>
@@ -596,6 +557,25 @@ Please make sure some things before you enter your pin
     <string name="err6"><b>Title:- Insufficient Fund error</b></string>
     <string name="err7">Your Bank account has less funds than the amount you are trying to withdraw. Please check your balance and try to
     withdraw the correct amount.</string>
+
+    <string name="ax" formatted="false"><b>Axis Bank</b> is the third largest private-sector banks in India offering a comprehensive suite of financial products.
+        Headquartered in Mumbai, the bank has 2,959 branches, 12,743 ATMs and nine international offices.
+        The bank employs over 50,000 people and had a market capitalization of ₹1.0583 trillion (US$16 billion) (as on March 31, 2016).
+        It offers the entire spectrum of financial services to customer segments, spanning large and mid-corporates, SME , and retail businesses. Axis Bank has its registered office in Ahmedabad.
+\n \n As of 30 Jun. 2016, 30.81% shares are owned by promoters &amp; promoter group (United India Insurance Company Limited,
+        Oriental Insurance Company Limited, National Insurance Company Limited, National Assurance Company Ltd, GIC, LIC &amp; UTI).
+        Remaining 69.19% shares are owned by Mutual Funds Institutions, FIIs, Financial Institutions (banks), Insurance companies, corporate bodies &amp;
+        individual investors among others.
+    </string>
+    <string name="idbi" formatted="false"><b>IDBI Bank </b> is an Indian government-owned financial service company, formerly known as Industrial
+        Development Bank of India, headquartered in Mumbai, India. It was established in 1964 by an Act of Parliament to provide
+        credit and other financial facilities for the development of the fledgling Indian industry.
+
+\n \n It is currently 10th largest development bank in the world in terms of reach, with 3350 ATMs, 1853 branches,
+        including one overseas branch at Dubai, and 1382 centers. It is one of 27 commercial banks owned by the Government of India.
+
+\n \n The Bank has an aggregate balance sheet size of INR 3.74 trillion as on 31 March 2016.
+    </string>
     <string name="machinecontrols">Information about the ATM machine controls</string>
     <string name="generic">Generic process of how to withdraw money form any atm</string>
     <string name="genericwithdraw">Generic Process Of Withdraw Money :-</string>
@@ -605,6 +585,6 @@ Please make sure some things before you enter your pin
     <string name="shopol">How To shop online</string>
     <string name="credit_card_btn">Credit Card</string>
     <string name="only_atm_card">Only ATM card</string>
-    <string name="atm_and_debit_card"><![CDATA[ATM & Debit card]]></string>
+    <string name="atm_and_debit_card">ATM &amp; Debit card</string>
     <string name="about_card_payment_gateway">About Card Payment Gateway</string>
 </resources>

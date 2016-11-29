@@ -7,11 +7,12 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/logo"
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".SplashScreen">
+        <activity android:name=".SplashScreen"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -20,27 +21,48 @@
         </activity>
         <activity
             android:name=".MainActivity"
-            android:label="@string/app_name" />
-        <activity android:name=".Welcome" />
-        <activity android:name=".AtmMenu" />
-        <activity android:name=".BankInfo" />
-        <activity android:name=".AtmInfoFront" />
-        <activity android:name=".AtmInfoBack" />
-        <activity android:name=".WithdrawActivity" />
-        <activity android:name=".BalanceCheck" />
-        <activity android:name=".AboutAtmMec" />
-        <activity android:name=".TypeOfCard" />
-        <activity android:name=".BasicInfo" />
-        <activity android:name=".CreditCard" />
-        <activity android:name=".DebitATMCard" />
-        <activity android:name=".AtmCard" />
-        <activity android:name=".PaymentGetway" />
-        <activity android:name=".WordDefination" />
-        <activity android:name=".ErrorMessage" />
-        <activity android:name=".ShopWithYourCard" />
-        <activity android:name=".ShopOnline" />
-        <activity android:name=".MechineInformtion" />
-        <activity android:name=".MachineControl"></activity>
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Welcome"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".AtmMenu"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".BankInfo"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".AtmInfoFront"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".AtmInfoBack"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".WithdrawActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".BalanceCheck"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".AboutAtmMec"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".TypeOfCard"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".BasicInfo"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".CreditCard"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".DebitATMCard"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".AtmCard"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".PaymentGetway"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".WordDefination"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ErrorMessage"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ShopWithYourCard"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ShopOnline"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".MechineInformtion"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".MachineControl"
+            android:screenOrientation="portrait"/>
     </application>
 
 </manifest>
