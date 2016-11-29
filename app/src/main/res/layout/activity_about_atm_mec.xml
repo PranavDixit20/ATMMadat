@@ -69,13 +69,14 @@
                 android:gravity="left"
                 android:id="@+id/hawinfo"
                 android:textColor="#000"
-                android:layout_marginLeft="5dp"
+                android:layout_marginLeft="10dp"
                 android:layout_marginRight="3dp"/>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
                 android:text="@string/genericwithdraw"
                 android:textSize="20sp"
                 android:textColor="#000"
@@ -92,10 +93,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:id="@+id/info1"
-                android:textSize="25sp"
+                android:textSize="20sp"
                 android:gravity="left"
                 android:textColor="#000"
-                android:layout_marginLeft="5dp"
+                android:layout_marginLeft="10dp"
                 android:layout_marginRight="3dp"/>
 
             <ImageView
@@ -109,10 +110,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:id="@+id/info2"
-                android:textSize="25sp"
+                android:textSize="20sp"
                 android:gravity="left"
                 android:textColor="#000"
-                android:layout_marginLeft="5dp"
+                android:layout_marginLeft="10dp"
                 android:layout_marginRight="3dp"/>
 
             <ImageView
@@ -126,10 +127,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:id="@+id/info3"
-                android:textSize="25sp"
+                android:textSize="20sp"
                 android:gravity="left"
                 android:textColor="#000"
-                android:layout_marginLeft="5dp"
+                android:layout_marginLeft="10dp"
                 android:layout_marginRight="3dp"/>
 
             <ImageView
@@ -143,10 +144,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:id="@+id/info4"
-                android:textSize="25sp"
+                android:textSize="20sp"
                 android:gravity="left"
                 android:textColor="#000"
-                android:layout_marginLeft="5dp"
+                android:layout_marginLeft="10dp"
                 android:layout_marginRight="3dp"/>
 
             <ImageView
@@ -160,10 +161,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:id="@+id/info5"
-                android:textSize="25sp"
+                android:textSize="20sp"
                 android:gravity="left"
                 android:textColor="#000"
-                android:layout_marginLeft="5dp"
+                android:layout_marginLeft="10dp"
                 android:layout_marginRight="3dp"/>
 
             <ImageView
@@ -177,10 +178,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:id="@+id/info6"
-                android:textSize="25sp"
+                android:textSize="20sp"
                 android:gravity="left"
                 android:textColor="#000"
-                android:layout_marginLeft="5dp"
+                android:layout_marginLeft="10dp"
                 android:layout_marginRight="3dp"/>
 
             <ImageView
@@ -194,10 +195,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:id="@+id/info7"
-                android:textSize="25sp"
+                android:textSize="20sp"
                 android:gravity="left"
                 android:textColor="#000"
-                android:layout_marginLeft="5dp"
+                android:layout_marginLeft="10dp"
                 android:layout_marginRight="3dp"/>
 
             <ImageView
@@ -211,10 +212,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:id="@+id/info8"
-                android:textSize="25sp"
+                android:textSize="20sp"
                 android:gravity="left"
                 android:textColor="#000"
-                android:layout_marginLeft="5dp"
+                android:layout_marginLeft="10dp"
                 android:layout_marginRight="3dp"/>
 
             <Button
