@@ -35,29 +35,29 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/e4"
-                android:textSize="25sp"
+                android:textSize="20sp"
                 android:gravity="left"
                 android:layout_marginTop="10dp"
                 android:textColor="#000"
-                android:layout_marginLeft="5dp"/>
+                android:layout_marginLeft="10dp"/>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/e5"
-                android:textSize="25sp"
+                android:textSize="20sp"
                 android:gravity="left"
                 android:layout_marginTop="5dp"
-                android:layout_marginLeft="5dp"
+                android:layout_marginLeft="10dp"
                 android:textColor="#000"/>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/e6"
-                android:textSize="25sp"
+                android:textSize="20sp"
                 android:gravity="left"
-                android:layout_marginLeft="5dp"
+                android:layout_marginLeft="10dp"
                 android:layout_marginTop="10dp"
                 android:textColor="#000"/>
 
@@ -65,9 +65,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/e7"
-                android:textSize="25sp"
+                android:textSize="20sp"
                 android:gravity="left"
-                android:layout_marginLeft="5dp"
+                android:layout_marginLeft="10dp"
                 android:layout_marginTop="5dp"
                 android:textColor="#000"/>
 
@@ -75,9 +75,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/vcard"
-                android:textSize="25sp"
+                android:textSize="20sp"
                 android:gravity="left"
-                android:layout_marginLeft="5dp"
+                android:layout_marginLeft="10dp"
                 android:layout_marginTop="10dp"
                 android:textColor="#000"/>
 
@@ -92,8 +92,8 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/e1"
                 android:gravity="left"
-                android:textSize="25sp"
-                android:layout_marginLeft="5dp"
+                android:textSize="20sp"
+                android:layout_marginLeft="10dp"
                 android:textColor="#000"/>
 
 
@@ -103,8 +103,8 @@
                 android:id="@+id/e2"
                 android:gravity="left"
                 android:layout_marginTop="10dp"
-                android:layout_marginLeft="5dp"
-                android:textSize="25sp"
+                android:layout_marginLeft="10dp"
+                android:textSize="20sp"
                 android:textColor="#000"/>
 
             <ImageView
@@ -117,8 +117,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/e3"
-                android:textSize="25sp"
-                android:layout_marginLeft="5dp"
+                android:textSize="20sp"
+                android:layout_marginLeft="10dp"
                 android:layout_gravity="left"
                 android:textColor="#000"/>
 

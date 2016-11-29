@@ -40,7 +40,7 @@
                 android:id="@+id/mc1"
                 android:gravity="left"
                 android:textColor="#000"
-                android:layout_marginLeft="5dp"
+                android:layout_marginLeft="10dp"
                 android:layout_marginRight="3dp"/>
 
             <TextView
@@ -51,7 +51,7 @@
                 android:gravity="left"
                 android:textColor="#000"
                 android:id="@+id/mc2"
-                android:layout_marginLeft="5dp"
+                android:layout_marginLeft="10dp"
                 android:layout_marginRight="3dp"/>
 
             <ImageView
@@ -67,7 +67,7 @@
                 android:textSize="20sp"
                 android:layout_marginTop="10dp"
                 android:id="@+id/mc3"
-                android:layout_marginLeft="3dp"
+                android:layout_marginLeft="10dp"
                 android:layout_marginRight="3dp"/>
 
             <ImageView
@@ -85,7 +85,7 @@
                 android:id="@+id/mc4"
                 android:gravity="left"
                 android:textColor="#000"
-                android:layout_marginLeft="5dp"
+                android:layout_marginLeft="10dp"
                 android:layout_marginRight="3dp"/>
 
             <ImageView
@@ -103,7 +103,7 @@
                 android:id="@+id/mc5"
                 android:gravity="left"
                 android:textColor="#000"
-                android:layout_marginLeft="5dp"
+                android:layout_marginLeft="10dp"
                 android:layout_marginRight="3dp"/>
 
             <ImageView
@@ -121,7 +121,7 @@
                 android:id="@+id/mc6"
                 android:gravity="left"
                 android:textColor="#000"
-                android:layout_marginLeft="5dp"
+                android:layout_marginLeft="10dp"
                 android:layout_marginRight="3dp"/>
 
             <ImageView
@@ -139,7 +139,7 @@
                 android:id="@+id/mc7"
                 android:gravity="left"
                 android:textColor="#000"
-                android:layout_marginLeft="5dp"
+                android:layout_marginLeft="10dp"
                 android:layout_marginRight="3dp"/>
 
             <ImageView
@@ -157,7 +157,7 @@
                 android:id="@+id/mc8"
                 android:gravity="left"
                 android:textColor="#000"
-                android:layout_marginLeft="5dp"
+                android:layout_marginLeft="10dp"
                 android:layout_marginRight="3dp"/>
 
             <ImageView
@@ -175,7 +175,7 @@
                 android:id="@+id/mc9"
                 android:gravity="left"
                 android:textColor="#000"
-                android:layout_marginLeft="5dp"
+                android:layout_marginLeft="10dp"
                 android:layout_marginRight="3dp"/>
 
             <Button
