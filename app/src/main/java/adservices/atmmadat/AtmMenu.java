@@ -57,7 +57,7 @@ public class AtmMenu extends AppCompatActivity implements View.OnClickListener {
                 tv.setBackgroundResource(R.mipmap.c);
                 break;
             case "4":
-                tv.setBackgroundResource(R.mipmap.d);
+                tv.setBackgroundResource(R.mipmap.download123);
                 break;
             case "5":
                 tv.setBackgroundResource(R.mipmap.e);
