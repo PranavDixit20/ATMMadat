@@ -34,7 +34,7 @@
     <b>Protect your card number:</b> be careful where you write it down, and limit who sees the number. When card numbers get stolen by fraudsters,
         they can be used to make purchases in your account. You might not have to pay for those purchases, but cleaning up the mess can be inconvenient.
 
-    To shop online, you need more than just a card number. You willll also need the card"’"s expiration date and security code
+    To shop online, you need more than just a card number. You will also need the card"’"s expiration date and security code
         (often a three digit code on the back of the card, but this varies by issuer  read about the back of your card for details). Most systems also ask for your name.
 
     If you are using a debit card that"’"s linked to your checking account, your card number is different from your checking account number.
@@ -266,16 +266,17 @@ The total business of the bank during the financial year 2014-15 has been ₹3,4
         13 major commercial banks of India, was nationalised on 19 July 1969, by the Government of India.
         The Bank is headquartered in Manipal, Karnataka, India
     </string>
-    <string name="ubiinfo">
-<b>United Bank of India</b> (UBI) is an Indian government-owned financial services company headquartered in Kolkata, West Bengal, India.
-Presently the bank has a three-tier organisational setup consisting of its Head office in Kolkata, 35 Regional offices and 2005
-branches spread all over India. However, its major presence is in eastern India. The bank has three full-fledged overseas branches,
-one each at Kolkata, New Delhi and Mumbai. United Bank of India now aims to expand its international activities.
+    <string name="ubiinfo" formatted="false">
+<b>United Bank of India </b> (UBI) is an Indian government-owned financial services company headquartered in
+ Kolkata, West Bengal, India. Presently the bank has a three-tier organisational setup consisting of its Head office in Kolkata,
+ 35 Regional offices and 2005 branches spread all over India. However, its major presence is in eastern India.
+ The bank has three full-fledged overseas branches, one each at Kolkata, New Delhi and Mumbai.
+ United Bank of India now aims to expand its international activities.
 
 On 30 March 2009, the Indian government approved the restructuring of United Bank of India.
-The government proposed to invest 2.5 billion rupees in shares by 31 March and another 5.50 billion
-in the next fiscal year in Tier-I capital instruments. The move is part of the Indian government\s program
-to improve the capital base of the state-owned banks.
+ The government proposed to invest 2.5 billion rupees in shares by 31 March and another 5.50 billion
+ in the next fiscal year in Tier-I capital instruments. The move is part of the Indian government\'s program
+ to improve the capital base of the state-owned banks.
     </string>
     <string name="vijinfo">
         <b>Vijaya Bank</b> is a fastest growing Public Sector Bank with its Corporate Office in Bangalore, Karnataka, India.
@@ -338,6 +339,7 @@ A cash machine typically has following control for the customers:
  \n \n 2] Second type is <b>borrow money</b> from the bank for your use and then pay it back in the either all at once or in agreed installments.
         In this case you are charged interest by the bank for the money that you use. So you end up spending more than you need.
     \n \n
+
         <b>Important information</b>
     \n \n
         <b>ATM / Debit card Pin number</b> - this is a four digit security number that is required to be used with the card for all the transactions. It is generally posted to the registered address of the customer in a secure post by the bank.
@@ -371,7 +373,7 @@ A cash machine typically has following control for the customers:
 
 \nDebit cards usually also allow for instant withdrawal of cash, acting as the  ATM card for withdrawing cash.
     </string>
-    <string name="pg">\n  \n  <b>What is card Payment Gateway?</b>
+    <string name="pg">\n\n  <b>What is card Payment Gateway?</b>
         \n \n When you have to go from one city to another you have to use various roads and highway to reach your destination.
         For example Mumbai to Goa. If you are starting from Mumbai then it will be your source and Goa will be your destination.
         \nSimilarly when you make a payment for anything at a shop the money needs to go from your bank to the shop.
