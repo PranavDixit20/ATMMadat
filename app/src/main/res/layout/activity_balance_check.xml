@@ -58,10 +58,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:id="@+id/bcheck1"
-                android:textSize="25sp"
+                android:textSize="20sp"
                 android:gravity="left"
                 android:textColor="#000"
-                android:layout_marginLeft="5dp"
+                android:layout_marginLeft="10dp"
                 android:layout_marginRight="3dp"/>
 
             <ImageView
@@ -76,10 +76,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:id="@+id/bcheck2"
-                android:textSize="25sp"
+                android:textSize="20sp"
                 android:gravity="left"
                 android:textColor="#000"
-                android:layout_marginLeft="5dp"
+                android:layout_marginLeft="10dp"
                 android:layout_marginRight="3dp"/>
 
             <ImageView
@@ -94,38 +94,39 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:id="@+id/bcheck3"
-                android:textSize="25sp"
+                android:textSize="20sp"
                 android:gravity="left"
                 android:textColor="#000"
-                android:layout_marginLeft="5dp"
+                android:layout_marginLeft="10dp"
                 android:layout_marginRight="3dp"/>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:id="@+id/bcheck4"
-                android:textSize="25sp"
+                android:textSize="20sp"
                 android:gravity="left"
                 android:textColor="#000"
                 android:layout_marginTop="10dp"
-                android:layout_marginLeft="5dp"
+                android:layout_marginLeft="10dp"
                 android:layout_marginRight="3dp"/>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:id="@+id/bcheck5"
-                android:textSize="25sp"
+                android:textSize="20sp"
                 android:gravity="left"
                 android:textColor="#000"
                 android:layout_marginTop="10dp"
-                android:layout_marginLeft="5dp"
+                android:layout_marginLeft="10dp"
                 android:layout_marginRight="3dp"/>
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:background="@color/btncolor"
+                android:layout_gravity="center"
                 android:text="@string/back"
                 android:textSize="20sp"
                 android:id="@+id/bcb"/>

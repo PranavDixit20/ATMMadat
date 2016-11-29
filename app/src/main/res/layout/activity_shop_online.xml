@@ -62,10 +62,10 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/vcard"
                 android:layout_marginTop="10dp"
-                android:textSize="25sp"
+                android:textSize="20sp"
                 android:textColor="#000"
                 android:gravity="left"
-                android:layout_marginLeft="5dp"
+                android:layout_marginLeft="10dp"
                 android:layout_marginRight="3dp"/>
 
             <ImageView
@@ -79,11 +79,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/one"
-                android:textSize="25sp"
+                android:textSize="20sp"
                 android:textColor="#000"
                 android:gravity="left"
                 android:layout_marginTop="10dp"
-                android:layout_marginLeft="5dp"
+                android:layout_marginLeft="10dp"
                 android:layout_marginRight="3dp"/>
 
             <ImageView
@@ -97,11 +97,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/two"
-                android:textSize="25sp"
+                android:textSize="20sp"
                 android:textColor="#000"
                 android:gravity="left"
                 android:layout_marginTop="10dp"
-                android:layout_marginLeft="5dp"
+                android:layout_marginLeft="10dp"
                 android:layout_marginRight="3dp"/>
 
             <ImageView
@@ -115,11 +115,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/three"
-                android:textSize="25sp"
+                android:textSize="20sp"
                 android:textColor="#000"
                 android:gravity="left"
                 android:layout_marginTop="10dp"
-                android:layout_marginLeft="5dp"
+                android:layout_marginLeft="10dp"
                 android:layout_marginRight="3dp"/>
 
             <ImageView
@@ -133,11 +133,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/four"
-                android:textSize="25sp"
+                android:textSize="20sp"
                 android:textColor="#000"
                 android:gravity="left"
                 android:layout_marginTop="10dp"
-                android:layout_marginLeft="5dp"
+                android:layout_marginLeft="10dp"
                 android:layout_marginRight="3dp"/>
 
             <ImageView
@@ -151,11 +151,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/five"
-                android:textSize="25sp"
+                android:textSize="20sp"
                 android:textColor="#000"
                 android:gravity="left"
                 android:layout_marginTop="10dp"
-                android:layout_marginLeft="5dp"
+                android:layout_marginLeft="10dp"
                 android:layout_marginRight="3dp"/>
 
             <ImageView
@@ -169,11 +169,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/six"
-                android:textSize="25sp"
+                android:textSize="20sp"
                 android:textColor="#000"
                 android:gravity="left"
                 android:layout_marginTop="10dp"
-                android:layout_marginLeft="5dp"
+                android:layout_marginLeft="10dp"
                 android:layout_marginRight="3dp"/>
 
             <ImageView
@@ -187,11 +187,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/seven"
-                android:textSize="25sp"
+                android:textSize="20sp"
                 android:textColor="#000"
                 android:gravity="left"
                 android:layout_marginTop="10dp"
-                android:layout_marginLeft="5dp"
+                android:layout_marginLeft="10dp"
                 android:layout_marginRight="3dp"/>
 
             <ImageView
@@ -205,11 +205,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/eight"
-                android:textSize="25sp"
+                android:textSize="20sp"
                 android:textColor="#000"
                 android:gravity="left"
                 android:layout_marginTop="10dp"
-                android:layout_marginLeft="5dp"
+                android:layout_marginLeft="10dp"
                 android:layout_marginRight="3dp"/>
 
             <ImageView
@@ -223,11 +223,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/nine"
-                android:textSize="25sp"
+                android:textSize="20sp"
                 android:textColor="#000"
                 android:gravity="left"
                 android:layout_marginTop="10dp"
-                android:layout_marginLeft="5dp"
+                android:layout_marginLeft="10dp"
                 android:layout_marginRight="3dp"/>
 
             <Button
