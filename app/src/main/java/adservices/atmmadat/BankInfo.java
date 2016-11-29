@@ -54,7 +54,7 @@ public class BankInfo extends AppCompatActivity implements View.OnClickListener 
                break;
            case "4":
                tv.setText(R.string.caninfo);
-               tv1.setBackgroundResource(R.mipmap.d);
+               tv1.setBackgroundResource(R.mipmap.download123);
                break;
            case "5":
                tv.setText(R.string.cbinfo);

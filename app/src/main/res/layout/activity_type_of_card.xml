@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#fff">
+    android:background="@color/white">
 
 
 
@@ -21,7 +21,7 @@
         android:layout_width="match_parent"
         android:layout_height="65dp"
         android:text="@string/toc"
-        android:textColor="#fff"
+        android:textColor="@color/white"
         android:textStyle="bold"
         android:background="#09709f"
         android:textSize="30sp"
@@ -57,36 +57,42 @@
 
         <Button
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="65dp"
             android:id="@+id/vcard"
             android:textSize="25sp"
             android:textColor="#000"
-            android:background="#cddae1"
-            android:text="Credit Card"/>
+            android:background="@color/btncolor"
+            android:text="@string/credit_card_btn"/>
 
             <Button
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="65dp"
+                android:background="@color/btncolor"
+                android:layout_marginTop="10dp"
                 android:id="@+id/rcard"
                 android:textSize="25sp"
                 android:textColor="#000"
-                android:text="Only ATM card"/>
+                android:text="@string/only_atm_card"/>
 
         <Button
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="65dp"
+                android:layout_marginTop="10dp"
                 android:id="@+id/mcard"
+                android:background="@color/btncolor"
                 android:textSize="25sp"
                 android:textColor="#000"
-                android:text="ATM &amp; Debit card"/>
+                android:text="@string/atm_and_debit_card"/>
 
         <Button
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="65dp"
+            android:background="@color/btncolor"
+            android:layout_marginTop="10dp"
             android:id="@+id/pcard"
             android:textSize="25sp"
             android:textColor="#000"
-            android:text="About Card Payment Gateway"/>
+            android:text="@string/about_card_payment_gateway"/>
 
         <Button
             android:layout_width="wrap_content"
@@ -95,7 +101,7 @@
             android:textSize="20sp"
             android:layout_marginTop="20dp"
             android:text="@string/back"
-            android:textStyle="bold"
+            android:background="@color/btncolor"
             android:layout_gravity="center"/>
 
         <TextView
