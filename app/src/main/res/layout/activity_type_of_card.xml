@@ -5,51 +5,40 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#AAA">
+    android:background="#fff">
+
+
+
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="55dp"
-            android:background="#000"
-            android:text="@string/app_name"
-            android:textColor="#FFDF00"
-            android:textStyle="bold"
-            android:textSize="35sp"
-            android:gravity="center"
-            android:id="@+id/tt"/>
-
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-            <com.google.android.gms.ads.AdView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/ad"
-                ads:adSize="BANNER"
-                ads:adUnitId="@string/banner_ad_unit_id">
-            </com.google.android.gms.ads.AdView>
-        </RelativeLayout>
-
     </LinearLayout>
 
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="55dp"
+        android:layout_height="65dp"
         android:text="@string/toc"
-        android:textColor="#000"
+        android:textColor="#fff"
         android:textStyle="bold"
+        android:background="#09709f"
         android:textSize="30sp"
         android:gravity="center"
         android:id="@+id/cyl"/>
 
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
+
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -59,12 +48,12 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:gravity="fill_horizontal"
+            android:gravity="left"
             android:id="@+id/ci"
             android:textSize="20dp"
             android:textColor="#000"
-            android:layout_marginLeft="3dp"
-            android:layout_marginRight="3dp"/>
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="5dp"/>
 
         <Button
             android:layout_width="match_parent"
@@ -72,6 +61,7 @@
             android:id="@+id/vcard"
             android:textSize="25sp"
             android:textColor="#000"
+            android:background="#cddae1"
             android:text="Credit Card"/>
 
             <Button
@@ -107,6 +97,24 @@
             android:text="@string/back"
             android:textStyle="bold"
             android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_marginTop="30dp"
+            android:layout_height="wrap_content" />
+
+
         </LinearLayout>
     </ScrollView>
+
+        <com.google.android.gms.ads.AdView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:id="@+id/ad"
+            ads:adSize="BANNER"
+            android:layout_alignParentBottom="true"
+            ads:adUnitId="@string/banner_ad_unit_id">
+        </com.google.android.gms.ads.AdView>
+    </RelativeLayout>
 </LinearLayout>
