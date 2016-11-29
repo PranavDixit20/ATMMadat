@@ -368,16 +368,16 @@ A cash machine typically has following control for the customers:
     <string name="ci">When dealing with a bank you generally have \n two types of transactions.
 
   \n\n 1]  <b>Deposit</b> your money and then use it eventually when you need it.
-        In this case the maximum amount you can spend is equal the balance in your account.
-        In this case you are not charged back interest on the amount you spend as it is your own money.
-        In this case you spend exactly as much as you need and nothing more
+        In this case the maximum amount you can spend is equal to the balance in your account.
+        You are not charged back interest on the amount you spend as it is your own money.
+        You can spend exactly as much as you need and nothing more
 
  \n \n 2] Second type is <b>borrow money</b> from the bank for your use and then pay it back in the either all at once or in agreed installments.
         In this case you are charged interest by the bank for the money that you use. So you end up spending more than you need.
     \n \n
-        Important information
+        <b>Important information</b>
     \n \n
-        ATM / Debit card Pin number - this is a four digit security number that is required to be used with the card for all the transactions. It is generally posted to the registered address of the customer in a secure post by the bank.
+        <b>ATM / Debit card Pin number</b> - this is a four digit security number that is required to be used with the card for all the transactions. It is generally posted to the registered address of the customer in a secure post by the bank.
         Never share your Pin number with anyone or even with any bank person (employee). try and remember the Pin. <b>Do not</b> write the pin on the back of the card or any where
         because if the card is lost and has the pin with it any one can steal money from your bank account.
     </string>
@@ -389,11 +389,11 @@ A cash machine typically has following control for the customers:
     </string>
     <string name="ac">\n \n <b>ATM card</b>
 
-\nAn ATM card is a bank issued card that enables a customer to access an automated teller machine (ATM or ABM) in order to perform transactions such
+\n \n ATM card is a bank issued card that enables a customer to access an automated teller machine (ATM or ABM) in order to perform transactions such
         as deposits, cash withdrawals, obtaining account information, etc. ATM cards are known by a variety of names such as bank card, MAC (money access card), client card and cash card, among others.
         Most payment cards, such as debit and credit cards can also function as ATM cards, although ATM-only cards are also available.
 
- n\ \n <b>Interbank networks</b> allow the use of ATM cards at ATMs of banks and financial institutions other than those of
+ \n \n <b>Interbank networks</b> allow the use of ATM cards at ATMs of banks and financial institutions other than those of
         the institution that issued the cards. There is a limit of number of free cash withdrawal transaction per month
         from other bank ATM which is usually 3 per month. After 3 withdrawal in a month from other bank the 4th withdrawal onwards
         in that month you will be charged.
@@ -402,7 +402,7 @@ A cash machine typically has following control for the customers:
 
 \n \n A debit card is a plastic payment card that can be used instead of cash when making purchases.
         You can use this card to buy groceries, pay hotel bill, pay electricity and telephone bill,
-        pay for petrol and diesel. The money you spend with the card comes directly from the users bank account when performing
+        pay for petrol and diesel. The money you spend with this card comes directly from the users bank account when performing
         a transaction. This means that you are not borrowing any money from the bank and hence they will not charge you any interest
         for that money. You are withdrawing and essentially spending money from your bank account using debit card.
 
@@ -473,14 +473,24 @@ Hand over the machine to the operator.
 
 \nTake your card and the receipt from the operator.
     </string>
-    <string name="osinfo">Because of their low overhead, online retailers often offer lower prices than brick-and-mortar stores.
-        Snag a deal on free shipping and your are almost guaranteed to save money by purchasing online. But before you get the
-        goods you have got to pay for them, and one of the easiest, simplest, safest ways of doing so is paying with a credit card or debit card.
+    <string name="osinfo">Online shopping is like visiting a shop, the only difference is that all the things that are arranged on a counter are now seen as images on a web page.
+         As you walk and browse a shop, similarly you go through the web pages of the site to find an item that you like. you can select multiple items you like and then
+        when you finish browsing you pay and exit the site. The online shop then ships the purchased items to the address you filled out while making the purthase.
+        On most of the shoping sites you are encourages to create your profile and register your self with an email address and phone number.
+        \n \n
+
+        <b>Things to remember</b>
+        \n 1: To do online shopping you will need a internet banking and internet shoping enabled debit card
+        \n 2: You will receive a internet password from the bank which is different than your 4 digit pin
+        \n 3: You will need to have a registered mobile number with the Bank as most of the bank now days send an <b>One time PIN</b> OTP to this mobile number when you are
+        making a payment online.
+        \n 4: Online shoping paymant can be completed usuing internet banking or through a internet payment gateway like Billdesk
+
     </string>
     <string name="os1"><b>https&#58;&#47;&#47;</b> at the start of the web page address generally means the site is secure and encrypted.
 
-   \n1] Some browsers use the symbol of a closed padlock to denote a secure network connection. You can also look for "[https" https"] in front of the Internet address,
-        instead of the normal "[http," http ,"] to indicate a secure network.
+   \n1] Some browsers use the symbol of a closed padlock to denote a secure network connection. You can also look for "[https"] in front of the Internet address,
+        instead of the normal "[http,"] to indicate a secure network.
    \n2] <b>Note Precautions you need to take</b>  Avoid using public wifi network for internet shopping and sending credit card information by e-mail over an unsecured network.
         Although e-mail might seem private, its all too easy for another user on the same network and to monitor your transmission.
 
@@ -540,7 +550,7 @@ Please make sure some things before you enter your pin
     <string name="sbi4">Select Current or Savings Account, normally most have savings account</string>
     <string name="mc">Not all the ATM machines are same. In fact there is a lot of difference between ATM machine due to changes in the technology over time. We will try and cover most of the common differences you may see around.</string>
     <string name="mc1">	 <b>Types Screen</b> - Touch and Non touch – This is a difference similar to old basic Nokia phones and now the android smart phones.
-\n\n2)	<b>how Selection options from the screen</b></string>
+\n\n2)	<b>Selection options from the screen</b></string>
         <string name="mc2">
 <b>a) By Buttons</b>- Older machines have buttons next to the screen border and you can select the desired option by pressing the button next to it
             on the border either to the left or the right
