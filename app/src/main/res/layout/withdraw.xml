@@ -5,14 +5,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="#AAA">
+    android:background="@color/white">
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="55dp"
-            android:background="#000"
+            android:background="@color/title"
             android:text="@string/app_name"
-            android:textColor="#FFDF00"
+            android:textColor="@color/white"
             android:textStyle="bold"
             android:textSize="35sp"
             android:gravity="center"/>
@@ -227,7 +227,7 @@
             android:layout_height="wrap_content"
             android:text="@string/back"
             android:textSize="20sp"
-            android:textStyle="bold"
+            android:background="@color/btncolor"
             android:layout_gravity="center"
             android:id="@+id/wb"/>
 

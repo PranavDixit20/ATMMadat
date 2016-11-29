@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     xmlns:ads="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
-    android:background="#AAA">
+    android:background="@color/white">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -14,9 +14,9 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="55dp"
-            android:background="#000"
+            android:background="@color/title"
             android:text="@string/app_name"
-            android:textColor="#FFDF00"
+            android:textColor="@color/white"
             android:textStyle="bold"
             android:textSize="35sp"
             android:gravity="center"
@@ -57,18 +57,18 @@
 
              <Button
                  android:layout_width="130dp"
-                 android:layout_height="wrap_content"
+                 android:layout_height="130dp"
                  android:text="@string/english"
-                 android:textStyle="bold"
+                 android:background="@color/btncolor"
                  android:textSize="20sp"
                  android:id="@+id/eng"
                  android:layout_marginLeft="40dp"/>
 
              <Button
                  android:layout_width="130dp"
-                 android:layout_height="wrap_content"
+                 android:layout_height="130dp"
                  android:text="@string/Marathi"
-                 android:textStyle="bold"
+                 android:background="@color/btncolor"
                  android:textSize="20sp"
                  android:layout_marginRight="40dp"
                  android:id="@+id/mr"
@@ -80,20 +80,22 @@
              android:layout_height="wrap_content">
             <Button
                 android:layout_width="130dp"
-                android:layout_height="wrap_content"
+                android:layout_height="130dp"
                 android:layout_marginLeft="40dp"
+                android:layout_marginTop="10dp"
                 android:text="@string/hindi"
-                android:textStyle="bold"
+                android:background="@color/btncolor"
                 android:textSize="20sp"
                 android:id="@+id/hnd"/>
 
             <Button
                 android:layout_width="130dp"
-                android:layout_height="wrap_content"
+                android:layout_height="130dp"
                 android:layout_alignParentRight="true"
                 android:layout_marginRight="40dp"
+                android:layout_marginTop="10dp"
                 android:text="@string/punjabi"
-                android:textStyle="bold"
+                android:background="@color/btncolor"
                 android:textSize="20sp"
                 android:id="@+id/pnb"/>
 
@@ -104,19 +106,21 @@
             android:layout_height="wrap_content">
             <Button
                 android:layout_width="130dp"
-                android:layout_height="wrap_content"
+                android:layout_height="130dp"
                 android:layout_marginLeft="40dp"
+                android:layout_marginTop="10dp"
                 android:text="@string/gujarati"
-                android:textStyle="bold"
+                android:background="@color/btncolor"
                 android:textSize="20sp"
                 android:id="@+id/gj"/>
             <Button
                 android:layout_width="130dp"
-                android:layout_height="wrap_content"
+                android:layout_height="130dp"
                 android:layout_alignParentRight="true"
                 android:layout_marginRight="40dp"
+                android:layout_marginTop="10dp"
                 android:text="@string/malayalam"
-                android:textStyle="bold"
+                android:background="@color/btncolor"
                 android:textSize="20sp"
                 android:id="@+id/mlm"/>
 
@@ -127,19 +131,21 @@
              android:layout_height="wrap_content">
         <Button
             android:layout_width="130dp"
-            android:layout_height="wrap_content"
+            android:layout_height="130dp"
             android:layout_marginLeft="40dp"
+            android:layout_marginTop="10dp"
             android:text="@string/Telugu"
-            android:textStyle="bold"
+            android:background="@color/btncolor"
             android:textSize="20sp"
             android:id="@+id/tl"/>
         <Button
             android:layout_width="130dp"
-            android:layout_height="wrap_content"
+            android:layout_height="130dp"
             android:layout_alignParentRight="true"
             android:layout_marginRight="40dp"
+            android:layout_marginTop="10dp"
             android:text="@string/Kannada"
-            android:textStyle="bold"
+            android:background="@color/btncolor"
             android:textSize="20sp"
             android:id="@+id/kn"/>
 
@@ -147,28 +153,29 @@
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginTop="50dp">
+            android:layout_height="match_parent">
 
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="40dp"
             android:layout_alignParentRight="true"
-            android:layout_marginRight="10dp"
-            android:layout_marginTop="50dp"
+            android:layout_marginBottom="20dp"
             android:text="@string/nxt"
-            android:textStyle="bold"
+            android:background="@color/btncolor"
             android:textSize="20sp"
             android:id="@+id/nxt"/>
 
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentLeft="true"
-            android:layout_marginLeft="10dp"
-            android:layout_marginTop="50dp"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginBottom="20dp"
             android:text="@string/exit"
-            android:textStyle="bold"
+            android:background="@color/btncolor"
             android:textSize="20sp"
             android:id="@+id/exit"/>
 
