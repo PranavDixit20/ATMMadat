@@ -111,7 +111,6 @@
                 android:background="@color/btncolor"
                 android:layout_gravity="center"
                 android:text="@string/back"
-                android:layout_gravity="center"
                 android:textSize="20sp"
                 android:id="@+id/bcb"/>
 

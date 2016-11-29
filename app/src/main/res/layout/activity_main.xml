@@ -51,7 +51,7 @@
                  android:layout_width="130dp"
                  android:layout_height="130dp"
                  android:text="@string/english"
-                 android:background="@color/btncolor"
+                 android:background="@drawable/show"
                  android:textSize="20sp"
                  android:id="@+id/eng"
                  android:layout_marginLeft="40dp"/>
@@ -60,7 +60,7 @@
                  android:layout_width="130dp"
                  android:layout_height="130dp"
                  android:text="@string/Marathi"
-                 android:background="@color/btncolor"
+                 android:background="@drawable/show"
                  android:textSize="20sp"
                  android:layout_marginRight="40dp"
                  android:id="@+id/mr"
@@ -76,7 +76,7 @@
                 android:layout_marginLeft="40dp"
                 android:layout_marginTop="10dp"
                 android:text="@string/hindi"
-                android:background="@color/btncolor"
+                android:background="@drawable/show"
                 android:textSize="20sp"
                 android:id="@+id/hnd"/>
 
@@ -87,7 +87,7 @@
                 android:layout_marginRight="40dp"
                 android:layout_marginTop="10dp"
                 android:text="@string/punjabi"
-                android:background="@color/btncolor"
+                android:background="@drawable/show"
                 android:textSize="20sp"
                 android:id="@+id/pnb"/>
 
@@ -102,7 +102,7 @@
                 android:layout_marginLeft="40dp"
                 android:layout_marginTop="10dp"
                 android:text="@string/gujarati"
-                android:background="@color/btncolor"
+                android:background="@drawable/show"
                 android:textSize="20sp"
                 android:id="@+id/gj"/>
             <Button
@@ -112,7 +112,7 @@
                 android:layout_marginRight="40dp"
                 android:layout_marginTop="10dp"
                 android:text="@string/malayalam"
-                android:background="@color/btncolor"
+                android:background="@drawable/show"
                 android:textSize="20sp"
                 android:id="@+id/mlm"/>
 
@@ -127,7 +127,7 @@
             android:layout_marginLeft="40dp"
             android:layout_marginTop="10dp"
             android:text="@string/Telugu"
-            android:background="@color/btncolor"
+            android:background="@drawable/show"
             android:textSize="20sp"
             android:id="@+id/tl"/>
         <Button
@@ -137,7 +137,7 @@
             android:layout_marginRight="40dp"
             android:layout_marginTop="10dp"
             android:text="@string/Kannada"
-            android:background="@color/btncolor"
+            android:background="@drawable/show"
             android:textSize="20sp"
             android:id="@+id/kn"/>
 

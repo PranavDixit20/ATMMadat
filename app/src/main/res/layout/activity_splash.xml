@@ -15,8 +15,7 @@
             android:layout_height="match_parent"
             android:layout_gravity="center"
             android:id="@+id/logo"
-            android:src="@mipmap/psp"
-            android:scaleType="fitXY"/>
+            android:src="@mipmap/psp" />
 
 
     </LinearLayout>

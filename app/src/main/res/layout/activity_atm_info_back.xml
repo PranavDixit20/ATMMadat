@@ -55,7 +55,6 @@
                 android:layout_gravity="center"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="50dp"
-                android:layout_gravity="center"
                 android:background="@color/btncolor"
                 android:text="@string/back"
                 android:textSize="20sp"
