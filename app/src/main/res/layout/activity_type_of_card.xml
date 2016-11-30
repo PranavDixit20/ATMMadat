@@ -22,7 +22,6 @@
         android:layout_height="65dp"
         android:text="@string/toc"
         android:textColor="@color/white"
-        android:textStyle="bold"
         android:background="#09709f"
         android:textSize="30sp"
         android:gravity="center"
@@ -57,40 +56,40 @@
 
         <Button
             android:layout_width="match_parent"
-            android:layout_height="65dp"
+            android:layout_height="60dp"
             android:id="@+id/vcard"
-            android:textSize="22sp"
+            android:textSize="20sp"
             android:textColor="#000"
             android:background="@drawable/show"
             android:text="@string/credit_card_btn"/>
 
             <Button
                 android:layout_width="match_parent"
-                android:layout_height="65dp"
+                android:layout_height="60dp"
                 android:background="@drawable/show"
                 android:layout_marginTop="10dp"
                 android:id="@+id/rcard"
-                android:textSize="22sp"
+                android:textSize="20sp"
                 android:textColor="#000"
                 android:text="@string/only_atm_card"/>
 
         <Button
                 android:layout_width="match_parent"
-                android:layout_height="65dp"
+                android:layout_height="60dp"
                 android:layout_marginTop="10dp"
                 android:id="@+id/mcard"
                 android:background="@drawable/show"
-                android:textSize="22sp"
+                android:textSize="20sp"
                 android:textColor="#000"
                 android:text="@string/atm_and_debit_card"/>
 
         <Button
             android:layout_width="match_parent"
-            android:layout_height="65dp"
+            android:layout_height="60dp"
             android:background="@drawable/show"
             android:layout_marginTop="10dp"
             android:id="@+id/pcard"
-            android:textSize="22sp"
+            android:textSize="20sp"
             android:textColor="#000"
             android:text="@string/about_card_payment_gateway"/>
 

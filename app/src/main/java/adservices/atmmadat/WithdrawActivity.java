@@ -538,6 +538,27 @@ public class WithdrawActivity extends AppCompatActivity implements View.OnClickL
                 t7.setText(R.string.bob7);
                 t8.setText(R.string.bob11);
                 break;
+
+            case "24":
+                w1.setImageResource(R.mipmap.sbi1);
+                w2.setImageResource(R.mipmap.sbi2);
+                w3.setImageResource(R.mipmap.sbi3);
+                w4.setImageResource(R.mipmap.sbi5);
+                w5.setImageResource(R.mipmap.sbi6);
+                w6.setImageResource(R.mipmap.sbi7);
+                w7.setImageResource(R.mipmap.sbi8);
+                w8.setImageResource(R.mipmap.sbi9);
+
+
+                t1.setText(R.string.bob1);
+                t2.setText(R.string.sbi2);
+                t3.setText(R.string.bob2);
+                t4.setText(R.string.bob3);
+                t5.setText(R.string.bob5);
+                t6.setText(R.string.sbi4);
+                t7.setText(R.string.bob7);
+                t8.setText(R.string.bob11);
+                break;
         }
 
     }

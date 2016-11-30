@@ -18,7 +18,6 @@
             android:background="@color/title"
             android:text="@string/atm_card_only"
             android:textColor="@color/white"
-            android:textStyle="bold"
             android:textSize="30sp"
             android:gravity="center"
             android:id="@+id/tt"/>

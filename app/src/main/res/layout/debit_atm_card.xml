@@ -13,7 +13,6 @@
             android:background="@color/title"
             android:text="@string/debit_or_atm_card"
             android:textColor="@color/white"
-            android:textStyle="bold"
             android:textSize="30sp"
             android:gravity="center"
             android:id="@+id/tt"/>

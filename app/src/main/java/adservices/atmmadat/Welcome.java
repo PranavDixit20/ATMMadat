@@ -14,7 +14,7 @@ public class Welcome extends AppCompatActivity implements View.OnClickListener {
 
     Button bk, one, two, three, four, five, six, seven, eight, nine, ten,
             eleven,twelve,thirteen,fourteen,fifteen,sixteen,seventeen,eighteen,
-            nineteen,twenty,twentyone,twentytwo,twentythree;
+            nineteen,twenty,twentyone,twentytwo,twentythree,twentyfour;
     String x;
     String uid = "ca-app-pub-3715652664770345/9286598713";
     @Override
@@ -55,6 +55,7 @@ public class Welcome extends AppCompatActivity implements View.OnClickListener {
         twentyone = (Button) findViewById(R.id.twentyone);
         twentytwo= (Button) findViewById(R.id.twentytwo);
         twentythree = (Button) findViewById(R.id.twentythree);
+        twentyfour = (Button) findViewById(R.id.twentyfour);
 
 
 
@@ -82,7 +83,7 @@ public class Welcome extends AppCompatActivity implements View.OnClickListener {
         twentyone.setOnClickListener(this);
         twentytwo.setOnClickListener(this);
         twentythree.setOnClickListener(this);
-
+        twentyfour.setOnClickListener(this);
 
 
 
@@ -233,7 +234,12 @@ public class Welcome extends AppCompatActivity implements View.OnClickListener {
                 i23.putExtra("x",x);
                 startActivity(i23);
                 break;
-
+            case R.id.twentyfour:
+                Intent i24=new Intent(this,AtmMenu.class);
+                x="24";
+                i24.putExtra("x",x);
+                startActivity(i24);
+                break;
 
 
 

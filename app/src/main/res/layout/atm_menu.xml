@@ -13,7 +13,6 @@
         android:background="@color/title"
         android:text="@string/option_selc"
         android:textColor="@color/white"
-        android:textStyle="bold"
         android:textSize="30sp"
         android:gravity="center"
         android:id="@+id/tt"/>
@@ -34,42 +33,42 @@
 
         <Button
             android:layout_width="350dp"
-            android:layout_height="55dp"
+            android:layout_height="60dp"
             android:layout_gravity="center"
             android:layout_marginTop="10dp"
             android:text="@string/bank_information"
             android:background="@drawable/show"
-            android:textSize="22sp"
+            android:textSize="20sp"
             android:id="@+id/bi"/>
 
         <Button
             android:layout_width="350dp"
-            android:layout_height="55dp"
+            android:layout_height="60dp"
             android:layout_gravity="center"
             android:layout_marginTop="10dp"
             android:text="@string/atm_card_information"
             android:background="@drawable/show"
-            android:textSize="22sp"
+            android:textSize="20sp"
             android:id="@+id/aci"/>
 
         <Button
             android:layout_width="350dp"
-            android:layout_height="55dp"
+            android:layout_height="60dp"
             android:layout_gravity="center"
             android:layout_marginTop="10dp"
             android:text="@string/withdrawal_information"
             android:background="@drawable/show"
-            android:textSize="22sp"
+            android:textSize="20sp"
             android:id="@+id/wi"/>
 
         <Button
             android:layout_width="350dp"
-            android:layout_height="55dp"
+            android:layout_height="60dp"
             android:layout_gravity="center"
             android:layout_marginTop="10dp"
             android:text="@string/check_balance"
             android:background="@drawable/show"
-            android:textSize="22sp"
+            android:textSize="20sp"
             android:id="@+id/bc"/>
 
             <Button

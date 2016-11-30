@@ -114,7 +114,7 @@ public class BankInfo extends AppCompatActivity implements View.OnClickListener 
                break;
            case "19":
                tv.setText(R.string.ubiinfo);
-               tv1.setBackgroundResource(R.mipmap.ublogo);
+               tv1.setBackgroundResource(R.drawable.ib1);
                break;
            case "20":
                tv.setText(R.string.syninfo);
@@ -129,10 +129,13 @@ public class BankInfo extends AppCompatActivity implements View.OnClickListener 
                tv1.setBackgroundResource(R.mipmap.vblogo);
                break;
            case "23":
-               tv.setText(R.string.andinfo);
-               tv1.setBackgroundResource(R.mipmap.andlogo);
+               tv.setText(R.string.sarswatbinfo);
+               tv1.setBackgroundResource(R.drawable.sb1);
                break;
-
+           case "24":
+               tv.setText(R.string.yesbank);
+               tv1.setBackgroundResource(R.drawable.yb1);
+               break;
        }
     }
 

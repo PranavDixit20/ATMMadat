@@ -13,7 +13,6 @@
             android:background="@color/title"
             android:text="@string/atmmachineinfo2"
             android:textColor="@color/white"
-            android:textStyle="bold"
             android:textSize="30sp"
             android:gravity="center"
             android:id="@+id/tt"/>
@@ -34,7 +33,7 @@
 
             <Button
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="60dp"
                 android:id="@+id/amc"
                 android:background="@drawable/show"
                 android:text="@string/machinecontrols"
@@ -43,11 +42,11 @@
 
             <Button
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="60dp"
                 android:background="@drawable/show"
                 android:id="@+id/gpw"
                 android:text="@string/generic"
-                android:textSize="22sp"
+                android:textSize="20sp"
                 android:layout_marginTop="30dp"/>
 
 

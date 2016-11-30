@@ -14,7 +14,6 @@
         android:background="@color/title"
         android:text="@string/choose_your_bank"
         android:textColor="@color/white"
-        android:textStyle="bold"
         android:textSize="35sp"
         android:gravity="center"/>
 
@@ -264,7 +263,7 @@
                     android:layout_marginLeft="15dp"
                     android:layout_marginTop="10dp"
                     android:id="@+id/nineteen"
-                    android:background="@mipmap/unitedlogo"
+                    android:background="@drawable/ib"
                     android:layout_column="1"/>
 
                 <Button
@@ -314,9 +313,19 @@
                     android:layout_marginLeft="20dp"
                     android:layout_marginTop="10dp"
                     android:id="@+id/twentythree"
-                    android:background="@mipmap/andhralogo"
+                    android:background="@drawable/sb"
                     android:layout_column="2"/>
 
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_alignParentRight="true"
+                    android:id="@+id/twentyfour"
+                    android:background="@drawable/yb"
+                    android:layout_column="3"/>
 
             </TableRow>
         </TableLayout>

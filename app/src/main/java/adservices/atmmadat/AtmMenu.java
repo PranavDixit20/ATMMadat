@@ -102,7 +102,7 @@ public class AtmMenu extends AppCompatActivity implements View.OnClickListener {
                 tv.setBackgroundResource(R.mipmap.dblogo);
                 break;
             case "19":
-                tv.setBackgroundResource(R.mipmap.ublogo);
+                tv.setBackgroundResource(R.drawable.ib1);
                 break;
             case "20":
                 tv.setBackgroundResource(R.mipmap.synlogo);
@@ -114,7 +114,10 @@ public class AtmMenu extends AppCompatActivity implements View.OnClickListener {
                 tv.setBackgroundResource(R.mipmap.vblogo);
                 break;
             case "23":
-                tv.setBackgroundResource(R.mipmap.andlogo);
+                tv.setBackgroundResource(R.drawable.sb1);
+                break;
+            case "24":
+                tv.setBackgroundResource(R.drawable.yb1);
                 break;
         }
     }
