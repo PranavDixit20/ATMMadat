@@ -185,7 +185,7 @@
                 android:layout_gravity="center"
                 android:text="@string/back"
                 android:textSize="15sp"
-                android:background="@color/btncolor"
+                android:background="@drawable/show"
                 android:id="@+id/mcback"
                 android:layout_marginTop="20dp"/>
 

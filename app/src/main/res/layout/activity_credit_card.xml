@@ -49,7 +49,7 @@
                 android:id="@+id/cb"
                 android:text="@string/back"
                 android:textSize="15sp"
-                android:background="@color/btncolor"
+                android:background="@drawable/show"
                 android:layout_marginTop="20dp"/>
 
             <TextView

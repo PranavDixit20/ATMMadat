@@ -38,7 +38,7 @@
             android:layout_gravity="center"
             android:layout_marginTop="10dp"
             android:text="@string/bank_information"
-            android:background="@color/btncolor"
+            android:background="@drawable/show"
             android:textSize="22sp"
             android:id="@+id/bi"/>
 
@@ -48,7 +48,7 @@
             android:layout_gravity="center"
             android:layout_marginTop="10dp"
             android:text="@string/atm_card_information"
-            android:background="@color/btncolor"
+            android:background="@drawable/show"
             android:textSize="22sp"
             android:id="@+id/aci"/>
 
@@ -58,7 +58,7 @@
             android:layout_gravity="center"
             android:layout_marginTop="10dp"
             android:text="@string/withdrawal_information"
-            android:background="@color/btncolor"
+            android:background="@drawable/show"
             android:textSize="22sp"
             android:id="@+id/wi"/>
 
@@ -68,7 +68,7 @@
             android:layout_gravity="center"
             android:layout_marginTop="10dp"
             android:text="@string/check_balance"
-            android:background="@color/btncolor"
+            android:background="@drawable/show"
             android:textSize="22sp"
             android:id="@+id/bc"/>
 
@@ -80,7 +80,7 @@
                 android:layout_marginTop="30dp"
                 android:text="@string/back"
                 android:layout_gravity="center"
-                android:background="@color/btncolor"
+                android:background="@drawable/show"
                 android:textSize="15sp"
                 android:id="@+id/backk"/>
 
