@@ -38,7 +38,7 @@
                 android:id="@+id/amc"
                 android:background="@color/btncolor"
                 android:text="@string/machinecontrols"
-                android:textSize="20dp"
+                android:textSize="22sp"
                 android:layout_marginTop="50dp"/>
 
             <Button
@@ -47,7 +47,7 @@
                 android:background="@color/btncolor"
                 android:id="@+id/gpw"
                 android:text="@string/generic"
-                android:textSize="20dp"
+                android:textSize="22sp"
                 android:layout_marginTop="30dp"/>
 
 
@@ -56,7 +56,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:text="@string/back"
-                android:textSize="20sp"
+                android:textSize="15sp"
                 android:layout_marginTop="30dp"
                 android:background="@color/btncolor"
                 android:id="@+id/amiback"/>

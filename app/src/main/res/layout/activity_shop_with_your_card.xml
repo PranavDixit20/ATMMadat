@@ -55,7 +55,7 @@
                 android:layout_gravity="center"
                 android:layout_marginTop="20dp"
                 android:text="@string/back"
-                android:textSize="20sp"
+                android:textSize="15sp"
                 android:background="@color/btncolor"
                 android:id="@+id/swdcb"/>
 

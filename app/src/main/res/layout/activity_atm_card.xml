@@ -19,7 +19,7 @@
             android:text="@string/atm_card_only"
             android:textColor="@color/white"
             android:textStyle="bold"
-            android:textSize="35sp"
+            android:textSize="30sp"
             android:gravity="center"
             android:id="@+id/tt"/>
 
@@ -56,7 +56,7 @@
                 android:id="@+id/ab"
                 android:background="@color/btncolor"
                 android:text="@string/back"
-                android:textSize="20dp"
+                android:textSize="15dp"
                 android:layout_marginTop="20dp"/>
 
             <TextView

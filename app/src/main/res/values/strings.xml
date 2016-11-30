@@ -579,7 +579,7 @@ Please make sure some things before you enter your pin
 \n \n The Bank has an aggregate balance sheet size of INR 3.74 trillion as on 31 March 2016.
     </string>
     <string name="machinecontrols">Information about the ATM machine controls</string>
-    <string name="generic">Generic process of how to withdraw money form any atm</string>
+    <string name="generic">Generic process of how to withdraw money from any atm</string>
     <string name="genericwithdraw">Generic Process Of Withdraw Money :-</string>
     <string name="standarderror">Few standard Error message of ATM machine</string>
     <string name="infomachinecontrols">Information about the ATM machine controls</string>
