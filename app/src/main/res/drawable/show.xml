@@ -11,11 +11,11 @@
             <item android:bottom="2dp" android:left="2dp">
                 <shape>
                     <gradient android:angle="270"
-                        android:endColor="#E2E2E2" android:startColor="@color/title" />
+                        android:endColor="#E2E2E2" android:startColor="@color/btncolor" />
                     <stroke android:width="2dp" android:color="#BABABA" />
                     <corners android:radius="4dp" />
                     <padding android:bottom="2dp" android:left="2dp"
-                        android:right="5dp" android:top="5dp" />
+                        android:right="2dp" android:top="2dp" />
                 </shape>
             </item>
         </layer-list>

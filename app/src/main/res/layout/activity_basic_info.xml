@@ -12,7 +12,6 @@
         android:background="@color/title"
         android:text="@string/option_selc"
         android:textColor="@color/white"
-        android:textStyle="bold"
         android:textSize="30sp"
         android:gravity="center"
         android:id="@+id/tt"/>
@@ -38,7 +37,7 @@
             android:layout_marginTop="10dp"
             android:text="@string/toc"
 
-            android:textSize="22sp"
+            android:textSize="20sp"
             android:id="@+id/bitoc"/>
 
         <Button
@@ -48,7 +47,7 @@
             android:layout_marginTop="10dp"
             android:background="@drawable/show"
             android:text="@string/Haw"
-            android:textSize="22sp"
+            android:textSize="20sp"
             android:id="@+id/biaci"/>
         <Button
             android:layout_width="match_parent"
@@ -57,17 +56,17 @@
             android:layout_marginTop="10dp"
             android:background="@drawable/show"
             android:text="@string/bank_related_word_definations"
-            android:textSize="22sp"
+            android:textSize="20sp"
             android:id="@+id/wod"/>
 
         <Button
             android:layout_width="match_parent"
-            android:layout_height="55dp"
+            android:layout_height="60dp"
             android:layout_gravity="center"
             android:layout_marginTop="10dp"
             android:background="@drawable/show"
             android:text="@string/few_standard_error_message_of_atm_machine"
-            android:textSize="22sp"
+            android:textSize="20sp"
             android:id="@+id/emes"/>
 
         <Button
@@ -75,7 +74,7 @@
             android:layout_height="55dp"
             android:text="@string/select_your_bank"
             android:background="@drawable/show"
-            android:textSize="22sp"
+            android:textSize="20sp"
             android:layout_marginTop="10dp"
             android:id="@+id/syb"/>
 
@@ -84,7 +83,7 @@
             android:layout_height="55dp"
             android:text="@string/how_to_shop_with_your_debit_card_physicaly"
             android:background="@drawable/show"
-            android:textSize="22sp"
+            android:textSize="20sp"
             android:layout_marginTop="10dp"
             android:id="@+id/swc"/>
 
@@ -93,7 +92,7 @@
             android:layout_height="55dp"
             android:text="@string/how_to_shop_online"
             android:background="@drawable/show"
-            android:textSize="22sp"
+            android:textSize="20sp"
             android:layout_marginTop="10dp"
             android:id="@+id/so"/>
 

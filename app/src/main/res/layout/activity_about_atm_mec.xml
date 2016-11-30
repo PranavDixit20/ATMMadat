@@ -16,10 +16,9 @@
             android:layout_width="match_parent"
             android:layout_height="55dp"
             android:background="@color/title"
-            android:text="@string/Haw"
+            android:text="@string/genericwithdraw"
             android:textColor="@color/white"
-            android:textStyle="bold"
-            android:textSize="30sp"
+            android:textSize="23sp"
             android:gravity="center"
             android:id="@+id/tt"/>
 
@@ -61,7 +60,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:layout_marginLeft="10dp"
-                android:text="@string/genericwithdraw"
+                android:text="@string/gw"
                 android:textSize="20sp"
                 android:textColor="#000"
                 android:textStyle="bold"/>

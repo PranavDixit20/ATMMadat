@@ -347,7 +347,7 @@ A cash machine typically has following control for the customers:
         because if the card is lost and has the pin with it any one can steal money from your bank account.
     </string>
     <string name="cci" formatted="false"><b>What is a credit card?</b>
-        \n A credit card allows you to borrow money from your bank to make your purchases.
+       \n \n A credit card allows you to borrow money from your bank to make your purchases.
         As long as you pay back the money you borrowed within the “grace period” of 25-30 days, you don’t have to pay extra.
         If you don’t pay it back in that time period, you’ll have to pay interest — a percentage of the money you owe the bank — on top of what you borrowed. Credit cards generally have the highest interest compared to any other method of borrowing money from bank.
         On an average the interest annually is 24%
@@ -580,7 +580,7 @@ Please make sure some things before you enter your pin
     </string>
     <string name="machinecontrols">Information about the ATM machine controls</string>
     <string name="generic">Generic process of how to withdraw money from any atm</string>
-    <string name="genericwithdraw">Generic Process Of Withdraw Money :-</string>
+    <string name="genericwithdraw">Generic Process to Withdraw Money </string>
     <string name="standarderror">Few standard Error message of ATM machine</string>
     <string name="infomachinecontrols">Information about the ATM machine controls</string>
     <string name="atmmachineinfo2">ATM machine information</string>
@@ -589,4 +589,5 @@ Please make sure some things before you enter your pin
     <string name="only_atm_card">Only ATM card</string>
     <string name="atm_and_debit_card">ATM &amp; Debit card</string>
     <string name="about_card_payment_gateway">About Card Payment Gateway</string>
+    <string name="gw">Generic Process to Withdraw Money :- </string>
 </resources>
