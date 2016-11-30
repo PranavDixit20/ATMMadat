@@ -40,12 +40,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         eng = (Button)findViewById(R.id.eng);
         mr = (Button)findViewById(R.id.mr);
-        punjabi=(Button) findViewById(R.id.pnb);
         hindi=(Button) findViewById(R.id.hnd);
+
+       /* punjabi=(Button) findViewById(R.id.pnb);
         malayalam=(Button)findViewById(R.id.mlm);
         guj=(Button)findViewById(R.id.gj);
         tel=(Button)findViewById(R.id.tl);
-        kan=(Button)findViewById(R.id.kn);
+        kan=(Button)findViewById(R.id.kn);*/
         nxt = (Button)findViewById(R.id.nxt);
         cyl = (TextView)findViewById(R.id.cyl);
         tt = (TextView)findViewById(R.id.tt);
@@ -54,11 +55,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         eng.setOnClickListener(this);
         mr.setOnClickListener(this);
         hindi.setOnClickListener(this);
-        punjabi.setOnClickListener(this);
+      /*  punjabi.setOnClickListener(this);
         malayalam.setOnClickListener(this);
         guj.setOnClickListener(this);
         tel.setOnClickListener(this);
-        kan.setOnClickListener(this);
+        kan.setOnClickListener(this);*/
         nxt.setOnClickListener(this);
         ext.setOnClickListener(this);
 
@@ -119,7 +120,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.hnd:
                 lang = "hi";
                 break;
-            case R.id.pnb:
+        /*    case R.id.pnb:
                 lang = "pa";
                 break;
             case R.id.gj:
@@ -132,7 +133,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.kn:
                 lang = "kn";
-                break;
+                break; */
             case R.id.nxt:
                startActivity(new Intent(this,BasicInfo.class));
                 break;

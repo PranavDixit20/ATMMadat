@@ -43,44 +43,50 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-        <RelativeLayout
-             android:layout_width="wrap_content"
-             android:layout_height="wrap_content">
+        <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp">
 
              <Button
-                 android:layout_width="130dp"
-                 android:layout_height="130dp"
+                 android:layout_width="100dp"
+                 android:layout_height="100dp"
                  android:text="@string/english"
                  android:background="@drawable/show"
-                 android:textSize="20sp"
-                 android:id="@+id/eng"
-                 android:layout_marginLeft="40dp"/>
+                 android:textSize="18sp"
+                 android:layout_gravity="center"
+                 android:id="@+id/eng" />
 
-             <Button
-                 android:layout_width="130dp"
-                 android:layout_height="130dp"
-                 android:text="@string/Marathi"
-                 android:background="@drawable/show"
-                 android:textSize="20sp"
-                 android:layout_marginRight="40dp"
-                 android:id="@+id/mr"
-                 android:layout_alignParentRight="true"/>
-        </RelativeLayout>
-
-        <RelativeLayout
-             android:layout_width="wrap_content"
-             android:layout_height="wrap_content">
             <Button
-                android:layout_width="130dp"
-                android:layout_height="130dp"
-                android:layout_marginLeft="40dp"
-                android:layout_marginTop="10dp"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
                 android:text="@string/hindi"
+                android:layout_gravity="center"
                 android:background="@drawable/show"
+                android:layout_marginTop="10dp"
                 android:textSize="20sp"
                 android:id="@+id/hnd"/>
 
-            <Button
+             <Button
+                 android:layout_width="100dp"
+                 android:layout_height="100dp"
+                 android:text="@string/Marathi"
+                 android:background="@drawable/show"
+                 android:layout_marginTop="10dp"
+                 android:layout_gravity="center"
+                 android:textSize="20sp"
+                 android:id="@+id/mr" />
+
+
+        </LinearLayout>
+
+        <RelativeLayout
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content">
+
+
+         <!--   <Button
                 android:layout_width="130dp"
                 android:layout_height="130dp"
                 android:layout_alignParentRight="true"
@@ -89,11 +95,11 @@
                 android:text="@string/punjabi"
                 android:background="@drawable/show"
                 android:textSize="20sp"
-                android:id="@+id/pnb"/>
+                android:id="@+id/pnb"/> -->
 
         </RelativeLayout>
 
-        <RelativeLayout
+     <!--   <RelativeLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content">
             <Button
@@ -141,15 +147,15 @@
             android:textSize="20sp"
             android:id="@+id/kn"/>
 
-        </RelativeLayout>
+        </RelativeLayout> -->
 
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
         <Button
-            android:layout_width="130dp"
-            android:layout_height="130dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
             android:layout_marginTop="10dp"
             android:layout_marginRight="40dp"
             android:layout_alignParentRight="true"
@@ -160,8 +166,8 @@
             android:id="@+id/nxt"/>
 
         <Button
-            android:layout_width="130dp"
-            android:layout_height="130dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
             android:layout_marginRight="10dp"
             android:layout_marginTop="10dp"
             android:layout_marginLeft="40dp"
