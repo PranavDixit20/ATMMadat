@@ -31,18 +31,17 @@
 
         <Button
             android:layout_width="match_parent"
-            android:layout_height="55dp"
+            android:layout_height="60dp"
             android:layout_gravity="center"
             android:background="@drawable/show"
             android:layout_marginTop="10dp"
             android:text="@string/toc"
-
             android:textSize="20sp"
             android:id="@+id/bitoc"/>
 
         <Button
             android:layout_width="match_parent"
-            android:layout_height="55dp"
+            android:layout_height="60dp"
             android:layout_gravity="center"
             android:layout_marginTop="10dp"
             android:background="@drawable/show"
@@ -51,7 +50,7 @@
             android:id="@+id/biaci"/>
         <Button
             android:layout_width="match_parent"
-            android:layout_height="55dp"
+            android:layout_height="60dp"
             android:layout_gravity="center"
             android:layout_marginTop="10dp"
             android:background="@drawable/show"
@@ -71,7 +70,7 @@
 
         <Button
             android:layout_width="match_parent"
-            android:layout_height="55dp"
+            android:layout_height="60dp"
             android:text="@string/select_your_bank"
             android:background="@drawable/show"
             android:textSize="20sp"
@@ -80,7 +79,7 @@
 
         <Button
             android:layout_width="match_parent"
-            android:layout_height="55dp"
+            android:layout_height="60dp"
             android:text="@string/how_to_shop_with_your_debit_card_physicaly"
             android:background="@drawable/show"
             android:textSize="20sp"
@@ -89,7 +88,7 @@
 
         <Button
             android:layout_width="match_parent"
-            android:layout_height="55dp"
+            android:layout_height="60dp"
             android:text="@string/how_to_shop_online"
             android:background="@drawable/show"
             android:textSize="20sp"

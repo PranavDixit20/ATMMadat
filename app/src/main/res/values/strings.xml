@@ -174,13 +174,11 @@
         It is a state owned corporation based in New Delhi India. Founded in 1894 the bank has over 6968 branches
         and over 9656 ATMs across 764 cities. It serves over 80 million customers
     </string>
-    <string name="ubinfo"><b>Union Bank of India</b> (UBI) (BSE 532477) is one of the largest government-owned banks of India
-        (the government owns 63.44 of its share capital). It is listed on the Forbes 2000 and has assets of USD 13.45
-        billion. All the banks branches have been networked with its 6909 ATMs as on 30 September 2015. Its online
-        Telebanking facility are available to all its Core Banking Customers individual as well as corporate.
-        has representative offices in Abu Dhabi United Arab Emirates Beijing, Peoples Republic of China London and
-        Shanghai and branches in Hong Kong Dubai Antwerp and Sydney.
-        The bank had 4500 branches in India as of 31 March 2016
+    <string name="ubinfo"><b>IndusInd Bank</b> Limited is a Mumbai based Indian new generation bank, established in 1994. The bank offers commercial, transactional and electronic banking products and services. IndusInd Bank was inaugurated in April 1994 by then Union Finance Minister Manmohan Singh. Indusind Bank is the first among the new-generation private banks in India.
+The bank started its operations with a capital amount of Rs. 1 billion among which Rs. 600 million was donated by the Indian Residents and Rs. 400 million was raised by the Non-Resident Indians. The bank has specialized in retail banking services and continuously upgrades its support systems by introducing newer technologies. It is also working on expanding its network of branches all across the country along with meeting the global benchmark. According to the bank, its name is derived from the Indus Valley Civilisation.
+IndusInd Bank has 800 branches, and 1500 ATMs as of April 2016. It also has a representative office in London and another in Dubai.
+        Mumbai has the maximum number of bank branches followed by New Delhi and Chennai.
+        The bank has also proposed to double the branches count to 1200 by March 2017.
     </string>
     <string name="ucoinfo">
     <b>UCO Bank</b>, formerly United Commercial Bank, established in 1943 in Kolkata,
@@ -204,17 +202,10 @@ The bank did a total business of INR 3.1 trillion during the FY 2012-13.
 
 The bank\s market capitalisation in May 2013 was US$1.28 billion and it ranked #1466 on the Forbes Global 2000 list.
     </string>
-    <string name="andinfo" formatted="false">
-        <b>Andhra Bank</b> (BSE: 532418) is a medium-sized public sector bank (PSB) of India, with a network of 2803 branches,
-        4 extension counters, 38 satellite offices and 3636 automated teller machines (ATMs) as of 31 Mar 2016.
-        During 2011–12, the bank entered the states of Tripura and Himachal Pradesh. The bank now operates in 25 states
-        and three Union Territories. Andhra Bank has its headquarters in Hyderabad, India.
-
-The Government of India owns 63.97% of its share capital as on 31 Dec 2015. The state owned Life Insurance Corporation of
- India holds 7.66% of the shares. The bank has done a total business of ₹3,106 billion (US$46 billion) and has earned a net
- profit of ₹5.40 billion (US$80 million) for the Financial Year 2015-16.
-
-Andhra Bank is a pioneer in introducing Credit Cards in the country in 1981.
+    <string name="sarswatbinfo" formatted="false">
+        The Bank has a very humble but a very inspiring beginning. On 14th September 1918,<b> "The Saraswat Co-operative Banking Society"</b> was founded.
+        Mr. J.K. Parulkar became   its first Chairman, Mr. N.B. Thakur, the first Vice-Chairman, Mr. P.N. Warde, the first Secretary and Mr. Shivram Gopal Rajadhyaksha, the first Treasurer. These were people with deep and abiding ideals, faith, vision, optimism and entrepreneurial skills. These dedicated men in charge of the Society had a commendable sense of service and duty imbibed in them.
+        Even today, our honorable founders inspire a sense of awe and respect in the Bank and amongst the shareholders.
     </string>
  <string name="copinfo">
      <b>Corporation Bank</b> is a public sector banking company headquartered in Mangalore, India.
@@ -283,6 +274,12 @@ On 30 March 2009, the Indian government approved the restructuring of United Ban
         It is one of the nationalised banks in India. The Bank offers a wide range of financial products and services
         to the customers through its various delivery channels. The Bank has a network of 1900 branches (August 2016)
         throughout the country and over 3500 customer touch points including 1651 ATMs.
+    </string>
+
+    <string name="yesbank"> <b>YES BANK</b> is India\'s fifth largest private sector Bank, founded by Rana Kapoor in 2004. Yes Bank is the
+        only Greenfield Bank licence awarded by the RBI in the last two decades. YES BANK is a “Full Service Commercial Bank”, and
+        has steadily built a Corporate, Retail &amp; SME Banking franchise, Financial Markets, Investment Banking,
+   Corporate Finance, Branch Banking, Business and Transaction Banking, and Wealth Management business lines across the country.
     </string>
 
     <string name="about_your_atm_card">About Your ATM Card</string>

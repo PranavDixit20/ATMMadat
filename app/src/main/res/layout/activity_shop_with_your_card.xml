@@ -13,7 +13,6 @@
             android:background="@color/title"
             android:text="@string/how_to_shop_with_your_debit_card_physicaly"
             android:textColor="@color/white"
-            android:textStyle="bold"
             android:textSize="24sp"
             android:gravity="center"
             android:id="@+id/tt"/>
