@@ -34,113 +34,92 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
-        <TableLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginTop="10dp">
-<TableRow
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content">
-            <Button
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:layout_marginLeft="15dp"
-                android:layout_marginTop="10dp"
-                android:id="@+id/one"
-                android:background="@mipmap/bom"
-                android:layout_column="1"/>
+            <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:id="@+id/GridLayout1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:columnCount="3"
+                android:layout_gravity="center"
+                android:rowCount="8"
+                android:orientation="horizontal"
+                tools:context=".GridLayoutActivity">
 
-            <Button
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:layout_marginRight="10dp"
-                android:layout_marginLeft="20dp"
-                android:layout_marginTop="10dp"
-                android:id="@+id/two"
-                android:background="@mipmap/bob"
-                android:layout_column="2"/>
-            <Button
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:layout_marginRight="10dp"
-                android:layout_marginLeft="5dp"
-                android:layout_marginTop="10dp"
-                android:id="@+id/three"
-                android:background="@mipmap/boi"
-                android:layout_column="3"/>
-</TableRow>
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/one"
+                    android:background="@mipmap/bom" />
 
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/two"
+                    android:background="@mipmap/bob" />
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/three"
+                    android:background="@mipmap/boi" />
 
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-            <Button
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:layout_marginLeft="15dp"
-                android:layout_marginTop="10dp"
-                android:id="@+id/four"
-                android:background="@mipmap/canlogo"
-                android:layout_column="1"/>
-            <Button
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:layout_marginRight="10dp"
-                android:layout_marginLeft="20dp"
-                android:layout_marginTop="10dp"
-                android:id="@+id/five"
-                android:background="@mipmap/cboilogo"
-                android:layout_column="2"/>
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/four"
+                    android:background="@mipmap/canlogo" />
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/five"
+                    android:background="@mipmap/cboilogo" />
 
-            <Button
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:layout_marginRight="10dp"
-                android:layout_marginLeft="5dp"
-                android:layout_marginTop="10dp"
-                android:id="@+id/six"
-                android:background="@mipmap/hdfclogo"
-                android:layout_column="3"/>
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/six"
+                    android:background="@mipmap/hdfclogo" />
 
-        </TableRow>
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/seven"
+                    android:background="@mipmap/icicilogo" />
 
-        <TableRow
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/eight"
+                    android:background="@mipmap/sbilogo" />
+                <Button
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/nine"
+                    android:background="@mipmap/punjablogo" />
 
-            <Button
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:layout_marginLeft="15dp"
-                android:layout_marginTop="10dp"
-                android:id="@+id/seven"
-                android:background="@mipmap/icicilogo"
-                android:layout_column="1"/>
-
-            <Button
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:layout_marginRight="10dp"
-                android:layout_marginLeft="20dp"
-                android:layout_marginTop="10dp"
-                android:id="@+id/eight"
-                android:background="@mipmap/sbilogo"
-                android:layout_column="2"/>
-            <Button
-                android:layout_width="100dp"
-                android:layout_height="100dp"
-                android:layout_marginRight="10dp"
-                android:layout_marginLeft="5dp"
-                android:layout_marginTop="10dp"
-                android:id="@+id/nine"
-                android:background="@mipmap/punjablogo"
-                android:layout_column="3"/>
-
-        </TableRow>
-
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
                 <Button
                     android:layout_width="100dp"
                     android:layout_height="100dp"
@@ -148,8 +127,7 @@
                     android:layout_marginLeft="15dp"
                     android:layout_marginTop="10dp"
                     android:id="@+id/ten"
-                    android:background="@mipmap/unionlogo"
-                    android:layout_column="1"/>
+                    android:background="@mipmap/unionlogo" />
 
                 <Button
                     android:layout_width="100dp"
@@ -160,8 +138,7 @@
                     android:layout_marginLeft="20dp"
                     android:layout_marginTop="10dp"
                     android:id="@+id/eleven"
-                    android:background="@mipmap/ax"
-                    android:layout_column="2"/>
+                    android:background="@mipmap/ax" />
 
                 <Button
                     android:layout_width="100dp"
@@ -171,14 +148,7 @@
                     android:layout_marginTop="10dp"
                     android:layout_alignParentRight="true"
                     android:id="@+id/twelve"
-                    android:background="@mipmap/sbtlogo"
-                    android:layout_column="3"/>
-
-            </TableRow>
-
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                    android:background="@mipmap/sbtlogo" />
 
                 <Button
                     android:layout_width="100dp"
@@ -187,8 +157,7 @@
                     android:layout_marginLeft="15dp"
                     android:layout_marginTop="10dp"
                     android:id="@+id/thirteen"
-                    android:background="@mipmap/sbpatlogo"
-                    android:layout_column="1"/>
+                    android:background="@mipmap/sbpatlogo" />
 
                 <Button
                     android:layout_width="100dp"
@@ -199,8 +168,7 @@
                     android:layout_marginLeft="20dp"
                     android:layout_marginTop="10dp"
                     android:id="@+id/fourteen"
-                    android:background="@mipmap/sbim"
-                    android:layout_column="2"/>
+                    android:background="@mipmap/sbim" />
                 <Button
                     android:layout_width="100dp"
                     android:layout_height="100dp"
@@ -209,14 +177,8 @@
                     android:layout_marginTop="10dp"
                     android:layout_alignParentRight="true"
                     android:id="@+id/fifteen"
-                    android:background="@mipmap/idbi"
-                    android:layout_column="3"/>
+                    android:background="@mipmap/idbi" />
 
-            </TableRow>
-
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
                 <Button
                     android:layout_width="100dp"
                     android:layout_height="100dp"
@@ -224,8 +186,7 @@
                     android:layout_marginLeft="15dp"
                     android:layout_marginTop="10dp"
                     android:id="@+id/sixteen"
-                    android:background="@mipmap/uco2"
-                    android:layout_column="1"/>
+                    android:background="@mipmap/uco2" />
 
                 <Button
                     android:layout_width="100dp"
@@ -236,8 +197,7 @@
                     android:layout_marginLeft="20dp"
                     android:layout_marginTop="10dp"
                     android:id="@+id/seventeen"
-                    android:background="@mipmap/orlogo"
-                    android:layout_column="2"/>
+                    android:background="@mipmap/orlogo" />
 
                 <Button
                     android:layout_width="100dp"
@@ -247,14 +207,7 @@
                     android:layout_marginTop="10dp"
                     android:layout_alignParentRight="true"
                     android:id="@+id/eighteen"
-                    android:background="@mipmap/deblogo"
-                    android:layout_column="3"/>
-
-            </TableRow>
-
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                    android:background="@mipmap/deblogo" />
 
                 <Button
                     android:layout_width="100dp"
@@ -263,8 +216,7 @@
                     android:layout_marginLeft="15dp"
                     android:layout_marginTop="10dp"
                     android:id="@+id/nineteen"
-                    android:background="@drawable/ib"
-                    android:layout_column="1"/>
+                    android:background="@drawable/ib" />
 
                 <Button
                     android:layout_width="100dp"
@@ -275,8 +227,7 @@
                     android:layout_marginLeft="20dp"
                     android:layout_marginTop="10dp"
                     android:id="@+id/twenty"
-                    android:background="@mipmap/syndicatelogo"
-                    android:layout_column="2"/>
+                    android:background="@mipmap/syndicatelogo" />
                 <Button
                     android:layout_width="100dp"
                     android:layout_height="100dp"
@@ -285,14 +236,8 @@
                     android:layout_marginTop="10dp"
                     android:layout_alignParentRight="true"
                     android:id="@+id/twentyone"
-                    android:background="@mipmap/pnslogo"
-                    android:layout_column="3"/>
+                    android:background="@mipmap/pnslogo" />
 
-            </TableRow>
-
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
                 <Button
                     android:layout_width="100dp"
                     android:layout_height="100dp"
@@ -300,8 +245,7 @@
                     android:layout_marginLeft="15dp"
                     android:layout_marginTop="10dp"
                     android:id="@+id/twentytwo"
-                    android:background="@mipmap/vijlogo"
-                    android:layout_column="1"/>
+                    android:background="@mipmap/vijlogo" />
 
 
                 <Button
@@ -313,8 +257,7 @@
                     android:layout_marginLeft="20dp"
                     android:layout_marginTop="10dp"
                     android:id="@+id/twentythree"
-                    android:background="@drawable/sb"
-                    android:layout_column="2"/>
+                    android:background="@drawable/sb" />
 
                 <Button
                     android:layout_width="100dp"
@@ -324,11 +267,10 @@
                     android:layout_marginTop="10dp"
                     android:layout_alignParentRight="true"
                     android:id="@+id/twentyfour"
-                    android:background="@drawable/yb"
-                    android:layout_column="3"/>
+                    android:background="@drawable/yb" />
 
-            </TableRow>
-        </TableLayout>
+            </GridLayout>
+
         <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
