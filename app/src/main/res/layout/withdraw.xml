@@ -210,7 +210,7 @@
             android:layout_height="wrap_content"
             android:text="@string/back"
             android:textSize="15sp"
-            android:background="@color/btncolor"
+            android:background="@drawable/show"
             android:layout_gravity="center"
             android:id="@+id/wb"/>
 

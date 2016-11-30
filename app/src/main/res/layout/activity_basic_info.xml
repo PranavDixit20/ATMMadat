@@ -34,7 +34,7 @@
             android:layout_width="match_parent"
             android:layout_height="55dp"
             android:layout_gravity="center"
-            android:background="@color/btncolor"
+            android:background="@drawable/show"
             android:layout_marginTop="10dp"
             android:text="@string/toc"
 
@@ -46,7 +46,7 @@
             android:layout_height="55dp"
             android:layout_gravity="center"
             android:layout_marginTop="10dp"
-            android:background="@color/btncolor"
+            android:background="@drawable/show"
             android:text="@string/Haw"
             android:textSize="22sp"
             android:id="@+id/biaci"/>
@@ -55,7 +55,7 @@
             android:layout_height="55dp"
             android:layout_gravity="center"
             android:layout_marginTop="10dp"
-            android:background="@color/btncolor"
+            android:background="@drawable/show"
             android:text="@string/bank_related_word_definations"
             android:textSize="22sp"
             android:id="@+id/wod"/>
@@ -65,7 +65,7 @@
             android:layout_height="55dp"
             android:layout_gravity="center"
             android:layout_marginTop="10dp"
-            android:background="@color/btncolor"
+            android:background="@drawable/show"
             android:text="@string/few_standard_error_message_of_atm_machine"
             android:textSize="22sp"
             android:id="@+id/emes"/>
@@ -74,7 +74,7 @@
             android:layout_width="match_parent"
             android:layout_height="55dp"
             android:text="@string/select_your_bank"
-            android:background="@color/btncolor"
+            android:background="@drawable/show"
             android:textSize="22sp"
             android:layout_marginTop="10dp"
             android:id="@+id/syb"/>
@@ -83,7 +83,7 @@
             android:layout_width="match_parent"
             android:layout_height="55dp"
             android:text="@string/how_to_shop_with_your_debit_card_physicaly"
-            android:background="@color/btncolor"
+            android:background="@drawable/show"
             android:textSize="22sp"
             android:layout_marginTop="10dp"
             android:id="@+id/swc"/>
@@ -92,7 +92,7 @@
             android:layout_width="match_parent"
             android:layout_height="55dp"
             android:text="@string/how_to_shop_online"
-            android:background="@color/btncolor"
+            android:background="@drawable/show"
             android:textSize="22sp"
             android:layout_marginTop="10dp"
             android:id="@+id/so"/>
@@ -103,7 +103,7 @@
                 android:layout_alignParentLeft="true"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="30dp"
-                android:background="@color/btncolor"
+                android:background="@drawable/show"
                 android:text="@string/back"
                 android:textSize="15sp"
                 android:id="@+id/biback"

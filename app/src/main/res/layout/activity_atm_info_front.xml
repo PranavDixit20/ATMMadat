@@ -60,7 +60,7 @@
                     android:layout_alignParentRight="true"
                     android:layout_marginRight="10dp"
                     android:layout_marginTop="50dp"
-                    android:background="@color/btncolor"
+                    android:background="@drawable/show"
                     android:text="@string/nxt"
                     android:textSize="15sp"
                     android:id="@+id/nxtt"/>
@@ -71,7 +71,7 @@
                     android:layout_alignParentLeft="true"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="50dp"
-                    android:background="@color/btncolor"
+                    android:background="@drawable/show"
                     android:text="@string/back"
                     android:textSize="15sp"
                     android:id="@+id/pr"/>

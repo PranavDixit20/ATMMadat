@@ -45,7 +45,6 @@
             <Button
                 android:layout_width="100dp"
                 android:layout_height="100dp"
-
                 android:layout_marginLeft="15dp"
                 android:layout_marginTop="10dp"
                 android:id="@+id/one"
@@ -55,7 +54,6 @@
             <Button
                 android:layout_width="100dp"
                 android:layout_height="100dp"
-
                 android:layout_marginRight="10dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginTop="10dp"
@@ -68,7 +66,6 @@
                 android:layout_marginRight="10dp"
                 android:layout_marginLeft="5dp"
                 android:layout_marginTop="10dp"
-
                 android:id="@+id/three"
                 android:background="@mipmap/boi"
                 android:layout_column="3"/>
@@ -330,7 +327,7 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="50dp"
                 android:text="@string/back"
-                android:background="@color/btncolor"
+                android:background="@drawable/show"
                 android:textSize="15sp"
                 android:id="@+id/back"/>
 

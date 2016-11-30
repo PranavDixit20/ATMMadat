@@ -61,13 +61,13 @@
             android:id="@+id/vcard"
             android:textSize="22sp"
             android:textColor="#000"
-            android:background="@color/btncolor"
+            android:background="@drawable/show"
             android:text="@string/credit_card_btn"/>
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="65dp"
-                android:background="@color/btncolor"
+                android:background="@drawable/show"
                 android:layout_marginTop="10dp"
                 android:id="@+id/rcard"
                 android:textSize="22sp"
@@ -79,7 +79,7 @@
                 android:layout_height="65dp"
                 android:layout_marginTop="10dp"
                 android:id="@+id/mcard"
-                android:background="@color/btncolor"
+                android:background="@drawable/show"
                 android:textSize="22sp"
                 android:textColor="#000"
                 android:text="@string/atm_and_debit_card"/>
@@ -87,7 +87,7 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="65dp"
-            android:background="@color/btncolor"
+            android:background="@drawable/show"
             android:layout_marginTop="10dp"
             android:id="@+id/pcard"
             android:textSize="22sp"
@@ -101,7 +101,7 @@
             android:textSize="15sp"
             android:layout_marginTop="20dp"
             android:text="@string/back"
-            android:background="@color/btncolor"
+            android:background="@drawable/show"
             android:layout_gravity="center"/>
 
         <TextView

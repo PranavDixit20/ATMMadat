@@ -207,7 +207,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:text="@string/back"
-                android:background="@color/btncolor"
+                android:background="@drawable/show"
                 android:textSize="15sp"
                 android:id="@+id/hawnxt"/>
             <TextView
