@@ -59,7 +59,7 @@
             android:layout_width="match_parent"
             android:layout_height="65dp"
             android:id="@+id/vcard"
-            android:textSize="25sp"
+            android:textSize="22sp"
             android:textColor="#000"
             android:background="@color/btncolor"
             android:text="@string/credit_card_btn"/>
@@ -70,7 +70,7 @@
                 android:background="@color/btncolor"
                 android:layout_marginTop="10dp"
                 android:id="@+id/rcard"
-                android:textSize="25sp"
+                android:textSize="22sp"
                 android:textColor="#000"
                 android:text="@string/only_atm_card"/>
 
@@ -80,7 +80,7 @@
                 android:layout_marginTop="10dp"
                 android:id="@+id/mcard"
                 android:background="@color/btncolor"
-                android:textSize="25sp"
+                android:textSize="22sp"
                 android:textColor="#000"
                 android:text="@string/atm_and_debit_card"/>
 
@@ -90,7 +90,7 @@
             android:background="@color/btncolor"
             android:layout_marginTop="10dp"
             android:id="@+id/pcard"
-            android:textSize="25sp"
+            android:textSize="22sp"
             android:textColor="#000"
             android:text="@string/about_card_payment_gateway"/>
 
@@ -98,7 +98,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/tocnxt"
-            android:textSize="20sp"
+            android:textSize="15sp"
             android:layout_marginTop="20dp"
             android:text="@string/back"
             android:background="@color/btncolor"
