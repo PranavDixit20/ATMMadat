@@ -64,8 +64,8 @@
                 <Button
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    android:layout_marginRight="10dp"
-                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
                     android:id="@+id/three"
                     android:background="@mipmap/boi" />
@@ -89,8 +89,8 @@
                 <Button
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    android:layout_marginRight="10dp"
-                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
                     android:id="@+id/six"
                     android:background="@mipmap/hdfclogo" />
@@ -114,8 +114,8 @@
                 <Button
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    android:layout_marginRight="10dp"
-                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
                     android:id="@+id/nine"
                     android:background="@mipmap/punjablogo" />
@@ -143,8 +143,8 @@
                 <Button
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    android:layout_marginRight="10dp"
-                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
                     android:layout_alignParentRight="true"
                     android:id="@+id/twelve"
@@ -172,8 +172,8 @@
                 <Button
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    android:layout_marginRight="10dp"
-                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
                     android:layout_alignParentRight="true"
                     android:id="@+id/fifteen"
@@ -202,8 +202,8 @@
                 <Button
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    android:layout_marginRight="10dp"
-                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
                     android:layout_alignParentRight="true"
                     android:id="@+id/eighteen"
@@ -231,8 +231,8 @@
                 <Button
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    android:layout_marginRight="10dp"
-                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
                     android:layout_alignParentRight="true"
                     android:id="@+id/twentyone"
@@ -262,8 +262,8 @@
                 <Button
                     android:layout_width="100dp"
                     android:layout_height="100dp"
-                    android:layout_marginRight="10dp"
-                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
                     android:layout_alignParentRight="true"
                     android:id="@+id/twentyfour"
