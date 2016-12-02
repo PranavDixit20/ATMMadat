@@ -514,6 +514,17 @@
     <string name="only_atm_card">फक्त एटीएम कार्ड</string>
     <string name="atm_and_debit_card">एटीएम आणि डेबिट कार्ड</string>
     <string name="about_card_payment_gateway">कार्ड पेमेंट गेटवे बद्दल</string>
+
+    <string name="dis">हा अनुप्रयोग बँक कोणत्याही संबद्ध नाही.
+         या वापरकर्त्यांना विविध एटीएम संवाद समजण्यास मदत स्वतंत्र अर्ज आहे.
+         हा अनुप्रयोग उद्देश शिक्षण आणि भारतीय नागरिकांना मदत करण्यासाठी आहे.
+         या अनुप्रयोग मध्ये सूचीबद्ध माहिती सुधारणा करण्याची गरज आहे, तर कृपया आम्हाला कळवा आणि आम्ही आवश्यक करू.
+         आपण आम्हाला नंतर कॉपीराइट संरक्षणाखाली या अनुप्रयोग आत माहिती काही भाग काढू इच्छित असल्यास कृपया
+         आम्हाला कळवा नाही.
+    </string>
+    <string name="about_us">आमच्या विषयी</string>
+    <string name="location">Senapati Bapat Road ​Pune India. ​ Vancouver Canada.</string>
+    <string name="disclaimer">* महत्वाची सूचना *</string>
 </resources>
 
 

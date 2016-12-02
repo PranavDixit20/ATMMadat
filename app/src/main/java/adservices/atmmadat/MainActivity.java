@@ -17,7 +17,9 @@ import java.util.Locale;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
-    Button eng, mr,punjabi,hindi,malayalam,guj,tel,kan, nxt,ext;
+   // Button eng, mr,punjabi,hindi,malayalam,guj,tel,kan, nxt,ext;
+    Button nxt,ext;
+    TextView eng,mr,hindi,tv,au;
     TextView cyl,tt;
     Locale myLocale;
     Bundle b;
@@ -38,9 +40,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         FirebaseStorage storage = FirebaseStorage.getInstance();
 
-        eng = (Button)findViewById(R.id.eng);
-        mr = (Button)findViewById(R.id.mr);
-        hindi=(Button) findViewById(R.id.hnd);
+        eng = (TextView) findViewById(R.id.eng);
+        mr = (TextView) findViewById(R.id.mr);
+        hindi=(TextView) findViewById(R.id.hnd);
+        tv = (TextView)findViewById(R.id.tv);
+        au = (TextView)findViewById(R.id.aboutus);
 
        /* punjabi=(Button) findViewById(R.id.pnb);
         malayalam=(Button)findViewById(R.id.mlm);
@@ -62,7 +66,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         kan.setOnClickListener(this);*/
         nxt.setOnClickListener(this);
         ext.setOnClickListener(this);
-
+        au.setOnClickListener(this);
         loadLocale();
 
     }
@@ -105,6 +109,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         cyl.setText(R.string.lang_selection);
         ext.setText(R.string.exit);
         tt.setText(R.string.app_name);
+        tv.setText(R.string.dis);
+        au.setText(R.string.about_us);
     }
 
     @Override
@@ -139,6 +145,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.exit:
                 moveTaskToBack(true);
+                finish();
+                break;
+            case R.id.aboutus:
+                startActivity(new Intent(this,About.class));
                 finish();
                 break;
         }

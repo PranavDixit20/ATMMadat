@@ -587,4 +587,17 @@ Please make sure some things before you enter your pin
     <string name="atm_and_debit_card">ATM &amp; Debit card</string>
     <string name="about_card_payment_gateway">About Card Payment Gateway</string>
     <string name="gw">Generic Process to Withdraw Money :- </string>
+    <string name="dis">This app is not associated with any of the bank.
+        This is an independent application to help its users understand different ATM interfaces.
+        This application\'s intention is to educate and help citizens of India.
+        If the information listed in this application needs a correction please do let us know and we will do the needful.
+        If you want us to remove any part of the information within this application under copyright protection then please
+        do let us know.
+    </string>
+    <string name="about_us">About Us</string>
+    <string name="aboutus">We offer Android and .Net applications built to suit your need and budget.
+        ​In a saturated market we stand out by delivering enterprise quality product at a lower rate and provide operational
+        support to maintain the software for next 12 months for free.</string>
+    <string name="location">Senapati Bapat Road ​Pune India. ​ Vancouver Canada.</string>
+    <string name="disclaimer">* Disclaimer *</string>
 </resources>
