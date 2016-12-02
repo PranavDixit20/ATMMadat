@@ -173,24 +173,24 @@ public class WithdrawActivity extends AppCompatActivity implements View.OnClickL
                 t8.setText(R.string.bob11);
                 break;
             case "6":
-                w1.setImageResource(R.mipmap.sbi1);
-                w2.setImageResource(R.mipmap.sbi2);
-                w3.setImageResource(R.mipmap.sbi3);
-                w4.setImageResource(R.mipmap.sbi5);
-                w5.setImageResource(R.mipmap.sbi6);
-                w6.setImageResource(R.mipmap.sbi7);
-                w7.setImageResource(R.mipmap.sbi8);
-                w8.setImageResource(R.mipmap.sbi9);
+                w1.setImageResource(R.mipmap.hdfc1);
+                w2.setImageResource(R.mipmap.hdfc2);
+                w3.setImageResource(R.mipmap.hdfc3);
+                w4.setImageResource(R.mipmap.hdfc4);
+                w5.setImageResource(R.mipmap.hdfc5);
+                w6.setImageResource(R.mipmap.hdfc6);
+                w7.setImageResource(R.mipmap.hdfc7);
+               // w8.setImageResource(R.mipmap.sbi9);
 
 
                 t1.setText(R.string.bob1);
-                t2.setText(R.string.sbi2);
-                t3.setText(R.string.bob2);
-                t4.setText(R.string.bob3);
-                t5.setText(R.string.bob5);
-                t6.setText(R.string.sbi4);
-                t7.setText(R.string.bob7);
-                t8.setText(R.string.bob11);
+                t2.setText(R.string.bob2);
+                t3.setText(R.string.bob5);
+                t4.setText(R.string.sbi4);
+                t5.setText(R.string.bob7);
+                t6.setText(R.string.bob3);
+                t7.setText(R.string.bob11);
+                //t8.setText(R.string.bob11);
                 break;
             case "7":
                 w1.setImageResource(R.mipmap.sbi1);
@@ -459,24 +459,24 @@ public class WithdrawActivity extends AppCompatActivity implements View.OnClickL
                 t8.setText(R.string.bob11);
                 break;
             case "20":
-                w1.setImageResource(R.mipmap.sbi1);
-                w2.setImageResource(R.mipmap.sbi2);
-                w3.setImageResource(R.mipmap.sbi3);
-                w4.setImageResource(R.mipmap.sbi5);
-                w5.setImageResource(R.mipmap.sbi6);
-                w6.setImageResource(R.mipmap.sbi7);
-                w7.setImageResource(R.mipmap.sbi8);
-                w8.setImageResource(R.mipmap.sbi9);
+                w1.setImageResource(R.mipmap.synd1);
+                w2.setImageResource(R.mipmap.synd2);
+                w3.setImageResource(R.mipmap.synd3);
+                w4.setImageResource(R.mipmap.synd4);
+                w5.setImageResource(R.mipmap.synd5);
+                w6.setImageResource(R.mipmap.synd6);
+                w7.setImageResource(R.mipmap.synd7);
+              //  w8.setImageResource(R.mipmap.sbi9);
 
 
                 t1.setText(R.string.bob1);
-                t2.setText(R.string.sbi2);
-                t3.setText(R.string.bob2);
-                t4.setText(R.string.bob3);
-                t5.setText(R.string.bob5);
-                t6.setText(R.string.sbi4);
-                t7.setText(R.string.bob7);
-                t8.setText(R.string.bob11);
+                t2.setText(R.string.bob2);
+                t3.setText(R.string.bob3);
+                t4.setText(R.string.bob5);
+                t5.setText(R.string.sbi4);
+                t6.setText(R.string.bob7);
+                t7.setText(R.string.bob11);
+
                 break;
             case "21":
                 w1.setImageResource(R.mipmap.sbi1);
