@@ -372,7 +372,6 @@ A cash machine typically has following control for the customers:
     </string>
     <string name="pg">\n\n  <b>What is card Payment Gateway?</b>
         \n \n When you have to go from one city to another you have to use various roads and highway to reach your destination.
-        For example Mumbai to Goa. If you are starting from Mumbai then it will be your source and Goa will be your destination.
         \nSimilarly when you make a payment for anything at a shop the money needs to go from your bank to the shop.
         This will need a digital road or network of digital roads. The Payment gateway makes and provides this network of roads.
         \nHence when you are buying things at any shop with your card it is better to confirm at the shop that
