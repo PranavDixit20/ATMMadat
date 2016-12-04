@@ -75,7 +75,6 @@
                     android:textSize="15sp"
                     android:id="@+id/pr"/>
 
-
             </RelativeLayout>
 
             <TextView
@@ -84,7 +83,6 @@
                 android:layout_marginTop="50dp"/>
 
         </LinearLayout>
-
     </ScrollView>
         <com.google.android.gms.ads.AdView
             android:layout_width="match_parent"

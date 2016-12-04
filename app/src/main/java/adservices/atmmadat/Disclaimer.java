@@ -41,6 +41,7 @@ public class Disclaimer extends AppCompatActivity implements View.OnClickListene
         switch (view.getId()){
             case R.id.ab:
                 startActivity(new Intent(this,MainActivity.class));
+                finish();
                 break;
         }
     }
@@ -48,5 +49,6 @@ public class Disclaimer extends AppCompatActivity implements View.OnClickListene
     @Override
     public void onBackPressed() {
         startActivity(new Intent(this,MainActivity.class));
+        finish();
     }
 }

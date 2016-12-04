@@ -42,6 +42,7 @@ public class AtmCard extends AppCompatActivity implements View.OnClickListener {
         switch (view.getId()){
             case R.id.ab:
                 startActivity(new Intent(this,TypeOfCard.class));
+                finish();
                 break;
         }
 
@@ -50,5 +51,6 @@ public class AtmCard extends AppCompatActivity implements View.OnClickListener {
     @Override
     public void onBackPressed() {
         startActivity(new Intent(this,TypeOfCard.class));
+        finish();
     }
 }

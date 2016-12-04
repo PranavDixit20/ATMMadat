@@ -26,6 +26,7 @@
             android:layout_width="match_parent"
             android:layout_height="55dp"
             android:text="@string/lang_selection"
+            android:background="#df79c2d3"
             android:textColor="#000"
             android:textStyle="bold"
             android:textSize="25sp"
@@ -34,7 +35,8 @@
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:background="#df79c2d3">
             <ScrollView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
@@ -51,24 +53,28 @@
                             android:layout_width="130dp"
                             android:layout_height="130dp"
                             android:text="@string/english"
-                            android:background="@drawable/show"
                             android:textSize="20sp"
                             android:gravity="center"
                             android:textColor="#000"
                             android:id="@+id/eng"
-                            android:layout_marginLeft="40dp"/>
+                            android:layout_marginLeft="40dp" />
 
                         <TextView
                             android:layout_width="130dp"
                             android:layout_height="130dp"
                             android:text="@string/Marathi"
-                            android:background="@drawable/show"
                             android:textSize="20sp"
                             android:gravity="center"
                             android:textColor="#000"
                             android:layout_marginRight="40dp"
                             android:id="@+id/mr"
                             android:layout_alignParentRight="true"/>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@android:color/black"
+                            android:layout_alignParentBottom="true"/>
                     </RelativeLayout>
 
                     <RelativeLayout
@@ -80,7 +86,6 @@
                             android:layout_marginLeft="40dp"
                             android:layout_marginTop="20dp"
                             android:text="@string/hindi"
-                            android:background="@drawable/show"
                             android:gravity="center"
                             android:textColor="#000"
                             android:textSize="20sp"
@@ -92,7 +97,6 @@
                             android:layout_marginRight="40dp"
                             android:layout_marginTop="20dp"
                             android:text="@string/disclaimer"
-                            android:background="@drawable/show"
                             android:layout_alignParentRight="true"
                             android:gravity="center"
                             android:textColor="#000"
@@ -110,6 +114,8 @@
                             android:textSize="20sp"
                             android:id="@+id/pnb"/> -->
 
+
+
                     </RelativeLayout>
 
                     <TextView
@@ -117,7 +123,6 @@
                         android:layout_height="130dp"
                         android:layout_marginTop="20dp"
                         android:text="@string/about_us"
-                        android:background="@drawable/show"
                         android:layout_gravity="center"
                         android:gravity="center"
                         android:textColor="#000"
@@ -188,7 +193,6 @@
                             android:text="@string/nxt"
                             android:gravity="center"
                             android:textColor="#000"
-                            android:background="@drawable/show"
                             android:textSize="20sp"
                             android:id="@+id/nxt"/>
 
@@ -202,9 +206,9 @@
                             android:text="@string/exit"
                             android:gravity="center"
                             android:textColor="#000"
-                            android:background="@drawable/show"
                             android:textSize="20sp"
                             android:id="@+id/exit"/>
+
 
                     </RelativeLayout>
                     <include layout="@layout/copy"/>
@@ -224,7 +228,4 @@
             </com.google.android.gms.ads.AdView>
         </RelativeLayout>
     </LinearLayout>
-
-
-
 </LinearLayout>

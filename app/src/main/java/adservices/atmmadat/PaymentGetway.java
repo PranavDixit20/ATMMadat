@@ -43,6 +43,7 @@ public class PaymentGetway extends AppCompatActivity implements View.OnClickList
         switch (view.getId()){
             case R.id.pb:
                 startActivity(new Intent(this,TypeOfCard.class));
+                finish();
                 break;
         }
     }
@@ -50,5 +51,6 @@ public class PaymentGetway extends AppCompatActivity implements View.OnClickList
     @Override
     public void onBackPressed() {
         startActivity(new Intent(this,TypeOfCard.class));
+        finish();
     }
 }

@@ -41,6 +41,7 @@ public class ShopWithYourCard extends AppCompatActivity implements View.OnClickL
         switch (view.getId()){
             case R.id.swdcb:
                 startActivity(new Intent(this,BasicInfo.class));
+                finish();
                 break;
         }
 
@@ -49,5 +50,6 @@ public class ShopWithYourCard extends AppCompatActivity implements View.OnClickL
     @Override
     public void onBackPressed() {
         startActivity(new Intent(this,BasicInfo.class));
+        finish();
     }
 }

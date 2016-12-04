@@ -80,6 +80,7 @@ public class MachineControl extends AppCompatActivity implements View.OnClickLis
         switch (view.getId()){
             case R.id.mcback:
                 startActivity(new Intent(this,MechineInformtion.class));
+                finish();
                 break;
         }
     }
@@ -87,5 +88,6 @@ public class MachineControl extends AppCompatActivity implements View.OnClickLis
     @Override
     public void onBackPressed() {
         startActivity(new Intent(this,MechineInformtion.class));
+        finish();
     }
 }

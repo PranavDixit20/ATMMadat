@@ -41,12 +41,15 @@ public class MechineInformtion extends AppCompatActivity implements View.OnClick
         switch (view.getId()){
             case R.id.amc:
                 startActivity(new Intent(this,MachineControl.class));
+                finish();
                 break;
             case R.id.gpw:
                 startActivity(new Intent(this,AboutAtmMec.class));
+                finish();
                 break;
             case R.id.amiback:
                 startActivity(new Intent(this,BasicInfo.class));
+                finish();
                 break;
         }
 
@@ -55,5 +58,6 @@ public class MechineInformtion extends AppCompatActivity implements View.OnClick
     @Override
     public void onBackPressed() {
         startActivity(new Intent(this,BasicInfo.class));
+        finish();
     }
 }

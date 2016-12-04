@@ -69,5 +69,6 @@ public class AtmInfoFront extends AppCompatActivity implements View.OnClickListe
         Intent i=new Intent(this,AtmMenu.class);
         i.putExtra("x",y);
         startActivity(i);
+        finish();
     }
 }

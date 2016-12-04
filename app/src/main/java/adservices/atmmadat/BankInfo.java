@@ -146,6 +146,7 @@ public class BankInfo extends AppCompatActivity implements View.OnClickListener 
                 Intent i=new Intent(this,AtmMenu.class);
                 i.putExtra("x",z);
                 startActivity(i);
+                finish();
                 break;
         }
 
@@ -157,5 +158,6 @@ public class BankInfo extends AppCompatActivity implements View.OnClickListener 
         Intent i=new Intent(this,AtmMenu.class);
         i.putExtra("x",z);
         startActivity(i);
+        finish();
     }
 }

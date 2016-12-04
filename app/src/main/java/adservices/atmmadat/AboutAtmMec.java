@@ -82,6 +82,7 @@ public class AboutAtmMec extends AppCompatActivity implements View.OnClickListen
         switch (view.getId()){
             case R.id.hawnxt:
                 startActivity(new Intent(this,MechineInformtion.class));
+                finish();
                 break;
         }
     }

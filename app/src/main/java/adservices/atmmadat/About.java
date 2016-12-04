@@ -92,9 +92,7 @@ public class About extends Activity implements View.OnClickListener {
                 tv3.setAutoLinkMask(Linkify.EMAIL_ADDRESSES);
                 tv3.setText("Info@adservices.in");
                 break;
-
         }
-
     }
 
     @Override

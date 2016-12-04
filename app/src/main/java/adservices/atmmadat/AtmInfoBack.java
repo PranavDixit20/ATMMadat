@@ -50,7 +50,6 @@ public class AtmInfoBack extends AppCompatActivity implements View.OnClickListen
                 finish();
                 break;
         }
-
     }
 
     @Override

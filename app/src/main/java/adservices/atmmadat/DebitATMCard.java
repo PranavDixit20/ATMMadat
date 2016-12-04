@@ -42,6 +42,7 @@ public class DebitATMCard extends AppCompatActivity implements View.OnClickListe
         switch (view.getId()){
             case R.id.db:
                 startActivity(new Intent(this,TypeOfCard.class));
+                finish();
                 break;
         }
     }
@@ -49,5 +50,6 @@ public class DebitATMCard extends AppCompatActivity implements View.OnClickListe
     @Override
     public void onBackPressed() {
         startActivity(new Intent(this,TypeOfCard.class));
+        finish();
     }
 }

@@ -52,27 +52,35 @@ public class BasicInfo extends AppCompatActivity implements View.OnClickListener
         switch (v.getId()){
             case R.id.wod:
                 startActivity(new Intent(this,WordDefination.class));
+                finish();
                 break;
             case R.id.emes:
                 startActivity(new Intent(this,ErrorMessage.class));
+                finish();
                 break;
             case R.id.swc:
                 startActivity(new Intent(this,ShopWithYourCard.class));
+                finish();
                 break;
             case R.id.so:
                 startActivity(new Intent(this,ShopOnline.class));
+                finish();
                 break;
             case R.id.bitoc:
                 startActivity(new Intent(this,TypeOfCard.class));
+                finish();
                 break;
             case R.id.biaci:
                 startActivity(new Intent(this,MechineInformtion.class));
+                finish();
                 break;
             case R.id.biback:
                 startActivity(new Intent(this,MainActivity.class));
+                finish();
                 break;
             case R.id.syb:
                 startActivity(new Intent(this,Welcome.class));
+                finish();
                 break;
 
         }
@@ -81,5 +89,6 @@ public class BasicInfo extends AppCompatActivity implements View.OnClickListener
     @Override
     public void onBackPressed() {
         startActivity(new Intent(this,MainActivity.class));
+        finish();
     }
 }

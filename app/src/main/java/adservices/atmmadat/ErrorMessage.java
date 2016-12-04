@@ -64,6 +64,7 @@ public class ErrorMessage extends AppCompatActivity implements View.OnClickListe
         switch (view.getId()){
             case R.id.eb:
                 startActivity(new Intent(this,BasicInfo.class));
+                finish();
                 break;
         }
     }
@@ -71,5 +72,6 @@ public class ErrorMessage extends AppCompatActivity implements View.OnClickListe
     @Override
     public void onBackPressed() {
         startActivity(new Intent(this,BasicInfo.class));
+        finish();
     }
 }

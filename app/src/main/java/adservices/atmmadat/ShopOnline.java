@@ -60,6 +60,7 @@ public class ShopOnline extends AppCompatActivity implements View.OnClickListene
         switch (view.getId()){
             case R.id.osb:
                 startActivity(new Intent(this,BasicInfo.class));
+                finish();
                 break;
         }
     }
@@ -67,5 +68,6 @@ public class ShopOnline extends AppCompatActivity implements View.OnClickListene
     @Override
     public void onBackPressed() {
         startActivity(new Intent(this,BasicInfo.class));
+        finish();
     }
 }
