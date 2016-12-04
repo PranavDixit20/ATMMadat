@@ -3,7 +3,6 @@ package adservices.atmmadat;
 
 import android.app.Activity;
 import android.content.Intent;
-import android.net.Uri;
 import android.os.Bundle;
 import android.text.util.Linkify;
 import android.view.View;
@@ -42,8 +41,6 @@ public class About extends Activity implements View.OnClickListener {
         adView.loadAd(ar);
 
         tv = (TextView) findViewById(R.id.web);
-        tv1 = (TextView)findViewById(R.id.num);
-        tv2 = (TextView)findViewById(R.id.numm);
         tv3 = (TextView)findViewById(R.id.email);
 
         im1 = (ImageView) findViewById(R.id.fb);
@@ -52,8 +49,6 @@ public class About extends Activity implements View.OnClickListener {
         b = (Button)findViewById(R.id.prv);
 
         tv.setOnClickListener(this);
-        tv1.setOnClickListener(this);
-        tv2.setOnClickListener(this);
         tv3.setOnClickListener(this);
 
         im1.setOnClickListener(this);
@@ -72,15 +67,6 @@ public class About extends Activity implements View.OnClickListener {
 
         switch (v.getId())
         {
-            case R.id.num :
-                Intent intent = new Intent(Intent.ACTION_DIAL, Uri.parse("tel: +1 604 704 8811"));
-                startActivity(intent);
-                break;
-
-            case R.id.numm :
-                Intent in = new Intent(Intent.ACTION_DIAL, Uri.parse("tel: +918888058537"));
-                startActivity(in);
-                break;
 
             case R.id.prv:
                 startActivity(new Intent(this,MainActivity.class));
@@ -106,9 +92,7 @@ public class About extends Activity implements View.OnClickListener {
                 tv3.setAutoLinkMask(Linkify.EMAIL_ADDRESSES);
                 tv3.setText("Info@adservices.in");
                 break;
-
         }
-
     }
 
     @Override

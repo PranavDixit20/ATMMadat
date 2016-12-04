@@ -11,19 +11,17 @@ import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.MobileAds;
 
-public class PaymentGetway extends AppCompatActivity implements View.OnClickListener {
+public class Disclaimer extends AppCompatActivity implements View.OnClickListener {
 
-    String uid = "ca-app-pub-3715652664770345/9286598713";
+    String uid="ca-app-pub-3715652664770345/9286598713";
     TextView tv;
-    Button bb;
-
+    Button b;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_payment_getway);
+        setContentView(R.layout.activity_disclaimer);
 
         MobileAds.initialize(getApplicationContext(),uid);
-
         AdView adView = new AdView(this);
         adView = (AdView)findViewById(R.id.ad);
         AdRequest ar=new AdRequest.Builder()
@@ -32,17 +30,17 @@ public class PaymentGetway extends AppCompatActivity implements View.OnClickList
         adView.loadAd(ar);
 
         tv = (TextView)findViewById(R.id.vcard);
-        bb = (Button)findViewById(R.id.pb);
+        b = (Button) findViewById(R.id.ab);
 
-        tv.setText(R.string.pg);
-        bb.setOnClickListener(this);
+        tv.setText(R.string.dis);
+        b.setOnClickListener(this);
     }
 
     @Override
     public void onClick(View view) {
         switch (view.getId()){
-            case R.id.pb:
-                startActivity(new Intent(this,TypeOfCard.class));
+            case R.id.ab:
+                startActivity(new Intent(this,MainActivity.class));
                 finish();
                 break;
         }
@@ -50,7 +48,7 @@ public class PaymentGetway extends AppCompatActivity implements View.OnClickList
 
     @Override
     public void onBackPressed() {
-        startActivity(new Intent(this,TypeOfCard.class));
+        startActivity(new Intent(this,MainActivity.class));
         finish();
     }
 }

@@ -129,24 +129,29 @@ public class AtmMenu extends AppCompatActivity implements View.OnClickListener {
                 Intent in=new Intent(this,BankInfo.class);
                 in.putExtra("y",y);
                 startActivity(in);
+                finish();
                 break;
             case R.id.aci :
                 Intent i=new Intent(this,AtmInfoFront.class);
                 i.putExtra("y",y);
                 startActivity(i);
+                finish();
                 break;
             case R.id.wi :
                 Intent ii=new Intent(this,WithdrawActivity.class);
                 ii.putExtra("y",y);
                 startActivity(ii);
+                finish();
                 break;
             case R.id.bc :
                 Intent iii=new Intent(this,BalanceCheck.class);
                 iii.putExtra("y",y);
                 startActivity(iii);
+                finish();
                 break;
             case R.id.backk :
                 startActivity(new Intent(this,Welcome.class));
+                finish();
                 break;
         }
 
@@ -156,5 +161,6 @@ public class AtmMenu extends AppCompatActivity implements View.OnClickListener {
     public void onBackPressed() {
         finish();
         startActivity(new Intent(this, Welcome.class));
+
     }
 }

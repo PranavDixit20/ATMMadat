@@ -53,7 +53,7 @@ public class BalanceCheck extends AppCompatActivity implements View.OnClickListe
         Intent in=new Intent(this,AtmMenu.class);
         in.putExtra("x",x);
         startActivity(in);
-        finish();
+
     }
 
     @Override
@@ -63,7 +63,6 @@ public class BalanceCheck extends AppCompatActivity implements View.OnClickListe
                 Intent in=new Intent(this,AtmMenu.class);
                 in.putExtra("x",x);
                 startActivity(in);
-                finish();
                 break;
         }
     }

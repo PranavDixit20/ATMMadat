@@ -16,7 +16,7 @@
             android:layout_width="match_parent"
             android:layout_height="55dp"
             android:background="@color/title"
-            android:text="@string/atm_card_only"
+            android:text="@string/disclaimer"
             android:textColor="@color/white"
             android:textSize="30sp"
             android:gravity="center"
@@ -27,43 +27,42 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
-
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
-
-        <LinearLayout
+        <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:layout_height="match_parent">
 
-            <TextView
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/vcard"
-                android:textSize="20sp"
-                android:textColor="#000"
-                android:gravity="left"
-                android:layout_marginLeft="10dp"
-                android:layout_marginRight="3dp"/>
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/vcard"
+                    android:textSize="20sp"
+                    android:textColor="#000"
+                    android:layout_marginTop="10dp"
+                    android:gravity="left"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="3dp"/>
 
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:id="@+id/ab"
-                android:background="@drawable/show"
-                android:text="@string/back"
-                android:textSize="15dp"
-                android:layout_marginTop="20dp"/>
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:id="@+id/ab"
+                    android:background="@drawable/show"
+                    android:text="@string/back"
+                    android:textSize="15dp"
+                    android:layout_marginTop="20dp"/>
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="50dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"/>
 
-        </LinearLayout>
-    </ScrollView>
+            </LinearLayout>
+        </ScrollView>
 
         <com.google.android.gms.ads.AdView
             android:layout_width="match_parent"

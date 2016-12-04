@@ -42,6 +42,7 @@ public class CreditCard extends AppCompatActivity implements View.OnClickListene
         switch (v.getId()){
             case R.id.cb:
                 startActivity(new Intent(this,TypeOfCard.class));
+                finish();
                 break;
         }
 
@@ -50,5 +51,6 @@ public class CreditCard extends AppCompatActivity implements View.OnClickListene
     @Override
     public void onBackPressed() {
         startActivity(new Intent(this,TypeOfCard.class));
+        finish();
     }
 }
