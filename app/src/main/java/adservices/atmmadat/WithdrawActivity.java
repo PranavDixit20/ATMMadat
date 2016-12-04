@@ -77,6 +77,9 @@ public class WithdrawActivity extends AppCompatActivity implements View.OnClickL
                 w6.setImageResource(R.mipmap.sbi7);
                 w7.setImageResource(R.mipmap.sbi8);
                 w8.setImageResource(R.mipmap.sbi9);
+                w9.setVisibility(View.GONE);
+                w10.setVisibility(View.GONE);
+                w11.setVisibility(View.GONE);
 
 
                 t1.setText(R.string.bob1);
@@ -87,6 +90,9 @@ public class WithdrawActivity extends AppCompatActivity implements View.OnClickL
                 t6.setText(R.string.sbi4);
                 t7.setText(R.string.bob7);
                 t8.setText(R.string.bob11);
+                t9.setVisibility(View.GONE);
+                t10.setVisibility(View.GONE);
+                t11.setVisibility(View.GONE);
                 break;
             case "2":
                 w1.setImageResource(R.mipmap.bobone);
@@ -121,8 +127,11 @@ public class WithdrawActivity extends AppCompatActivity implements View.OnClickL
                 w4.setImageResource(R.mipmap.boi4);
                 w5.setImageResource(R.mipmap.boi5);
                 w6.setImageResource(R.mipmap.boi6);
-               // w7.setImageResource(R.mipmap.sbi8);
-               // w8.setImageResource(R.mipmap.sbi9);
+                w7.setVisibility(View.GONE);
+                w8.setVisibility(View.GONE);
+                w9.setVisibility(View.GONE);
+                w10.setVisibility(View.GONE);
+                w11.setVisibility(View.GONE);
 
 
                 t1.setText(R.string.bob1);
@@ -131,8 +140,11 @@ public class WithdrawActivity extends AppCompatActivity implements View.OnClickL
                 t4.setText(R.string.bob5);
                 t5.setText(R.string.bob7);
                 t6.setText(R.string.bob11);
-               // t7.setText(R.string.bob7);
-               // t8.setText(R.string.bob11);
+                t7.setVisibility(View.GONE);
+                t8.setVisibility(View.GONE);
+                t9.setVisibility(View.GONE);
+                t10.setVisibility(View.GONE);
+                t11.setVisibility(View.GONE);
                 break;
             case "4":
                 w1.setImageResource(R.mipmap.c1);
@@ -142,6 +154,10 @@ public class WithdrawActivity extends AppCompatActivity implements View.OnClickL
                 w5.setImageResource(R.mipmap.c5);
                 w6.setImageResource(R.mipmap.c6);
                 w7.setImageResource(R.mipmap.c7);
+                w8.setVisibility(View.GONE);
+                w9.setVisibility(View.GONE);
+                w10.setVisibility(View.GONE);
+                w11.setVisibility(View.GONE);
 
                 t1.setText(R.string.bob3);
                 t2.setText(R.string.bob5);
@@ -150,6 +166,10 @@ public class WithdrawActivity extends AppCompatActivity implements View.OnClickL
                 t5.setText(R.string.bob7);
                 t6.setText(R.string.bob8);
                 t7.setText(R.string.bob10);
+                t8.setVisibility(View.GONE);
+                t9.setVisibility(View.GONE);
+                t10.setVisibility(View.GONE);
+                t11.setVisibility(View.GONE);
 
                 break;
             case "5":
@@ -160,7 +180,10 @@ public class WithdrawActivity extends AppCompatActivity implements View.OnClickL
                 w5.setImageResource(R.mipmap.cb6);
                 w6.setImageResource(R.mipmap.cb7);
                 w7.setImageResource(R.mipmap.cb8);
-               // w8.setImageResource(R.mipmap.cb8);
+                w8.setVisibility(View.GONE);
+                w9.setVisibility(View.GONE);
+                w10.setVisibility(View.GONE);
+                w11.setVisibility(View.GONE);
 
 
                 t1.setText(R.string.bob1);
@@ -170,7 +193,10 @@ public class WithdrawActivity extends AppCompatActivity implements View.OnClickL
                 t5.setText(R.string.sbi4);
                 t6.setText(R.string.bob7);
                 t7.setText(R.string.bob11);
-               // t8.setText(R.string.bob11);
+                t8.setVisibility(View.GONE);
+                t9.setVisibility(View.GONE);
+                t10.setVisibility(View.GONE);
+                t11.setVisibility(View.GONE);
                 break;
             case "6":
                 w1.setImageResource(R.mipmap.hdfc1);
@@ -180,7 +206,10 @@ public class WithdrawActivity extends AppCompatActivity implements View.OnClickL
                 w5.setImageResource(R.mipmap.hdfc5);
                 w6.setImageResource(R.mipmap.hdfc6);
                 w7.setImageResource(R.mipmap.hdfc7);
-               // w8.setImageResource(R.mipmap.sbi9);
+                w8.setVisibility(View.GONE);
+                w9.setVisibility(View.GONE);
+                w10.setVisibility(View.GONE);
+                w11.setVisibility(View.GONE);
 
 
                 t1.setText(R.string.bob1);
@@ -190,7 +219,10 @@ public class WithdrawActivity extends AppCompatActivity implements View.OnClickL
                 t5.setText(R.string.bob7);
                 t6.setText(R.string.bob3);
                 t7.setText(R.string.bob11);
-                //t8.setText(R.string.bob11);
+                t8.setVisibility(View.GONE);
+                t9.setVisibility(View.GONE);
+                t10.setVisibility(View.GONE);
+                t11.setVisibility(View.GONE);
                 break;
             case "7":
                 w1.setImageResource(R.mipmap.sbi1);
@@ -201,6 +233,9 @@ public class WithdrawActivity extends AppCompatActivity implements View.OnClickL
                 w6.setImageResource(R.mipmap.sbi7);
                 w7.setImageResource(R.mipmap.sbi8);
                 w8.setImageResource(R.mipmap.sbi9);
+                w9.setVisibility(View.GONE);
+                w10.setVisibility(View.GONE);
+                w11.setVisibility(View.GONE);
 
 
                 t1.setText(R.string.bob1);
@@ -211,6 +246,9 @@ public class WithdrawActivity extends AppCompatActivity implements View.OnClickL
                 t6.setText(R.string.sbi4);
                 t7.setText(R.string.bob7);
                 t8.setText(R.string.bob11);
+                t9.setVisibility(View.GONE);
+                t10.setVisibility(View.GONE);
+                t11.setVisibility(View.GONE);
                 break;
             case "8":
                 w1.setImageResource(R.mipmap.sbi1);
@@ -222,6 +260,8 @@ public class WithdrawActivity extends AppCompatActivity implements View.OnClickL
                 w7.setImageResource(R.mipmap.sbi7);
                 w8.setImageResource(R.mipmap.sbi8);
                 w9.setImageResource(R.mipmap.sbi9);
+                w10.setVisibility(View.GONE);
+                w11.setVisibility(View.GONE);
 
                 t1.setText(R.string.bob1);
                 t2.setText(R.string.sbi2);
@@ -232,6 +272,8 @@ public class WithdrawActivity extends AppCompatActivity implements View.OnClickL
                 t7.setText(R.string.sbi4);
                 t8.setText(R.string.bob7);
                 t9.setText(R.string.bob11);
+                t10.setVisibility(View.GONE);
+                t11.setVisibility(View.GONE);
                 break;
             case "9":
                 w1.setImageResource(R.mipmap.sbi1);
@@ -242,6 +284,9 @@ public class WithdrawActivity extends AppCompatActivity implements View.OnClickL
                 w6.setImageResource(R.mipmap.sbi7);
                 w7.setImageResource(R.mipmap.sbi8);
                 w8.setImageResource(R.mipmap.sbi9);
+                w9.setVisibility(View.GONE);
+                w10.setVisibility(View.GONE);
+                w11.setVisibility(View.GONE);
 
 
                 t1.setText(R.string.bob1);
@@ -252,6 +297,9 @@ public class WithdrawActivity extends AppCompatActivity implements View.OnClickL
                 t6.setText(R.string.sbi4);
                 t7.setText(R.string.bob7);
                 t8.setText(R.string.bob11);
+                t9.setVisibility(View.GONE);
+                t10.setVisibility(View.GONE);
+                t11.setVisibility(View.GONE);
                 break;
             case "10":
                 w1.setImageResource(R.mipmap.sbi1);
@@ -262,6 +310,9 @@ public class WithdrawActivity extends AppCompatActivity implements View.OnClickL
                 w6.setImageResource(R.mipmap.sbi7);
                 w7.setImageResource(R.mipmap.sbi8);
                 w8.setImageResource(R.mipmap.sbi9);
+                w9.setVisibility(View.GONE);
+                w10.setVisibility(View.GONE);
+                w11.setVisibility(View.GONE);
 
 
                 t1.setText(R.string.bob1);
@@ -272,6 +323,9 @@ public class WithdrawActivity extends AppCompatActivity implements View.OnClickL
                 t6.setText(R.string.sbi4);
                 t7.setText(R.string.bob7);
                 t8.setText(R.string.bob11);
+                t9.setVisibility(View.GONE);
+                t10.setVisibility(View.GONE);
+                t11.setVisibility(View.GONE);
                 break;
             case "11":
                 w1.setImageResource(R.mipmap.sbi1);
@@ -283,6 +337,8 @@ public class WithdrawActivity extends AppCompatActivity implements View.OnClickL
                 w7.setImageResource(R.mipmap.sbi7);
                 w8.setImageResource(R.mipmap.sbi8);
                 w9.setImageResource(R.mipmap.sbi9);
+                w10.setVisibility(View.GONE);
+                w11.setVisibility(View.GONE);
 
                 t1.setText(R.string.bob1);
                 t2.setText(R.string.sbi2);
@@ -293,6 +349,8 @@ public class WithdrawActivity extends AppCompatActivity implements View.OnClickL
                 t7.setText(R.string.sbi4);
                 t8.setText(R.string.bob7);
                 t9.setText(R.string.bob11);
+                t10.setVisibility(View.GONE);
+                t11.setVisibility(View.GONE);
                 break;
             case "12":
                 w1.setImageResource(R.mipmap.sbi1);
@@ -304,6 +362,8 @@ public class WithdrawActivity extends AppCompatActivity implements View.OnClickL
                 w7.setImageResource(R.mipmap.sbi7);
                 w8.setImageResource(R.mipmap.sbi8);
                 w9.setImageResource(R.mipmap.sbi9);
+                w10.setVisibility(View.GONE);
+                w11.setVisibility(View.GONE);
 
                 t1.setText(R.string.bob1);
                 t2.setText(R.string.sbi2);
@@ -314,6 +374,8 @@ public class WithdrawActivity extends AppCompatActivity implements View.OnClickL
                 t7.setText(R.string.sbi4);
                 t8.setText(R.string.bob7);
                 t9.setText(R.string.bob11);
+                t10.setVisibility(View.GONE);
+                t11.setVisibility(View.GONE);
                 break;
             case "13":
                 w1.setImageResource(R.mipmap.sbi1);
@@ -325,6 +387,8 @@ public class WithdrawActivity extends AppCompatActivity implements View.OnClickL
                 w7.setImageResource(R.mipmap.sbi7);
                 w8.setImageResource(R.mipmap.sbi8);
                 w9.setImageResource(R.mipmap.sbi9);
+                w10.setVisibility(View.GONE);
+                w11.setVisibility(View.GONE);
 
                 t1.setText(R.string.bob1);
                 t2.setText(R.string.sbi2);
@@ -335,6 +399,8 @@ public class WithdrawActivity extends AppCompatActivity implements View.OnClickL
                 t7.setText(R.string.sbi4);
                 t8.setText(R.string.bob7);
                 t9.setText(R.string.bob11);
+                t10.setVisibility(View.GONE);
+                t11.setVisibility(View.GONE);
                 break;
             case "14":
                 w1.setImageResource(R.mipmap.sbi1);
@@ -346,6 +412,8 @@ public class WithdrawActivity extends AppCompatActivity implements View.OnClickL
                 w7.setImageResource(R.mipmap.sbi7);
                 w8.setImageResource(R.mipmap.sbi8);
                 w9.setImageResource(R.mipmap.sbi9);
+                w10.setVisibility(View.GONE);
+                w11.setVisibility(View.GONE);
 
                 t1.setText(R.string.bob1);
                 t2.setText(R.string.sbi2);
@@ -356,6 +424,8 @@ public class WithdrawActivity extends AppCompatActivity implements View.OnClickL
                 t7.setText(R.string.sbi4);
                 t8.setText(R.string.bob7);
                 t9.setText(R.string.bob11);
+                t10.setVisibility(View.GONE);
+                t11.setVisibility(View.GONE);
                 break;
             case "15":
                 w1.setImageResource(R.mipmap.sbi1);
@@ -367,6 +437,8 @@ public class WithdrawActivity extends AppCompatActivity implements View.OnClickL
                 w7.setImageResource(R.mipmap.sbi7);
                 w8.setImageResource(R.mipmap.sbi8);
                 w9.setImageResource(R.mipmap.sbi9);
+                w10.setVisibility(View.GONE);
+                w11.setVisibility(View.GONE);
 
                 t1.setText(R.string.bob1);
                 t2.setText(R.string.sbi2);
@@ -377,6 +449,8 @@ public class WithdrawActivity extends AppCompatActivity implements View.OnClickL
                 t7.setText(R.string.sbi4);
                 t8.setText(R.string.bob7);
                 t9.setText(R.string.bob11);
+                t10.setVisibility(View.GONE);
+                t11.setVisibility(View.GONE);
                 break;
             case "16":
                 w1.setImageResource(R.mipmap.sbi1);
@@ -387,6 +461,9 @@ public class WithdrawActivity extends AppCompatActivity implements View.OnClickL
                 w6.setImageResource(R.mipmap.sbi7);
                 w7.setImageResource(R.mipmap.sbi8);
                 w8.setImageResource(R.mipmap.sbi9);
+                w9.setVisibility(View.GONE);
+                w10.setVisibility(View.GONE);
+                w11.setVisibility(View.GONE);
 
 
                 t1.setText(R.string.bob1);
@@ -397,6 +474,10 @@ public class WithdrawActivity extends AppCompatActivity implements View.OnClickL
                 t6.setText(R.string.sbi4);
                 t7.setText(R.string.bob7);
                 t8.setText(R.string.bob11);
+                t9.setVisibility(View.GONE);
+                t10.setVisibility(View.GONE);
+                t11.setVisibility(View.GONE);
+
                 break;
             case "17":
                 w1.setImageResource(R.mipmap.sbi1);
@@ -407,6 +488,9 @@ public class WithdrawActivity extends AppCompatActivity implements View.OnClickL
                 w6.setImageResource(R.mipmap.sbi7);
                 w7.setImageResource(R.mipmap.sbi8);
                 w8.setImageResource(R.mipmap.sbi9);
+                w9.setVisibility(View.GONE);
+                w10.setVisibility(View.GONE);
+                w11.setVisibility(View.GONE);
 
 
                 t1.setText(R.string.bob1);
@@ -417,6 +501,9 @@ public class WithdrawActivity extends AppCompatActivity implements View.OnClickL
                 t6.setText(R.string.sbi4);
                 t7.setText(R.string.bob7);
                 t8.setText(R.string.bob11);
+                t9.setVisibility(View.GONE);
+                t10.setVisibility(View.GONE);
+                t11.setVisibility(View.GONE);
                 break;
             case "18":
                 w1.setImageResource(R.mipmap.sbi1);
@@ -427,6 +514,9 @@ public class WithdrawActivity extends AppCompatActivity implements View.OnClickL
                 w6.setImageResource(R.mipmap.sbi7);
                 w7.setImageResource(R.mipmap.sbi8);
                 w8.setImageResource(R.mipmap.sbi9);
+                w9.setVisibility(View.GONE);
+                w10.setVisibility(View.GONE);
+                w11.setVisibility(View.GONE);
 
 
                 t1.setText(R.string.bob1);
@@ -437,6 +527,9 @@ public class WithdrawActivity extends AppCompatActivity implements View.OnClickL
                 t6.setText(R.string.sbi4);
                 t7.setText(R.string.bob7);
                 t8.setText(R.string.bob11);
+                t9.setVisibility(View.GONE);
+                t10.setVisibility(View.GONE);
+                t11.setVisibility(View.GONE);
                 break;
             case "19":
                 w1.setImageResource(R.mipmap.sbi1);
@@ -447,6 +540,9 @@ public class WithdrawActivity extends AppCompatActivity implements View.OnClickL
                 w6.setImageResource(R.mipmap.sbi7);
                 w7.setImageResource(R.mipmap.sbi8);
                 w8.setImageResource(R.mipmap.sbi9);
+                w9.setVisibility(View.GONE);
+                w10.setVisibility(View.GONE);
+                w11.setVisibility(View.GONE);
 
 
                 t1.setText(R.string.bob1);
@@ -457,6 +553,9 @@ public class WithdrawActivity extends AppCompatActivity implements View.OnClickL
                 t6.setText(R.string.sbi4);
                 t7.setText(R.string.bob7);
                 t8.setText(R.string.bob11);
+                t9.setVisibility(View.GONE);
+                t10.setVisibility(View.GONE);
+                t11.setVisibility(View.GONE);
                 break;
             case "20":
                 w1.setImageResource(R.mipmap.synd1);
@@ -466,7 +565,10 @@ public class WithdrawActivity extends AppCompatActivity implements View.OnClickL
                 w5.setImageResource(R.mipmap.synd5);
                 w6.setImageResource(R.mipmap.synd6);
                 w7.setImageResource(R.mipmap.synd7);
-              //  w8.setImageResource(R.mipmap.sbi9);
+                w8.setVisibility(View.GONE);
+                w9.setVisibility(View.GONE);
+                w10.setVisibility(View.GONE);
+                w11.setVisibility(View.GONE);
 
 
                 t1.setText(R.string.bob1);
@@ -476,6 +578,10 @@ public class WithdrawActivity extends AppCompatActivity implements View.OnClickL
                 t5.setText(R.string.sbi4);
                 t6.setText(R.string.bob7);
                 t7.setText(R.string.bob11);
+                t8.setVisibility(View.GONE);
+                t9.setVisibility(View.GONE);
+                t10.setVisibility(View.GONE);
+                t11.setVisibility(View.GONE);
 
                 break;
             case "21":
@@ -487,7 +593,9 @@ public class WithdrawActivity extends AppCompatActivity implements View.OnClickL
                 w6.setImageResource(R.mipmap.sbi7);
                 w7.setImageResource(R.mipmap.sbi8);
                 w8.setImageResource(R.mipmap.sbi9);
-
+                w9.setVisibility(View.GONE);
+                w10.setVisibility(View.GONE);
+                w11.setVisibility(View.GONE);
 
                 t1.setText(R.string.bob1);
                 t2.setText(R.string.sbi2);
@@ -497,6 +605,9 @@ public class WithdrawActivity extends AppCompatActivity implements View.OnClickL
                 t6.setText(R.string.sbi4);
                 t7.setText(R.string.bob7);
                 t8.setText(R.string.bob11);
+                t9.setVisibility(View.GONE);
+                t10.setVisibility(View.GONE);
+                t11.setVisibility(View.GONE);
                 break;
             case "22":
                 w1.setImageResource(R.mipmap.sbi1);
@@ -507,6 +618,9 @@ public class WithdrawActivity extends AppCompatActivity implements View.OnClickL
                 w6.setImageResource(R.mipmap.sbi7);
                 w7.setImageResource(R.mipmap.sbi8);
                 w8.setImageResource(R.mipmap.sbi9);
+                w9.setVisibility(View.GONE);
+                w10.setVisibility(View.GONE);
+                w11.setVisibility(View.GONE);
 
 
                 t1.setText(R.string.bob1);
@@ -517,6 +631,9 @@ public class WithdrawActivity extends AppCompatActivity implements View.OnClickL
                 t6.setText(R.string.sbi4);
                 t7.setText(R.string.bob7);
                 t8.setText(R.string.bob11);
+                t9.setVisibility(View.GONE);
+                t10.setVisibility(View.GONE);
+                t11.setVisibility(View.GONE);
                 break;
             case "23":
                 w1.setImageResource(R.mipmap.sbi1);
@@ -527,6 +644,9 @@ public class WithdrawActivity extends AppCompatActivity implements View.OnClickL
                 w6.setImageResource(R.mipmap.sbi7);
                 w7.setImageResource(R.mipmap.sbi8);
                 w8.setImageResource(R.mipmap.sbi9);
+                w9.setVisibility(View.GONE);
+                w10.setVisibility(View.GONE);
+                w11.setVisibility(View.GONE);
 
 
                 t1.setText(R.string.bob1);
@@ -537,6 +657,9 @@ public class WithdrawActivity extends AppCompatActivity implements View.OnClickL
                 t6.setText(R.string.sbi4);
                 t7.setText(R.string.bob7);
                 t8.setText(R.string.bob11);
+                t9.setVisibility(View.GONE);
+                t10.setVisibility(View.GONE);
+                t11.setVisibility(View.GONE);
                 break;
 
             case "24":
@@ -546,8 +669,11 @@ public class WithdrawActivity extends AppCompatActivity implements View.OnClickL
                 w4.setImageResource(R.mipmap.yb4);
                 w5.setImageResource(R.mipmap.yb5);
                 w6.setImageResource(R.mipmap.yb6);
-              //  w7.setImageResource(R.mipmap.sbi8);
-                //w8.setImageResource(R.mipmap.sbi9);
+                w7.setVisibility(View.GONE);
+                w8.setVisibility(View.GONE);
+                w9.setVisibility(View.GONE);
+                w10.setVisibility(View.GONE);
+                w11.setVisibility(View.GONE);
 
 
                 t1.setText(R.string.bob1);
@@ -556,8 +682,11 @@ public class WithdrawActivity extends AppCompatActivity implements View.OnClickL
                 t4.setText(R.string.bob7);
                 t5.setText(R.string.bob11);
                 t6.setText(R.string.bob3);
-              //  t7.setText(R.string.bob7);
-              //  t8.setText(R.string.bob11);
+                t7.setVisibility(View.GONE);
+                t8.setVisibility(View.GONE);
+                t9.setVisibility(View.GONE);
+                t10.setVisibility(View.GONE);
+                t11.setVisibility(View.GONE);
                 break;
         }
 
