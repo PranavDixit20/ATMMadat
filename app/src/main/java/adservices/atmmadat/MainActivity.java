@@ -5,7 +5,6 @@ import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
-import android.widget.Button;
 import android.widget.TextView;
 
 import com.google.android.gms.ads.AdRequest;
@@ -18,8 +17,8 @@ import java.util.Locale;
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
    // Button eng, mr,punjabi,hindi,malayalam,guj,tel,kan, nxt,ext;
-    Button nxt,ext;
-    TextView eng,mr,hindi,tv,au;
+    TextView nxt,ext;
+    TextView eng,mr,hindi,au,disc;
     TextView cyl,tt;
     Locale myLocale;
     Bundle b;
@@ -43,18 +42,18 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         eng = (TextView) findViewById(R.id.eng);
         mr = (TextView) findViewById(R.id.mr);
         hindi=(TextView) findViewById(R.id.hnd);
-        tv = (TextView)findViewById(R.id.tv);
-        au = (TextView)findViewById(R.id.aboutus);
+        au = (TextView)findViewById(R.id.au);
+        disc =(TextView)findViewById(R.id.disc);
 
        /* punjabi=(Button) findViewById(R.id.pnb);
         malayalam=(Button)findViewById(R.id.mlm);
         guj=(Button)findViewById(R.id.gj);
         tel=(Button)findViewById(R.id.tl);
         kan=(Button)findViewById(R.id.kn);*/
-        nxt = (Button)findViewById(R.id.nxt);
+        nxt = (TextView) findViewById(R.id.nxt);
         cyl = (TextView)findViewById(R.id.cyl);
         tt = (TextView)findViewById(R.id.tt);
-        ext = (Button)findViewById(R.id.exit);
+        ext = (TextView) findViewById(R.id.exit);
 
         eng.setOnClickListener(this);
         mr.setOnClickListener(this);
@@ -67,6 +66,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         nxt.setOnClickListener(this);
         ext.setOnClickListener(this);
         au.setOnClickListener(this);
+        disc.setOnClickListener(this);
         loadLocale();
 
     }
@@ -109,7 +109,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         cyl.setText(R.string.lang_selection);
         ext.setText(R.string.exit);
         tt.setText(R.string.app_name);
-        tv.setText(R.string.dis);
         au.setText(R.string.about_us);
     }
 
@@ -147,8 +146,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 moveTaskToBack(true);
                 finish();
                 break;
-            case R.id.aboutus:
+            case R.id.au:
                 startActivity(new Intent(this,About.class));
+                finish();
+                break;
+            case R.id.disc:
+                startActivity(new Intent(this,Disclaimer.class));
                 finish();
                 break;
         }
