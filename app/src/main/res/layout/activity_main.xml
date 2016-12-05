@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:ads="http://schemas.android.com/apk/res-auto"
@@ -26,7 +27,6 @@
             android:layout_width="match_parent"
             android:layout_height="55dp"
             android:text="@string/lang_selection"
-            android:background="#df79c2d3"
             android:textColor="#000"
             android:textStyle="bold"
             android:textSize="25sp"
@@ -35,8 +35,7 @@
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="#df79c2d3">
+            android:layout_height="wrap_content">
             <ScrollView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
@@ -45,46 +44,28 @@
                     android:layout_height="wrap_content"
                     android:orientation="vertical">
 
-                    <RelativeLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content">
-
                         <TextView
-                            android:layout_width="130dp"
-                            android:layout_height="130dp"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
                             android:text="@string/english"
+                            android:background="@drawable/show"
                             android:textSize="20sp"
                             android:gravity="center"
                             android:textColor="#000"
                             android:id="@+id/eng"
-                            android:layout_marginLeft="40dp" />
+                            android:layout_gravity="center"/>
 
-                        <TextView
-                            android:layout_width="130dp"
-                            android:layout_height="130dp"
-                            android:text="@string/Marathi"
-                            android:textSize="20sp"
-                            android:gravity="center"
-                            android:textColor="#000"
-                            android:layout_marginRight="40dp"
-                            android:id="@+id/mr"
-                            android:layout_alignParentRight="true"/>
-
-                        <View
-                            android:layout_width="match_parent"
-                            android:layout_height="1dp"
-                            android:background="@android:color/black"
-                            android:layout_alignParentBottom="true"/>
-                    </RelativeLayout>
 
                     <RelativeLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content">
                         <TextView
-                            android:layout_width="130dp"
-                            android:layout_height="130dp"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
                             android:layout_marginLeft="40dp"
-                            android:layout_marginTop="20dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginBottom="5dp"
+                            android:background="@drawable/show"
                             android:text="@string/hindi"
                             android:gravity="center"
                             android:textColor="#000"
@@ -92,16 +73,20 @@
                             android:id="@+id/hnd"/>
 
                         <TextView
-                            android:layout_width="130dp"
-                            android:layout_height="130dp"
-                            android:layout_marginRight="40dp"
-                            android:layout_marginTop="20dp"
-                            android:text="@string/disclaimer"
-                            android:layout_alignParentRight="true"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_marginTop="5dp"
+                            android:text="@string/Marathi"
+                            android:background="@drawable/show"
+                            android:textSize="20sp"
                             android:gravity="center"
                             android:textColor="#000"
-                            android:textSize="20sp"
-                            android:id="@+id/disc"/>
+                            android:layout_marginRight="40dp"
+                            android:layout_marginBottom="5dp"
+                            android:id="@+id/mr"
+                            android:layout_alignParentRight="true"/>
+
+
 
                      <!--   <Button
                             android:layout_width="130dp"
@@ -118,16 +103,7 @@
 
                     </RelativeLayout>
 
-                    <TextView
-                        android:layout_width="130dp"
-                        android:layout_height="130dp"
-                        android:layout_marginTop="20dp"
-                        android:text="@string/about_us"
-                        android:layout_gravity="center"
-                        android:gravity="center"
-                        android:textColor="#000"
-                        android:textSize="20sp"
-                        android:id="@+id/au"/>
+
 
                   <!--  <RelativeLayout
                         android:layout_width="wrap_content"
@@ -184,12 +160,13 @@
                         android:layout_height="match_parent">
 
                         <TextView
-                            android:layout_width="130dp"
-                            android:layout_height="130dp"
-                            android:layout_marginTop="20dp"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
                             android:layout_marginRight="40dp"
                             android:layout_alignParentRight="true"
-                            android:layout_marginBottom="20dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginBottom="5dp"
+                            android:background="@drawable/show"
                             android:text="@string/nxt"
                             android:gravity="center"
                             android:textColor="#000"
@@ -197,20 +174,54 @@
                             android:id="@+id/nxt"/>
 
                         <TextView
-                            android:layout_width="130dp"
-                            android:layout_height="130dp"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
                             android:layout_marginRight="10dp"
-                            android:layout_marginTop="20dp"
+                            android:layout_marginTop="5dp"
                             android:layout_marginLeft="40dp"
-                            android:layout_marginBottom="20dp"
+                            android:layout_marginBottom="5dp"
+                            android:background="@drawable/show"
                             android:text="@string/exit"
                             android:gravity="center"
                             android:textColor="#000"
                             android:textSize="20sp"
                             android:id="@+id/exit"/>
 
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_marginRight="40dp"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/show"
+                        android:text="@string/disclaimer"
+                        android:layout_alignParentRight="true"
+                        android:gravity="center"
+                        android:textColor="#000"
+                        android:textSize="20sp"
+                        android:id="@+id/disc"/>
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_marginTop="5dp"
+                        android:text="@string/about_us"
+                        android:layout_marginLeft="40dp"
+                        android:layout_marginBottom="5dp"
+                        android:background="@drawable/show"
+                        android:gravity="center"
+                        android:textColor="#000"
+                        android:textSize="20sp"
+                        android:id="@+id/au"/>
 
                     </RelativeLayout>
+
                     <include layout="@layout/copy"/>
                     <TextView
                         android:layout_width="match_parent"
