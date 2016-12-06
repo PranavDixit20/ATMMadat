@@ -45,8 +45,10 @@
                     android:orientation="vertical">
 
                         <TextView
-                            android:layout_width="100dp"
-                            android:layout_height="100dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp"
+                            android:layout_marginTop="30dp"
+                            android:layout_marginBottom="5dp"
                             android:text="@string/english"
                             android:background="@drawable/show"
                             android:textSize="20sp"
@@ -56,13 +58,13 @@
                             android:layout_gravity="center"/>
 
 
-                    <RelativeLayout
+                    <!--<RelativeLayout
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content">
+                        android:layout_height="wrap_content">-->
                         <TextView
-                            android:layout_width="100dp"
-                            android:layout_height="100dp"
-                            android:layout_marginLeft="40dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp"
+                            android:layout_marginLeft="0dp"
                             android:layout_marginTop="5dp"
                             android:layout_marginBottom="5dp"
                             android:background="@drawable/show"
@@ -73,15 +75,15 @@
                             android:id="@+id/hnd"/>
 
                         <TextView
-                            android:layout_width="100dp"
-                            android:layout_height="100dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp"
                             android:layout_marginTop="5dp"
                             android:text="@string/Marathi"
                             android:background="@drawable/show"
                             android:textSize="20sp"
                             android:gravity="center"
                             android:textColor="#000"
-                            android:layout_marginRight="40dp"
+                            android:layout_marginRight="0dp"
                             android:layout_marginBottom="5dp"
                             android:id="@+id/mr"
                             android:layout_alignParentRight="true"/>
@@ -101,7 +103,7 @@
 
 
 
-                    </RelativeLayout>
+                    <!--</RelativeLayout>-->
 
 
 
@@ -155,16 +157,14 @@
 
                     </RelativeLayout> -->
 
-                    <RelativeLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent">
+
 
                         <TextView
-                            android:layout_width="100dp"
-                            android:layout_height="100dp"
-                            android:layout_marginRight="40dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp"
+                            android:layout_marginRight="0dp"
                             android:layout_alignParentRight="true"
-                            android:layout_marginTop="5dp"
+                            android:layout_marginTop="25dp"
                             android:layout_marginBottom="5dp"
                             android:background="@drawable/show"
                             android:text="@string/nxt"
@@ -174,11 +174,11 @@
                             android:id="@+id/nxt"/>
 
                         <TextView
-                            android:layout_width="100dp"
-                            android:layout_height="100dp"
-                            android:layout_marginRight="10dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp"
+                            android:layout_marginRight="0dp"
                             android:layout_marginTop="5dp"
-                            android:layout_marginLeft="40dp"
+                            android:layout_marginLeft="0dp"
                             android:layout_marginBottom="5dp"
                             android:background="@drawable/show"
                             android:text="@string/exit"
@@ -187,18 +187,16 @@
                             android:textSize="20sp"
                             android:id="@+id/exit"/>
 
-                    </RelativeLayout>
 
-                    <RelativeLayout
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content">
+
+
 
                     <TextView
-                        android:layout_width="100dp"
-                        android:layout_height="100dp"
-                        android:layout_marginRight="40dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_marginRight="0dp"
                         android:layout_marginBottom="5dp"
-                        android:layout_marginTop="5dp"
+                        android:layout_marginTop="25dp"
                         android:background="@drawable/show"
                         android:text="@string/disclaimer"
                         android:layout_alignParentRight="true"
@@ -208,11 +206,11 @@
                         android:id="@+id/disc"/>
 
                     <TextView
-                        android:layout_width="100dp"
-                        android:layout_height="100dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
                         android:layout_marginTop="5dp"
                         android:text="@string/about_us"
-                        android:layout_marginLeft="40dp"
+                        android:layout_marginLeft="0dp"
                         android:layout_marginBottom="5dp"
                         android:background="@drawable/show"
                         android:gravity="center"
@@ -220,7 +218,7 @@
                         android:textSize="20sp"
                         android:id="@+id/au"/>
 
-                    </RelativeLayout>
+
 
                     <include layout="@layout/copy"/>
                     <TextView
