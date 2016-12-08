@@ -110,6 +110,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         ext.setText(R.string.exit);
         tt.setText(R.string.app_name);
         au.setText(R.string.about_us);
+        disc.setText(R.string.disclaimer);
     }
 
     @Override
