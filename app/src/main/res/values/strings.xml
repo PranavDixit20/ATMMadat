@@ -257,16 +257,8 @@ The total business of the bank during the financial year 2014-15 has been ₹3,4
         The Bank is headquartered in Manipal, Karnataka, India
     </string>
     <string name="ubiinfo" formatted="false">
-<b>United Bank of India </b> (UBI) is an Indian government-owned financial services company headquartered in
- Kolkata, West Bengal, India. Presently the bank has a three-tier organisational setup consisting of its Head office in Kolkata,
- 35 Regional offices and 2005 branches spread all over India. However, its major presence is in eastern India.
- The bank has three full-fledged overseas branches, one each at Kolkata, New Delhi and Mumbai.
- United Bank of India now aims to expand its international activities.
-
-On 30 March 2009, the Indian government approved the restructuring of United Bank of India.
- The government proposed to invest 2.5 billion rupees in shares by 31 March and another 5.50 billion
- in the next fiscal year in Tier-I capital instruments. The move is part of the Indian government\'s program
- to improve the capital base of the state-owned banks.
+    <b>IndusInd Bank</b> Limited is a Mumbai based Indian new generation bank, established in 1994. The bank offers commercial, transactional and electronic banking products and services. IndusInd Bank was inaugurated in April 1994 by then Union Finance Minister Manmohan Singh.
+        Indusind Bank is the first among the new-generation private banks in India.
     </string>
     <string name="vijinfo">
         <b>Vijaya Bank</b> is a fastest growing Public Sector Bank with its Corporate Office in Bangalore, Karnataka, India.
@@ -300,11 +292,6 @@ On 30 March 2009, the Indian government approved the restructuring of United Ban
 
 <string name="bcheck4">
    4. Select the option to view your balance. Then, you will be able to go back and make a withdrawal or print that balance.
-</string>
-
-<string name="bcheck5">
-   5. Opt to withdraw money from the ATM.
-    Ask for a receipt. Your checking balance will be printed onto your receipt for your records.
 </string>
 
     <string name="banner_ad_unit_id">ca-app-pub-3715652664770345/9286598713</string>

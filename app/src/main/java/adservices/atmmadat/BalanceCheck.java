@@ -12,7 +12,7 @@ import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.MobileAds;
 
 public class BalanceCheck extends AppCompatActivity implements View.OnClickListener {
-    TextView b1,b2,b3,b4,b5;
+    TextView b1,b2,b3,b4;
     String x;
     Button b;
     String uid = "ca-app-pub-3715652664770345/9286598713";
@@ -34,14 +34,12 @@ public class BalanceCheck extends AppCompatActivity implements View.OnClickListe
         b2=(TextView)findViewById(R.id.bcheck2);
         b3=(TextView)findViewById(R.id.bcheck3);
         b4=(TextView)findViewById(R.id.bcheck4);
-        b5=(TextView)findViewById(R.id.bcheck5);
         b = (Button)findViewById(R.id.bcb);
 
         b1.setText(R.string.bcheck1);
         b2.setText(R.string.bcheck2);
         b3.setText(R.string.bcheck3);
         b4.setText(R.string.bcheck4);
-        b5.setText(R.string.bcheck5);
 
         b.setOnClickListener(this);
 
