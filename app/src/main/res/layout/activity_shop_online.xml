@@ -42,12 +42,12 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="3dp"/>
 
-            <ImageView
+            <!--<ImageView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:scaleType="fitXY"
                 android:layout_marginTop="10dp"
-                android:src="@mipmap/osone"/>
+                android:src="@mipmap/osone"/>-->
 
             <TextView
                 android:layout_width="match_parent"
