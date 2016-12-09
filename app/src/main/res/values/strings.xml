@@ -312,7 +312,7 @@ A cash machine typically has following control for the customers:
     <string name="debit_or_atm_card">Debit Or Atm Card</string>
     <string name="atm_card_only">Atm Card Only</string>
     <string name="card_payment_getway">Card Payment Getway</string>
-    <string name="ci">When dealing with a bank you generally have \n two types of transactions.
+    <string name="ci">When dealing with a bank you generally have two types of transactions.
 
   \n\n 1]  <b>Deposit</b> your money and then use it eventually when you need it.
         In this case the maximum amount you can spend is equal to the balance in your account.
@@ -422,16 +422,16 @@ Hand over the machine to the operator.
     </string>
     <string name="osinfo">Online shopping is like visiting a shop, the only difference is that all the things that are arranged on a counter are now seen as images on a web page.
          As you walk and browse a shop, similarly you go through the web pages of the site to find an item that you like. you can select multiple items you like and then
-        when you finish browsing you pay and exit the site. The online shop then ships the purchased items to the address you filled out while making the purthase.
-        On most of the shoping sites you are encourages to create your profile and register your self with an email address and phone number.
+        when you finish browsing you pay and exit the site. The online shop then ships the purchased items to the address you filled out while making the purchase.
+        On most of the shopping sites you are encouraged to create your profile and register your self with an email address and phone number.
         \n \n
 
         <b>Things to remember</b>
-        \n 1: To do online shopping you will need a internet banking and internet shoping enabled debit card
+        \n 1: To do online shopping you will need a internet banking and internet shopping enabled debit card
         \n 2: You will receive a internet password from the bank which is different than your 4 digit pin
         \n 3: You will need to have a registered mobile number with the Bank as most of the bank now days send an <b>One time PIN</b> OTP to this mobile number when you are
         making a payment online.
-        \n 4: Online shoping paymant can be completed usuing internet banking or through a internet payment gateway like Billdesk
+        \n 4: Online shopping paymant can be completed usuing internet banking or through a internet payment gateway like Billdesk
 
     </string>
     <string name="os1"><b>https&#58;&#47;&#47;</b> at the start of the web page address generally means the site is secure and encrypted.
@@ -577,10 +577,13 @@ Please make sure some things before you enter your pin
         This application\'s intention is to educate and help citizens of India.
         If the information listed in this application needs a correction please do let us know and we will do the needful.
         If you want us to remove any part of the information within this application under copyright protection then please
-        do let us know.
+        do let us know. All the images are for reference purpose only.
+        All product and company names are trademarks™ or registered® trademarks of their respective holders.
+        Use of them does not imply any affiliation with or endorsement by them.
     </string>
     <string name="about_us">About Us</string>
-    <string name="aboutus">ADservices was started with an idea to bring to the market our application on the latest smartphone technology as well as help small and medium scale business with our experience in utilizing these technologies.
+    <string name="aboutus">ADservices was started with an idea to bring to the market innovative smartphone application
+        technology as well as help small and medium scale business with our experience in utilizing these technologies.
     </string>
     <string name="location">Senapati Bapat Road ​Pune India. ​ Vancouver Canada.</string>
     <string name="disclaimer">Disclaimer</string>
