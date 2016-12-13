@@ -38,7 +38,8 @@
                 android:layout_marginTop="10dp"
                 android:textSize="20sp"
                 android:textColor="#000"
-                android:gravity="left"
+                android:layout_gravity="center_horizontal|start"
+                android:gravity="start"
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="3dp"/>
 
@@ -55,7 +56,8 @@
                 android:id="@+id/one"
                 android:textSize="20sp"
                 android:textColor="#000"
-                android:gravity="left"
+                android:layout_gravity="center_horizontal|start"
+                android:gravity="start"
                 android:layout_marginTop="10dp"
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="3dp"/>
@@ -73,7 +75,8 @@
                 android:id="@+id/two"
                 android:textSize="20sp"
                 android:textColor="#000"
-                android:gravity="left"
+                android:layout_gravity="center_horizontal|start"
+                android:gravity="start"
                 android:layout_marginTop="10dp"
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="3dp"/>
@@ -91,7 +94,8 @@
                 android:id="@+id/three"
                 android:textSize="20sp"
                 android:textColor="#000"
-                android:gravity="left"
+                android:layout_gravity="center_horizontal|start"
+                android:gravity="start"
                 android:layout_marginTop="10dp"
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="3dp"/>
@@ -109,7 +113,8 @@
                 android:id="@+id/four"
                 android:textSize="20sp"
                 android:textColor="#000"
-                android:gravity="left"
+                android:layout_gravity="center_horizontal|start"
+                android:gravity="start"
                 android:layout_marginTop="10dp"
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="3dp"/>
@@ -127,7 +132,8 @@
                 android:id="@+id/five"
                 android:textSize="20sp"
                 android:textColor="#000"
-                android:gravity="left"
+                android:layout_gravity="center_horizontal|start"
+                android:gravity="start"
                 android:layout_marginTop="10dp"
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="3dp"/>
@@ -145,7 +151,8 @@
                 android:id="@+id/six"
                 android:textSize="20sp"
                 android:textColor="#000"
-                android:gravity="left"
+                android:layout_gravity="center_horizontal|start"
+                android:gravity="start"
                 android:layout_marginTop="10dp"
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="3dp"/>
@@ -163,7 +170,8 @@
                 android:id="@+id/seven"
                 android:textSize="20sp"
                 android:textColor="#000"
-                android:gravity="left"
+                android:layout_gravity="center_horizontal|start"
+                android:gravity="start"
                 android:layout_marginTop="10dp"
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="3dp"/>
@@ -181,7 +189,8 @@
                 android:id="@+id/eight"
                 android:textSize="20sp"
                 android:textColor="#000"
-                android:gravity="left"
+                android:layout_gravity="center_horizontal|start"
+                android:gravity="start"
                 android:layout_marginTop="10dp"
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="3dp"/>
@@ -199,7 +208,8 @@
                 android:id="@+id/nine"
                 android:textSize="20sp"
                 android:textColor="#000"
-                android:gravity="left"
+                android:layout_gravity="center_horizontal|start"
+                android:gravity="start"
                 android:layout_marginTop="10dp"
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="3dp"/>

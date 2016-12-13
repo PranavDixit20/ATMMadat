@@ -40,7 +40,8 @@
             android:layout_height="match_parent"
             android:id="@+id/info1"
             android:textSize="20sp"
-            android:gravity="left"
+            android:layout_gravity="center_horizontal|start"
+            android:gravity="start"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="3dp"/>
 
@@ -56,7 +57,8 @@
             android:layout_height="match_parent"
             android:id="@+id/info2"
             android:textSize="20sp"
-            android:gravity="left"
+            android:layout_gravity="center_horizontal|start"
+            android:gravity="start"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="3dp"/>
 
@@ -72,7 +74,8 @@
             android:layout_height="match_parent"
             android:id="@+id/info3"
             android:textSize="20sp"
-            android:gravity="left"
+            android:layout_gravity="center_horizontal|start"
+            android:gravity="start"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="3dp"/>
 
@@ -88,7 +91,8 @@
             android:layout_height="match_parent"
             android:id="@+id/info4"
             android:textSize="20sp"
-            android:gravity="left"
+            android:layout_gravity="center_horizontal|start"
+            android:gravity="start"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="3dp"/>
 
@@ -104,7 +108,8 @@
             android:layout_height="match_parent"
             android:id="@+id/info5"
             android:textSize="20sp"
-            android:gravity="left"
+            android:layout_gravity="center_horizontal|start"
+            android:gravity="start"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="3dp"/>
 
@@ -120,7 +125,8 @@
             android:layout_height="match_parent"
             android:id="@+id/info6"
             android:textSize="20sp"
-            android:gravity="left"
+            android:layout_gravity="center_horizontal|start"
+            android:gravity="start"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="3dp"/>
 
@@ -136,7 +142,8 @@
             android:layout_height="match_parent"
             android:id="@+id/info7"
             android:textSize="20sp"
-            android:gravity="left"
+            android:layout_gravity="center_horizontal|start"
+            android:gravity="start"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="3dp"/>
 
@@ -152,7 +159,8 @@
             android:layout_height="match_parent"
             android:id="@+id/info8"
             android:textSize="20sp"
-            android:gravity="left"
+            android:layout_gravity="center_horizontal|start"
+            android:gravity="start"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="3dp"/>
 
@@ -168,7 +176,8 @@
             android:layout_height="match_parent"
             android:id="@+id/info9"
             android:textSize="20sp"
-            android:gravity="left"
+            android:layout_gravity="center_horizontal|start"
+            android:gravity="start"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="3dp"/>
 
@@ -184,7 +193,8 @@
             android:layout_height="match_parent"
             android:id="@+id/info10"
             android:textSize="20sp"
-            android:gravity="left"
+            android:layout_gravity="center_horizontal|start"
+            android:gravity="start"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="3dp"/>
 
@@ -200,7 +210,8 @@
             android:layout_height="match_parent"
             android:id="@+id/info11"
             android:textSize="20sp"
-            android:gravity="left"
+            android:layout_gravity="center_horizontal|start"
+            android:gravity="start"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="3dp"/>
 

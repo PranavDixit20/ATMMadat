@@ -37,7 +37,8 @@
                 android:id="@+id/vcard"
                 android:textSize="20sp"
                 android:textColor="#000"
-                android:gravity="left"
+                android:layout_gravity="center_horizontal|start"
+                android:gravity="start"
                 android:layout_marginTop="10dp"
                 android:layout_marginLeft="10dp"
                 android:layout_marginRight="3dp"/>

@@ -55,7 +55,8 @@
                 android:text="@string/aboutus"
                 android:textColor="#000"
                 android:textSize="20dp"
-                android:layout_gravity="center"
+                android:layout_gravity="center_horizontal|start"
+                android:gravity="start"
                 android:textStyle="italic" />
 
 
