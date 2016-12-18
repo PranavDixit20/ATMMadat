@@ -322,7 +322,7 @@ A cash machine typically has following control for the customers:
     \n \n
         <b>ATM / Debit card Pin number</b> - this is a four digit security number that is required to be used with the card for all the transactions. It is generally posted to the registered address of the customer in a secure post by the bank.
         Never share your Pin number with anyone or even with any bank person (employee). try and remember the Pin. <b>Do not</b> write the pin on the back of the card or any where
-        because if the card is lost and has the pin with it any one can steal money from your bank account.
+        because if the card is lost and has the pin with it any one can steal money from your bank account.\n \n When you get any type of new card you will need to activate it with the bank.
     </string>
     <string name="cci" formatted="false"><b>What is a credit card?</b>
        \n \n A credit card allows you to borrow money from your bank to make your purchases.
