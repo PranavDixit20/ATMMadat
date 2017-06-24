@@ -11,7 +11,7 @@ import com.google.firebase.storage.StorageReference;
 
 public class ImageLoader {
     static FirebaseStorage storage = FirebaseStorage.getInstance();
-   static StorageReference storageRef = storage.getReferenceFromUrl("gs://atmmadat.appspot.com");
+   static StorageReference storageRef = storage.getReferenceFromUrl("gs://atm-madat.appspot.com");
 
 
     public  static void upload(Context ctx, String imgname, ImageView imv){
