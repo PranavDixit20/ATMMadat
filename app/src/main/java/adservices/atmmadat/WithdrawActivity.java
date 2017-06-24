@@ -8,9 +8,13 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.bumptech.glide.Glide;
+import com.firebase.ui.storage.images.FirebaseImageLoader;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.MobileAds;
+import com.google.firebase.storage.FirebaseStorage;
+import com.google.firebase.storage.StorageReference;
 
 public class WithdrawActivity extends AppCompatActivity implements View.OnClickListener {
     ImageView w1,w2,w3,w4,w5,w6,w7,w8,w9,w10,w11;
@@ -18,6 +22,9 @@ public class WithdrawActivity extends AppCompatActivity implements View.OnClickL
     String x;
     Button bb;
     String uid = "ca-app-pub-3715652664770345/9286598713";
+    FirebaseStorage storage = FirebaseStorage.getInstance();
+    StorageReference storageRef = storage.getReferenceFromUrl("gs://atmmadat.appspot.com");
+    StorageReference sref = storageRef.child("BankImages/sbi1.png");
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -69,7 +76,8 @@ public class WithdrawActivity extends AppCompatActivity implements View.OnClickL
     public void imagSet(){
         switch (x){
             case "1":
-                w1.setImageResource(R.mipmap.sbi1);
+                Glide.with(this).using(new FirebaseImageLoader()).load(sref).into(w1);
+               // w1.setImageResource(R.mipmap.sbi1);
                 w2.setImageResource(R.mipmap.sbi2);
                 w3.setImageResource(R.mipmap.sbi3);
                 w4.setImageResource(R.mipmap.sbi5);
