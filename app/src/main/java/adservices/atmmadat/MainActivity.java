@@ -4,13 +4,19 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
 
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.MobileAds;
+
+import com.google.firebase.FirebaseApp;
+import com.google.firebase.FirebaseOptions;
+
 import com.google.firebase.analytics.FirebaseAnalytics;
+
 import com.google.firebase.storage.FirebaseStorage;
 
 import java.util.Locale;
@@ -30,6 +36,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        FirebaseOptions opts = FirebaseApp.getInstance().getOptions();
+        Log.i("TAG", "Bucket = " + opts.getStorageBucket());
         MobileAds.initialize(getApplicationContext(),uid);
 
         AdView adView = new AdView(this);
