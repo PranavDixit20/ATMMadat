@@ -22,9 +22,9 @@ public class WithdrawActivity extends AppCompatActivity implements View.OnClickL
     String x;
     Button bb;
     String uid = "ca-app-pub-3715652664770345/9286598713";
-    FirebaseStorage storage = FirebaseStorage.getInstance();
-    StorageReference storageRef = storage.getReferenceFromUrl("gs://atmmadat.appspot.com/BankImages/sbi1.png");
-   // StorageReference sref = storageRef.child("BankImages/sbi1.png");
+   /* FirebaseStorage storage = FirebaseStorage.getInstance();
+    StorageReference storageRef = storage.getReferenceFromUrl("gs://atm-madat.appspot.com");
+    StorageReference sref = storageRef.child("BankImages/sbi1.png");*/
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -76,15 +76,14 @@ public class WithdrawActivity extends AppCompatActivity implements View.OnClickL
     public void imagSet(){
         switch (x){
             case "1":
-                Glide.with(this).using(new FirebaseImageLoader()).load(storageRef).into(w1);
-               // w1.setImageResource(R.mipmap.sbi1);
-                w2.setImageResource(R.mipmap.sbi2);
-                w3.setImageResource(R.mipmap.sbi3);
-                w4.setImageResource(R.mipmap.sbi5);
-                w5.setImageResource(R.mipmap.sbi6);
-                w6.setImageResource(R.mipmap.sbi7);
-                w7.setImageResource(R.mipmap.sbi8);
-                w8.setImageResource(R.mipmap.sbi9);
+                ImageLoader.upload(this,"sbi1.png",w1);
+                ImageLoader.upload(this,"sbi2.png",w2);
+                ImageLoader.upload(this,"sbi3.png",w3);
+                ImageLoader.upload(this,"sbi5.png",w4);
+                ImageLoader.upload(this,"sbi6.png",w5);
+                ImageLoader.upload(this,"sbi7.png",w6);
+                ImageLoader.upload(this,"sbi8.png",w7);
+                ImageLoader.upload(this,"sbi9.png",w8);
                 w9.setVisibility(View.GONE);
                 w10.setVisibility(View.GONE);
                 w11.setVisibility(View.GONE);
@@ -103,17 +102,18 @@ public class WithdrawActivity extends AppCompatActivity implements View.OnClickL
                 t11.setVisibility(View.GONE);
                 break;
             case "2":
-                w1.setImageResource(R.mipmap.bobone);
-                w2.setImageResource(R.mipmap.bobtwo);
-                w3.setImageResource(R.mipmap.bobthree);
-                w4.setImageResource(R.mipmap.bobfour);
-                w5.setImageResource(R.mipmap.bobfive);
-                w6.setImageResource(R.mipmap.bobsix);
-                w7.setImageResource(R.mipmap.bobseven);
-                w8.setImageResource(R.mipmap.bobeight);
-                w9.setImageResource(R.mipmap.bobnine);
-                w10.setImageResource(R.mipmap.bobten);
-                w11.setImageResource(R.mipmap.bobeleven);
+                ImageLoader.upload(this,"bobone.png",w1);
+                ImageLoader.upload(this,"bobtwo.png",w2);
+                ImageLoader.upload(this,"bobthree.png",w3);
+                ImageLoader.upload(this,"bobfour.png",w4);
+                ImageLoader.upload(this,"bobfive.png",w5);
+                ImageLoader.upload(this,"bobsix.png",w6);
+                ImageLoader.upload(this,"bobseven.png",w7);
+                ImageLoader.upload(this,"bobeight.png",w8);
+                ImageLoader.upload(this,"bobnine.png",w9);
+                ImageLoader.upload(this,"bobten.png",w10);
+                ImageLoader.upload(this,"bobeleven.png",w11);
+
 
                 t1.setText(R.string.bob1);
                 t2.setText(R.string.bob2);
@@ -129,12 +129,13 @@ public class WithdrawActivity extends AppCompatActivity implements View.OnClickL
 
                 break;
             case "3":
-                w1.setImageResource(R.mipmap.boi1);
-                w2.setImageResource(R.mipmap.boi2);
-                w3.setImageResource(R.mipmap.boi3);
-                w4.setImageResource(R.mipmap.boi4);
-                w5.setImageResource(R.mipmap.boi5);
-                w6.setImageResource(R.mipmap.boi6);
+
+                ImageLoader.upload(this,"boi1.png",w1);
+                ImageLoader.upload(this,"boi2.png",w2);
+                ImageLoader.upload(this,"boi3.png",w3);
+                ImageLoader.upload(this,"boi4.png",w4);
+                ImageLoader.upload(this,"boi5.png",w5);
+                ImageLoader.upload(this,"boi6.png",w6);
                 w7.setVisibility(View.GONE);
                 w8.setVisibility(View.GONE);
                 w9.setVisibility(View.GONE);
@@ -155,13 +156,14 @@ public class WithdrawActivity extends AppCompatActivity implements View.OnClickL
                 t11.setVisibility(View.GONE);
                 break;
             case "4":
-                w1.setImageResource(R.mipmap.c1);
-                w2.setImageResource(R.mipmap.c2);
-                w3.setImageResource(R.mipmap.c3);
-                w4.setImageResource(R.mipmap.c4);
-                w5.setImageResource(R.mipmap.c5);
-                w6.setImageResource(R.mipmap.c6);
-                w7.setImageResource(R.mipmap.c7);
+                ImageLoader.upload(this,"c1.jpg",w1);
+                ImageLoader.upload(this,"c2.jpg",w2);
+                ImageLoader.upload(this,"c3.jpg",w3);
+                ImageLoader.upload(this,"c4.jpg",w4);
+                ImageLoader.upload(this,"c5.jpg",w5);
+                ImageLoader.upload(this,"c6.jpg",w6);
+                ImageLoader.upload(this,"c7.jpg",w7);
+
                 w8.setVisibility(View.GONE);
                 w9.setVisibility(View.GONE);
                 w10.setVisibility(View.GONE);
@@ -181,13 +183,13 @@ public class WithdrawActivity extends AppCompatActivity implements View.OnClickL
 
                 break;
             case "5":
-                w1.setImageResource(R.mipmap.cb1);
-                w2.setImageResource(R.mipmap.cb2);
-                w3.setImageResource(R.mipmap.cb4);
-                w4.setImageResource(R.mipmap.cb5);
-                w5.setImageResource(R.mipmap.cb6);
-                w6.setImageResource(R.mipmap.cb7);
-                w7.setImageResource(R.mipmap.cb8);
+                ImageLoader.upload(this,"cb1.png",w1);
+                ImageLoader.upload(this,"cb2.png",w2);
+                ImageLoader.upload(this,"cb4.png",w3);
+                ImageLoader.upload(this,"cb5.png",w4);
+                ImageLoader.upload(this,"cb6.png",w5);
+                ImageLoader.upload(this,"cb7.png",w6);
+                ImageLoader.upload(this,"cb8.png",w7);
                 w8.setVisibility(View.GONE);
                 w9.setVisibility(View.GONE);
                 w10.setVisibility(View.GONE);
@@ -207,13 +209,14 @@ public class WithdrawActivity extends AppCompatActivity implements View.OnClickL
                 t11.setVisibility(View.GONE);
                 break;
             case "6":
-                w1.setImageResource(R.mipmap.hdfc1);
-                w2.setImageResource(R.mipmap.hdfc2);
-                w3.setImageResource(R.mipmap.hdfc3);
-                w4.setImageResource(R.mipmap.hdfc4);
-                w5.setImageResource(R.mipmap.hdfc5);
-                w6.setImageResource(R.mipmap.hdfc6);
-                w7.setImageResource(R.mipmap.hdfc7);
+
+                ImageLoader.upload(this,"hdfc1.png",w1);
+                ImageLoader.upload(this,"hdfc2.png",w2);
+                ImageLoader.upload(this,"hdfc3.png",w3);
+                ImageLoader.upload(this,"hdfc4.png",w4);
+                ImageLoader.upload(this,"hdfc5.png",w5);
+                ImageLoader.upload(this,"hdfc6.png",w6);
+                ImageLoader.upload(this,"hdfc7.png",w7);
                 w8.setVisibility(View.GONE);
                 w9.setVisibility(View.GONE);
                 w10.setVisibility(View.GONE);
@@ -233,14 +236,16 @@ public class WithdrawActivity extends AppCompatActivity implements View.OnClickL
                 t11.setVisibility(View.GONE);
                 break;
             case "7":
-                w1.setImageResource(R.mipmap.sbi1);
-                w2.setImageResource(R.mipmap.sbi2);
-                w3.setImageResource(R.mipmap.sbi3);
-                w4.setImageResource(R.mipmap.sbi5);
-                w5.setImageResource(R.mipmap.sbi6);
-                w6.setImageResource(R.mipmap.sbi7);
-                w7.setImageResource(R.mipmap.sbi8);
-                w8.setImageResource(R.mipmap.sbi9);
+
+                ImageLoader.upload(this,"sbi1.png",w1);
+                ImageLoader.upload(this,"sbi2.png",w2);
+                ImageLoader.upload(this,"sbi3.png",w3);
+                ImageLoader.upload(this,"sbi5.png",w4);
+                ImageLoader.upload(this,"sbi6.png",w5);
+                ImageLoader.upload(this,"sbi7.png",w6);
+                ImageLoader.upload(this,"sbi8.png",w7);
+                ImageLoader.upload(this,"sbi9.png",w8);
+
                 w9.setVisibility(View.GONE);
                 w10.setVisibility(View.GONE);
                 w11.setVisibility(View.GONE);
@@ -259,15 +264,17 @@ public class WithdrawActivity extends AppCompatActivity implements View.OnClickL
                 t11.setVisibility(View.GONE);
                 break;
             case "8":
-                w1.setImageResource(R.mipmap.sbi1);
-                w2.setImageResource(R.mipmap.sbi2);
-                w3.setImageResource(R.mipmap.sbi3);
-                w4.setImageResource(R.mipmap.sbi4);
-                w5.setImageResource(R.mipmap.sbi5);
-                w6.setImageResource(R.mipmap.sbi6);
-                w7.setImageResource(R.mipmap.sbi7);
-                w8.setImageResource(R.mipmap.sbi8);
-                w9.setImageResource(R.mipmap.sbi9);
+
+                ImageLoader.upload(this,"sbi1.png",w1);
+                ImageLoader.upload(this,"sbi2.png",w2);
+                ImageLoader.upload(this,"sbi3.png",w3);
+                ImageLoader.upload(this,"sbi4.png",w4);
+                ImageLoader.upload(this,"sbi5.png",w5);
+                ImageLoader.upload(this,"sbi6.png",w6);
+                ImageLoader.upload(this,"sbi7.png",w7);
+                ImageLoader.upload(this,"sbi8.png",w8);
+                ImageLoader.upload(this,"sbi9.png",w9);
+
                 w10.setVisibility(View.GONE);
                 w11.setVisibility(View.GONE);
 
@@ -284,14 +291,16 @@ public class WithdrawActivity extends AppCompatActivity implements View.OnClickL
                 t11.setVisibility(View.GONE);
                 break;
             case "9":
-                w1.setImageResource(R.mipmap.sbi1);
-                w2.setImageResource(R.mipmap.sbi2);
-                w3.setImageResource(R.mipmap.sbi3);
-                w4.setImageResource(R.mipmap.sbi5);
-                w5.setImageResource(R.mipmap.sbi6);
-                w6.setImageResource(R.mipmap.sbi7);
-                w7.setImageResource(R.mipmap.sbi8);
-                w8.setImageResource(R.mipmap.sbi9);
+
+                ImageLoader.upload(this,"sbi1.png",w1);
+                ImageLoader.upload(this,"sbi2.png",w2);
+                ImageLoader.upload(this,"sbi3.png",w3);
+                ImageLoader.upload(this,"sbi5.png",w4);
+                ImageLoader.upload(this,"sbi6.png",w5);
+                ImageLoader.upload(this,"sbi7.png",w6);
+                ImageLoader.upload(this,"sbi8.png",w7);
+                ImageLoader.upload(this,"sbi9.png",w8);
+
                 w9.setVisibility(View.GONE);
                 w10.setVisibility(View.GONE);
                 w11.setVisibility(View.GONE);
@@ -310,14 +319,16 @@ public class WithdrawActivity extends AppCompatActivity implements View.OnClickL
                 t11.setVisibility(View.GONE);
                 break;
             case "10":
-                w1.setImageResource(R.mipmap.sbi1);
-                w2.setImageResource(R.mipmap.sbi2);
-                w3.setImageResource(R.mipmap.sbi3);
-                w4.setImageResource(R.mipmap.sbi5);
-                w5.setImageResource(R.mipmap.sbi6);
-                w6.setImageResource(R.mipmap.sbi7);
-                w7.setImageResource(R.mipmap.sbi8);
-                w8.setImageResource(R.mipmap.sbi9);
+
+                ImageLoader.upload(this,"sbi1.png",w1);
+                ImageLoader.upload(this,"sbi2.png",w2);
+                ImageLoader.upload(this,"sbi3.png",w3);
+                ImageLoader.upload(this,"sbi5.png",w4);
+                ImageLoader.upload(this,"sbi6.png",w5);
+                ImageLoader.upload(this,"sbi7.png",w6);
+                ImageLoader.upload(this,"sbi8.png",w7);
+                ImageLoader.upload(this,"sbi9.png",w8);
+
                 w9.setVisibility(View.GONE);
                 w10.setVisibility(View.GONE);
                 w11.setVisibility(View.GONE);
@@ -336,15 +347,17 @@ public class WithdrawActivity extends AppCompatActivity implements View.OnClickL
                 t11.setVisibility(View.GONE);
                 break;
             case "11":
-                w1.setImageResource(R.mipmap.sbi1);
-                w2.setImageResource(R.mipmap.sbi2);
-                w3.setImageResource(R.mipmap.sbi3);
-                w4.setImageResource(R.mipmap.sbi4);
-                w5.setImageResource(R.mipmap.sbi5);
-                w6.setImageResource(R.mipmap.sbi6);
-                w7.setImageResource(R.mipmap.sbi7);
-                w8.setImageResource(R.mipmap.sbi8);
-                w9.setImageResource(R.mipmap.sbi9);
+
+                ImageLoader.upload(this,"sbi1.png",w1);
+                ImageLoader.upload(this,"sbi2.png",w2);
+                ImageLoader.upload(this,"sbi3.png",w3);
+                ImageLoader.upload(this,"sbi4.png",w4);
+                ImageLoader.upload(this,"sbi5.png",w5);
+                ImageLoader.upload(this,"sbi6.png",w6);
+                ImageLoader.upload(this,"sbi7.png",w7);
+                ImageLoader.upload(this,"sbi8.png",w8);
+                ImageLoader.upload(this,"sbi9.png",w9);
+
                 w10.setVisibility(View.GONE);
                 w11.setVisibility(View.GONE);
 
@@ -361,15 +374,17 @@ public class WithdrawActivity extends AppCompatActivity implements View.OnClickL
                 t11.setVisibility(View.GONE);
                 break;
             case "12":
-                w1.setImageResource(R.mipmap.sbi1);
-                w2.setImageResource(R.mipmap.sbi2);
-                w3.setImageResource(R.mipmap.sbi3);
-                w4.setImageResource(R.mipmap.sbi4);
-                w5.setImageResource(R.mipmap.sbi5);
-                w6.setImageResource(R.mipmap.sbi6);
-                w7.setImageResource(R.mipmap.sbi7);
-                w8.setImageResource(R.mipmap.sbi8);
-                w9.setImageResource(R.mipmap.sbi9);
+
+                ImageLoader.upload(this,"sbi1.png",w1);
+                ImageLoader.upload(this,"sbi2.png",w2);
+                ImageLoader.upload(this,"sbi3.png",w3);
+                ImageLoader.upload(this,"sbi4.png",w4);
+                ImageLoader.upload(this,"sbi5.png",w5);
+                ImageLoader.upload(this,"sbi6.png",w6);
+                ImageLoader.upload(this,"sbi7.png",w7);
+                ImageLoader.upload(this,"sbi8.png",w8);
+                ImageLoader.upload(this,"sbi9.png",w9);
+
                 w10.setVisibility(View.GONE);
                 w11.setVisibility(View.GONE);
 
@@ -386,15 +401,17 @@ public class WithdrawActivity extends AppCompatActivity implements View.OnClickL
                 t11.setVisibility(View.GONE);
                 break;
             case "13":
-                w1.setImageResource(R.mipmap.sbi1);
-                w2.setImageResource(R.mipmap.sbi2);
-                w3.setImageResource(R.mipmap.sbi3);
-                w4.setImageResource(R.mipmap.sbi4);
-                w5.setImageResource(R.mipmap.sbi5);
-                w6.setImageResource(R.mipmap.sbi6);
-                w7.setImageResource(R.mipmap.sbi7);
-                w8.setImageResource(R.mipmap.sbi8);
-                w9.setImageResource(R.mipmap.sbi9);
+
+                ImageLoader.upload(this,"sbi1.png",w1);
+                ImageLoader.upload(this,"sbi2.png",w2);
+                ImageLoader.upload(this,"sbi3.png",w3);
+                ImageLoader.upload(this,"sbi4.png",w4);
+                ImageLoader.upload(this,"sbi5.png",w5);
+                ImageLoader.upload(this,"sbi6.png",w6);
+                ImageLoader.upload(this,"sbi7.png",w7);
+                ImageLoader.upload(this,"sbi8.png",w8);
+                ImageLoader.upload(this,"sbi9.png",w9);
+
                 w10.setVisibility(View.GONE);
                 w11.setVisibility(View.GONE);
 
@@ -411,15 +428,17 @@ public class WithdrawActivity extends AppCompatActivity implements View.OnClickL
                 t11.setVisibility(View.GONE);
                 break;
             case "14":
-                w1.setImageResource(R.mipmap.sbi1);
-                w2.setImageResource(R.mipmap.sbi2);
-                w3.setImageResource(R.mipmap.sbi3);
-                w4.setImageResource(R.mipmap.sbi4);
-                w5.setImageResource(R.mipmap.sbi5);
-                w6.setImageResource(R.mipmap.sbi6);
-                w7.setImageResource(R.mipmap.sbi7);
-                w8.setImageResource(R.mipmap.sbi8);
-                w9.setImageResource(R.mipmap.sbi9);
+
+                ImageLoader.upload(this,"sbi1.png",w1);
+                ImageLoader.upload(this,"sbi2.png",w2);
+                ImageLoader.upload(this,"sbi3.png",w3);
+                ImageLoader.upload(this,"sbi4.png",w4);
+                ImageLoader.upload(this,"sbi5.png",w5);
+                ImageLoader.upload(this,"sbi6.png",w6);
+                ImageLoader.upload(this,"sbi7.png",w7);
+                ImageLoader.upload(this,"sbi8.png",w8);
+                ImageLoader.upload(this,"sbi9.png",w9);
+
                 w10.setVisibility(View.GONE);
                 w11.setVisibility(View.GONE);
 
@@ -436,15 +455,16 @@ public class WithdrawActivity extends AppCompatActivity implements View.OnClickL
                 t11.setVisibility(View.GONE);
                 break;
             case "15":
-                w1.setImageResource(R.mipmap.sbi1);
-                w2.setImageResource(R.mipmap.sbi2);
-                w3.setImageResource(R.mipmap.sbi3);
-                w4.setImageResource(R.mipmap.sbi4);
-                w5.setImageResource(R.mipmap.sbi5);
-                w6.setImageResource(R.mipmap.sbi6);
-                w7.setImageResource(R.mipmap.sbi7);
-                w8.setImageResource(R.mipmap.sbi8);
-                w9.setImageResource(R.mipmap.sbi9);
+                ImageLoader.upload(this,"sbi1.png",w1);
+                ImageLoader.upload(this,"sbi2.png",w2);
+                ImageLoader.upload(this,"sbi3.png",w3);
+                ImageLoader.upload(this,"sbi4.png",w4);
+                ImageLoader.upload(this,"sbi5.png",w5);
+                ImageLoader.upload(this,"sbi6.png",w6);
+                ImageLoader.upload(this,"sbi7.png",w7);
+                ImageLoader.upload(this,"sbi8.png",w8);
+                ImageLoader.upload(this,"sbi9.png",w9);
+
                 w10.setVisibility(View.GONE);
                 w11.setVisibility(View.GONE);
 
@@ -461,14 +481,14 @@ public class WithdrawActivity extends AppCompatActivity implements View.OnClickL
                 t11.setVisibility(View.GONE);
                 break;
             case "16":
-                w1.setImageResource(R.mipmap.sbi1);
-                w2.setImageResource(R.mipmap.sbi2);
-                w3.setImageResource(R.mipmap.sbi3);
-                w4.setImageResource(R.mipmap.sbi5);
-                w5.setImageResource(R.mipmap.sbi6);
-                w6.setImageResource(R.mipmap.sbi7);
-                w7.setImageResource(R.mipmap.sbi8);
-                w8.setImageResource(R.mipmap.sbi9);
+                ImageLoader.upload(this,"sbi1.png",w1);
+                ImageLoader.upload(this,"sbi2.png",w2);
+                ImageLoader.upload(this,"sbi3.png",w3);
+                ImageLoader.upload(this,"sbi5.png",w4);
+                ImageLoader.upload(this,"sbi6.png",w5);
+                ImageLoader.upload(this,"sbi7.png",w6);
+                ImageLoader.upload(this,"sbi8.png",w7);
+                ImageLoader.upload(this,"sbi9.png",w8);
                 w9.setVisibility(View.GONE);
                 w10.setVisibility(View.GONE);
                 w11.setVisibility(View.GONE);
@@ -488,14 +508,14 @@ public class WithdrawActivity extends AppCompatActivity implements View.OnClickL
 
                 break;
             case "17":
-                w1.setImageResource(R.mipmap.sbi1);
-                w2.setImageResource(R.mipmap.sbi2);
-                w3.setImageResource(R.mipmap.sbi3);
-                w4.setImageResource(R.mipmap.sbi5);
-                w5.setImageResource(R.mipmap.sbi6);
-                w6.setImageResource(R.mipmap.sbi7);
-                w7.setImageResource(R.mipmap.sbi8);
-                w8.setImageResource(R.mipmap.sbi9);
+                ImageLoader.upload(this,"sbi1.png",w1);
+                ImageLoader.upload(this,"sbi2.png",w2);
+                ImageLoader.upload(this,"sbi3.png",w3);
+                ImageLoader.upload(this,"sbi5.png",w4);
+                ImageLoader.upload(this,"sbi6.png",w5);
+                ImageLoader.upload(this,"sbi7.png",w6);
+                ImageLoader.upload(this,"sbi8.png",w7);
+                ImageLoader.upload(this,"sbi9.png",w8);
                 w9.setVisibility(View.GONE);
                 w10.setVisibility(View.GONE);
                 w11.setVisibility(View.GONE);
@@ -514,14 +534,14 @@ public class WithdrawActivity extends AppCompatActivity implements View.OnClickL
                 t11.setVisibility(View.GONE);
                 break;
             case "18":
-                w1.setImageResource(R.mipmap.sbi1);
-                w2.setImageResource(R.mipmap.sbi2);
-                w3.setImageResource(R.mipmap.sbi3);
-                w4.setImageResource(R.mipmap.sbi5);
-                w5.setImageResource(R.mipmap.sbi6);
-                w6.setImageResource(R.mipmap.sbi7);
-                w7.setImageResource(R.mipmap.sbi8);
-                w8.setImageResource(R.mipmap.sbi9);
+                ImageLoader.upload(this,"sbi1.png",w1);
+                ImageLoader.upload(this,"sbi2.png",w2);
+                ImageLoader.upload(this,"sbi3.png",w3);
+                ImageLoader.upload(this,"sbi5.png",w4);
+                ImageLoader.upload(this,"sbi6.png",w5);
+                ImageLoader.upload(this,"sbi7.png",w6);
+                ImageLoader.upload(this,"sbi8.png",w7);
+                ImageLoader.upload(this,"sbi9.png",w8);
                 w9.setVisibility(View.GONE);
                 w10.setVisibility(View.GONE);
                 w11.setVisibility(View.GONE);
@@ -540,14 +560,14 @@ public class WithdrawActivity extends AppCompatActivity implements View.OnClickL
                 t11.setVisibility(View.GONE);
                 break;
             case "19":
-                w1.setImageResource(R.mipmap.sbi1);
-                w2.setImageResource(R.mipmap.sbi2);
-                w3.setImageResource(R.mipmap.sbi3);
-                w4.setImageResource(R.mipmap.sbi5);
-                w5.setImageResource(R.mipmap.sbi6);
-                w6.setImageResource(R.mipmap.sbi7);
-                w7.setImageResource(R.mipmap.sbi8);
-                w8.setImageResource(R.mipmap.sbi9);
+                ImageLoader.upload(this,"sbi1.png",w1);
+                ImageLoader.upload(this,"sbi2.png",w2);
+                ImageLoader.upload(this,"sbi3.png",w3);
+                ImageLoader.upload(this,"sbi5.png",w4);
+                ImageLoader.upload(this,"sbi6.png",w5);
+                ImageLoader.upload(this,"sbi7.png",w6);
+                ImageLoader.upload(this,"sbi8.png",w7);
+                ImageLoader.upload(this,"sbi9.png",w8);
                 w9.setVisibility(View.GONE);
                 w10.setVisibility(View.GONE);
                 w11.setVisibility(View.GONE);
@@ -566,13 +586,14 @@ public class WithdrawActivity extends AppCompatActivity implements View.OnClickL
                 t11.setVisibility(View.GONE);
                 break;
             case "20":
-                w1.setImageResource(R.mipmap.synd1);
-                w2.setImageResource(R.mipmap.synd2);
-                w3.setImageResource(R.mipmap.synd3);
-                w4.setImageResource(R.mipmap.synd4);
-                w5.setImageResource(R.mipmap.synd5);
-                w6.setImageResource(R.mipmap.synd6);
-                w7.setImageResource(R.mipmap.synd7);
+                ImageLoader.upload(this,"synd1.png",w1);
+                ImageLoader.upload(this,"synd2.png",w2);
+                ImageLoader.upload(this,"synd3.png",w3);
+                ImageLoader.upload(this,"synd4.png",w4);
+                ImageLoader.upload(this,"synd5.png",w5);
+                ImageLoader.upload(this,"synd6.png",w6);
+                ImageLoader.upload(this,"synd7.png",w7);
+
                 w8.setVisibility(View.GONE);
                 w9.setVisibility(View.GONE);
                 w10.setVisibility(View.GONE);
@@ -593,14 +614,14 @@ public class WithdrawActivity extends AppCompatActivity implements View.OnClickL
 
                 break;
             case "21":
-                w1.setImageResource(R.mipmap.sbi1);
-                w2.setImageResource(R.mipmap.sbi2);
-                w3.setImageResource(R.mipmap.sbi3);
-                w4.setImageResource(R.mipmap.sbi5);
-                w5.setImageResource(R.mipmap.sbi6);
-                w6.setImageResource(R.mipmap.sbi7);
-                w7.setImageResource(R.mipmap.sbi8);
-                w8.setImageResource(R.mipmap.sbi9);
+                ImageLoader.upload(this,"sbi1.png",w1);
+                ImageLoader.upload(this,"sbi2.png",w2);
+                ImageLoader.upload(this,"sbi3.png",w3);
+                ImageLoader.upload(this,"sbi5.png",w4);
+                ImageLoader.upload(this,"sbi6.png",w5);
+                ImageLoader.upload(this,"sbi7.png",w6);
+                ImageLoader.upload(this,"sbi8.png",w7);
+                ImageLoader.upload(this,"sbi9.png",w8);
                 w9.setVisibility(View.GONE);
                 w10.setVisibility(View.GONE);
                 w11.setVisibility(View.GONE);
@@ -618,14 +639,14 @@ public class WithdrawActivity extends AppCompatActivity implements View.OnClickL
                 t11.setVisibility(View.GONE);
                 break;
             case "22":
-                w1.setImageResource(R.mipmap.sbi1);
-                w2.setImageResource(R.mipmap.sbi2);
-                w3.setImageResource(R.mipmap.sbi3);
-                w4.setImageResource(R.mipmap.sbi5);
-                w5.setImageResource(R.mipmap.sbi6);
-                w6.setImageResource(R.mipmap.sbi7);
-                w7.setImageResource(R.mipmap.sbi8);
-                w8.setImageResource(R.mipmap.sbi9);
+                ImageLoader.upload(this,"sbi1.png",w1);
+                ImageLoader.upload(this,"sbi2.png",w2);
+                ImageLoader.upload(this,"sbi3.png",w3);
+                ImageLoader.upload(this,"sbi5.png",w4);
+                ImageLoader.upload(this,"sbi6.png",w5);
+                ImageLoader.upload(this,"sbi7.png",w6);
+                ImageLoader.upload(this,"sbi8.png",w7);
+                ImageLoader.upload(this,"sbi9.png",w8);
                 w9.setVisibility(View.GONE);
                 w10.setVisibility(View.GONE);
                 w11.setVisibility(View.GONE);
@@ -644,14 +665,14 @@ public class WithdrawActivity extends AppCompatActivity implements View.OnClickL
                 t11.setVisibility(View.GONE);
                 break;
             case "23":
-                w1.setImageResource(R.mipmap.sbi1);
-                w2.setImageResource(R.mipmap.sbi2);
-                w3.setImageResource(R.mipmap.sbi3);
-                w4.setImageResource(R.mipmap.sbi5);
-                w5.setImageResource(R.mipmap.sbi6);
-                w6.setImageResource(R.mipmap.sbi7);
-                w7.setImageResource(R.mipmap.sbi8);
-                w8.setImageResource(R.mipmap.sbi9);
+                ImageLoader.upload(this,"sbi1.png",w1);
+                ImageLoader.upload(this,"sbi2.png",w2);
+                ImageLoader.upload(this,"sbi3.png",w3);
+                ImageLoader.upload(this,"sbi5.png",w4);
+                ImageLoader.upload(this,"sbi6.png",w5);
+                ImageLoader.upload(this,"sbi7.png",w6);
+                ImageLoader.upload(this,"sbi8.png",w7);
+                ImageLoader.upload(this,"sbi9.png",w8);
                 w9.setVisibility(View.GONE);
                 w10.setVisibility(View.GONE);
                 w11.setVisibility(View.GONE);
@@ -671,12 +692,13 @@ public class WithdrawActivity extends AppCompatActivity implements View.OnClickL
                 break;
 
             case "24":
-                w1.setImageResource(R.mipmap.yb1);
-                w2.setImageResource(R.mipmap.yb2);
-                w3.setImageResource(R.mipmap.yb3);
-                w4.setImageResource(R.mipmap.yb4);
-                w5.setImageResource(R.mipmap.yb5);
-                w6.setImageResource(R.mipmap.yb6);
+                ImageLoader.upload(this,"yb1.png",w1);
+                ImageLoader.upload(this,"yb2.png",w2);
+                ImageLoader.upload(this,"yb3.png",w3);
+                ImageLoader.upload(this,"yb4.png",w4);
+                ImageLoader.upload(this,"yb5.png",w5);
+                ImageLoader.upload(this,"yb6.png",w6);
+
                 w7.setVisibility(View.GONE);
                 w8.setVisibility(View.GONE);
                 w9.setVisibility(View.GONE);

@@ -13,7 +13,7 @@ android {
     }
     buildTypes {
         release {
-            minifyEnabled false
+            minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
@@ -37,3 +37,5 @@ dependencies {
 
 }
 apply plugin: 'com.google.gms.google-services'
+// ADD THIS
+apply plugin: 'com.google.firebase.firebase-crash'

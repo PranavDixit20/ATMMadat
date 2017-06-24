@@ -57,14 +57,14 @@ public class AboutAtmMec extends AppCompatActivity implements View.OnClickListen
         w7=(ImageView)findViewById(R.id.w7);
         w8=(ImageView)findViewById(R.id.w8);
 
-        w1.setImageResource(R.mipmap.sbi1);
-        w2.setImageResource(R.mipmap.sbi2);
-        w3.setImageResource(R.mipmap.sbi3);
-        w4.setImageResource(R.mipmap.sbi5);
-        w5.setImageResource(R.mipmap.sbi6);
-        w6.setImageResource(R.mipmap.sbi7);
-        w7.setImageResource(R.mipmap.sbi8);
-        w8.setImageResource(R.mipmap.sbi9);
+        ImageLoader.upload(this,"sbi1.png",w1);
+        ImageLoader.upload(this,"sbi2.png",w2);
+        ImageLoader.upload(this,"sbi3.png",w3);
+        ImageLoader.upload(this,"sbi5.png",w4);
+        ImageLoader.upload(this,"sbi6.png",w5);
+        ImageLoader.upload(this,"sbi7.png",w6);
+        ImageLoader.upload(this,"sbi8.png",w7);
+        ImageLoader.upload(this,"sbi9.png",w8);
 
 
         tv1.setText(R.string.bob1);
