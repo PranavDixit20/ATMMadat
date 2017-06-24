@@ -11,8 +11,12 @@ import android.widget.TextView;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.MobileAds;
+
 import com.google.firebase.FirebaseApp;
 import com.google.firebase.FirebaseOptions;
+
+import com.google.firebase.analytics.FirebaseAnalytics;
+
 import com.google.firebase.storage.FirebaseStorage;
 
 import java.util.Locale;
@@ -24,6 +28,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     TextView eng,mr,hindi,au,disc;
     TextView cyl,tt;
     Locale myLocale;
+    private FirebaseAnalytics mFirebaseAnalytics;
     Bundle b;
     Intent in;
     String lang = "en",uid="ca-app-pub-3715652664770345/9286598713";
@@ -42,7 +47,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 .build();
         adView.loadAd(ar);
 
-        FirebaseStorage storage = FirebaseStorage.getInstance();
+
+        // Obtain the FirebaseAnalytics instance.
+        mFirebaseAnalytics = FirebaseAnalytics.getInstance(this);
+
+
 
         eng = (TextView) findViewById(R.id.eng);
         mr = (TextView) findViewById(R.id.mr);
