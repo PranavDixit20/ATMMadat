@@ -23,8 +23,8 @@ public class WithdrawActivity extends AppCompatActivity implements View.OnClickL
     Button bb;
     String uid = "ca-app-pub-3715652664770345/9286598713";
     FirebaseStorage storage = FirebaseStorage.getInstance();
-    StorageReference storageRef = storage.getReferenceFromUrl("gs://atmmadat.appspot.com");
-    StorageReference sref = storageRef.child("BankImages/sbi1.png");
+    StorageReference storageRef = storage.getReferenceFromUrl("gs://atmmadat.appspot.com/BankImages/sbi1.png");
+   // StorageReference sref = storageRef.child("BankImages/sbi1.png");
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -76,7 +76,7 @@ public class WithdrawActivity extends AppCompatActivity implements View.OnClickL
     public void imagSet(){
         switch (x){
             case "1":
-                Glide.with(this).using(new FirebaseImageLoader()).load(sref).into(w1);
+                Glide.with(this).using(new FirebaseImageLoader()).load(storageRef).into(w1);
                // w1.setImageResource(R.mipmap.sbi1);
                 w2.setImageResource(R.mipmap.sbi2);
                 w3.setImageResource(R.mipmap.sbi3);
